@@ -1,13 +1,59 @@
-#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status.
+#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status. Based on: https://istmobiome.rbind.io/project/betancur-r-fish-tree/
 
 ##Load Packages
+install.packages("tidyverse")
+install.packages("webdriver")
+install.packages("magrittr")
+install.packages("dplyr")
+install.packages("rvest")
+install.packages("xml2")
+install.packages("selectr")
+install.packages("tibble")
+install.packages("purrr")
+install.packages("httr")
+
+library(tidyverse)
+library(webdriver)
+library(magrittr)
+library(dplyr)
+library(rvest)
+library(xml2)
+library(selectr)
+library(tibble)
+library(purrr)
+library(httr)
+
+install_phantomjs
 
 ##Import data
 raw_dat <- read.csv("data/Stonustoxin_AA_species.csv", header = FALSE)
 
 ##Prepare data
-dat <- unique(raw_dat) # keep unique species names
+dat <- data.frame(unique(raw_dat)) # keep unique species names
 nrow(dat) #see how many species remaining
+dat$URL<- NA
+
+colnames(dat) <- c("Species", "URL") #add labels
+rownames(dat) <- (1:nrow(dat))
+view(dat)
 
 ##Scrape fishbase
+base_url <- "https://www.fishbase.se/summary/" #locate fishbase
+
+sample_data <- data.frame()
+
+for (Species in dat) {
+     tmp_link <- paste(base_url, Species, ".html", sep = "") #create URL
+     tmp_entry <- cbind(Species, tmp_link)
+     sample_data <- rbind(sample_data, tmp_entry)
+     rm(list = ls(pattern = "tmp_"))
+}
+
+sample_data <- sample_data %>% dplyr::rename("link" = "tmp_link") # collect names & links
+
+all_links <- sample_data$link #create link vector
+all_names <- sample_data$name #create name vector
+
+pjs_instance <- run_phantomjs()
+pjs_session <- Session$new(port = pjs_instance$port)
 
