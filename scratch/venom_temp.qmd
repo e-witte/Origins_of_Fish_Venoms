@@ -1,0 +1,13 @@
+#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status.
+
+##Load Packages
+
+##Import data
+raw_dat <- read.csv("data/Stonustoxin_AA_species.csv", header = FALSE)
+
+##Prepare data
+dat <- unique(raw_dat) # keep unique species names
+nrow(dat) #see how many species remaining
+
+##Scrape fishbase
+
