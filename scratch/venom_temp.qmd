@@ -1,4 +1,4 @@
-#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status. Based on: https://istmobiome.rbind.io/project/betancur-r-fish-tree/
+#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status. Based on [J Scott](https://istmobiome.rbind.io/project/betancur-r-fish-tree/)
 
 ##Load Packages
 install.packages("tidyverse")
