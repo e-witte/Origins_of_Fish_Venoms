@@ -31,9 +31,8 @@ raw_dat <- read.csv("data/Stonustoxin_AA_species.csv", header = FALSE)
 ##Prepare data
 dat <- data.frame(unique(raw_dat)) # keep unique species names
 nrow(dat) #see how many species remaining
-dat$URL<- NA
 
-colnames(dat) <- c("Species", "URL") #add labels
+colnames(dat) <- c("Species") #add labels
 rownames(dat) <- (1:nrow(dat))
 view(dat)
 
@@ -56,4 +55,20 @@ all_names <- sample_data$name #create name vector
 
 pjs_instance <- run_phantomjs()
 pjs_session <- Session$new(port = pjs_instance$port)
+
+all_fish_data <- data.frame()
+for (i in 1:length(all_links)) {
+  cat("Downloading", i, "of", length(all_links), "URL:", all_links[i], "\n")
+  article <- scrape_fish_base(all_links[i])
+  all_fish_data <- rbind(all_fish_data, article)
+} ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary. 
+
+##Create and curate data frame
+sum_dat <- all_fish_data %>% 
+  select(habitat, threat_to_humans, model_predictions)
+colnames(sum_dat) <- c("habitat", "threat_to_humans", "model_predictions")
+sum_dat<- sum_dat %>% mutate(species = dat$Species, .before = habitat)
+view(sum_dat)
+
+sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_humans)
 
