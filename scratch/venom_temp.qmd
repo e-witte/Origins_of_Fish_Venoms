@@ -72,5 +72,6 @@ view(sum_dat)
 
 sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates 
 
-write_csv2(sum_dat, "data/sum_dat.csv") # write file. 
+write.csv(sum_dat, file = "data/sum_dat.csv", row.names = FALSE) # write file. 
 
+## Manual manipulations: REMOVE non-fish species, form column of temperature ranges. 
