@@ -1,5 +1,5 @@
-species;habitat;venom_stat(threat_to_humans);threat_to_humans;model_predictions
-Synanceia-horrida;"Marine; brackish;  reef-associated; depth range 0 - 40 m (Ref. 90102). Tropical";venomous;Venomous (Ref. 4716);"Preferred temperature (Ref. 123201): 24.4 - 29, mean 27.9 °C (based on 874 cells).				
+"species","habitat","venom_stat(threat_to_humans)","threat_to_humans","model_predictions"
+"Synanceia-horrida","Marine; brackish;  reef-associated; depth range 0 - 40 m (Ref. 90102). Tropical","venomous","Venomous (Ref. 4716)","Preferred temperature (Ref. 123201): 24.4 - 29, mean 27.9 °C (based on 874 cells).				
 				 				
 				
 					
@@ -38,7 +38,7 @@ Synanceia-horrida;"Marine; brackish;  reef-associated; depth range 0 - 40 m (Ref
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 35.7 [17.6, 70.5] mg/100g ; Iron = 0.558 [0.288, 1.280] mg/100g ; Protein = 18.2 [16.6, 19.7] % ; Omega3 = 0.19 [0.08, 0.49] g/100g ; Selenium = 32.4 [16.6, 74.8] μg/100g ; VitaminA = 125 [40, 395] μg/100g ; Zinc = 1.21 [0.84, 1.76] mg/100g (wet weight);"
-Betta-splendens;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 24°C - 30°C (Ref. 1672); 22°N -   8°N, 99°E -   107°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Betta-splendens","Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 24°C - 30°C (Ref. 1672); 22°N -   8°N, 99°E -   107°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -65,7 +65,7 @@ Betta-splendens;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Gadus-macrocephalus;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 10 - 1280 m (Ref. 50550), usually 100 - 400 m (Ref. 54440). Boreal; 6°C - 9°C (Ref. 11800); 63°N -   31°N, 119°E -   119°W (Ref. 54440)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.5 - 6.4, mean 2.9 °C (based on 495 cells).				
+"Gadus-macrocephalus","Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 10 - 1280 m (Ref. 50550), usually 100 - 400 m (Ref. 54440). Boreal; 6°C - 9°C (Ref. 11800); 63°N -   31°N, 119°E -   119°W (Ref. 54440)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.5 - 6.4, mean 2.9 °C (based on 495 cells).				
 				 				
 				
 					
@@ -105,7 +105,7 @@ Gadus-macrocephalus;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); de
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Carassius-carassius;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 2163). Temperate; 2°C - 22°C (Ref. 1672); 69°N -   35°N, 10°W -   169°E";nonvenomous;Potential pest (Ref. 13686);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Carassius-carassius","Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 2163). Temperate; 2°C - 22°C (Ref. 1672); 69°N -   35°N, 10°W -   169°E","nonvenomous","Potential pest (Ref. 13686)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -139,8 +139,8 @@ Carassius-carassius;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243)
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Centropristis-striata;"Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - ? m (Ref. 9988). Temperate; 45°N -   25°N";venomous;Venomous (Ref. 9988);"Nutrients  (Ref. 124155):  Calcium = 10.3 [5.8, 21.8] mg/100g ; Iron = 0.206 [0.105, 0.391] mg/100g ; Protein = 18.8 [16.9, 20.6] % ; Omega3 = 0.401 [0.220, 0.718] g/100g ; Selenium = 9.98 [4.95, 22.14] μg/100g ; VitaminA = 60 [17, 246] μg/100g ; Zinc = 0.411 [0.270, 0.632] mg/100g (wet weight);"
-Onychostoma-macrolepis;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Harmless;"Comments & Corrections
+"Centropristis-striata","Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - ? m (Ref. 9988). Temperate; 45°N -   25°N","venomous","Venomous (Ref. 9988)","Nutrients  (Ref. 124155):  Calcium = 10.3 [5.8, 21.8] mg/100g ; Iron = 0.206 [0.105, 0.391] mg/100g ; Protein = 18.8 [16.9, 20.6] % ; Omega3 = 0.401 [0.220, 0.718] g/100g ; Selenium = 9.98 [4.95, 22.14] μg/100g ; VitaminA = 60 [17, 246] μg/100g ; Zinc = 0.411 [0.270, 0.632] mg/100g (wet weight);"
+"Onychostoma-macrolepis","Freshwater;  benthopelagic. Subtropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -161,7 +161,7 @@ Onychostoma-macrolepis;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Har
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Hemibagrus-wyckioides;"Freshwater;  demersal; potamodromous (Ref. 51243). Subtropical";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Hemibagrus-wyckioides","Freshwater;  demersal; potamodromous (Ref. 51243). Subtropical","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -196,7 +196,7 @@ Hemibagrus-wyckioides;"Freshwater;  demersal; potamodromous (Ref. 51243). Subtro
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 16.8 [3.2, 67.2] mg/100g ; Iron = 0.731 [0.261, 2.245] mg/100g ; Protein = 17.7 [15.6, 19.7] % ; Omega3 = 0.35 [0.13, 0.89] g/100g ; Selenium = 52.7 [20.1, 125.3] μg/100g ; VitaminA = 26.9 [4.8, 146.3] μg/100g ; Zinc = 0.82 [0.55, 1.24] mg/100g (wet weight);"
-Triplophysa-rosa;"Freshwater;  demersal. Subtropical; 13°C -  ? (Ref. 57680)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Triplophysa-rosa","Freshwater;  demersal. Subtropical; 13°C -  ? (Ref. 57680)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -223,7 +223,7 @@ Triplophysa-rosa;"Freshwater;  demersal. Subtropical; 13°C -  ? (Ref. 57680)";n
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Triplophysa-dalaica;"Freshwater;  benthopelagic. Temperate";nonvenomous;Harmless;"Comments & Corrections
+"Triplophysa-dalaica","Freshwater;  benthopelagic. Temperate","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -244,7 +244,7 @@ Triplophysa-dalaica;"Freshwater;  benthopelagic. Temperate";nonvenomous;Harmless
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Seriola-aureovittata;"Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E";nonvenomous;Harmless (Ref. 4795);"Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
+"Seriola-aureovittata","Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E","nonvenomous","Harmless (Ref. 4795)","Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
 				 				
 				
 					
@@ -284,7 +284,7 @@ Seriola-aureovittata;"Marine; brackish;  benthopelagic; depth range 3 - 825 m (R
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Salvelinus-fontinalis;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 15 - 27 m (Ref. 3899). Temperate; 0°C - 25°C (Ref. 35682); 61°N -   34°N, 124°W -   52°W (Ref. 86798)";nonvenomous;Potential pest;"Preferred temperature (Ref. 123201): 1.5 - 10.7, mean 4.5 °C (based on 47 cells).				
+"Salvelinus-fontinalis","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 15 - 27 m (Ref. 3899). Temperate; 0°C - 25°C (Ref. 35682); 61°N -   34°N, 124°W -   52°W (Ref. 86798)","nonvenomous","Potential pest","Preferred temperature (Ref. 123201): 1.5 - 10.7, mean 4.5 °C (based on 47 cells).				
 				 				
 				
 					
@@ -322,7 +322,7 @@ Salvelinus-fontinalis;"Marine; freshwater; brackish;  benthopelagic; anadromous 
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Leucoraja-erinacea;"Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 914 m (Ref. 106604). Temperate; 49°N -   33°N, 78°W -   59°W (Ref. 55277)";nonvenomous;Harmless;"Comments & Corrections
+"Leucoraja-erinacea","Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 914 m (Ref. 106604). Temperate; 49°N -   33°N, 78°W -   59°W (Ref. 55277)","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -343,7 +343,7 @@ Leucoraja-erinacea;"Marine;  demersal; oceanodromous (Ref. 51243); depth range 1
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Poeciliopsis-prolifica;"Freshwater; brackish;  benthopelagic; pH range: ? - 8.0; dH range: 2 - 10. Subtropical; 24°C - 28°C (Ref. 2059)";nonvenomous;Harmless;"Comments & Corrections
+"Poeciliopsis-prolifica","Freshwater; brackish;  benthopelagic; pH range: ? - 8.0; dH range: 2 - 10. Subtropical; 24°C - 28°C (Ref. 2059)","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -364,7 +364,7 @@ Poeciliopsis-prolifica;"Freshwater; brackish;  benthopelagic; pH range: ? - 8.0;
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Amphiprion-ocellaris;"Marine;  reef-associated; non-migratory; depth range 1 - 15 m (Ref. 7247), usually 3 - 15 m (Ref. 55267). Tropical; 46°N -   17°S, 92°E -   147°E (Ref. 55267)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 26.2 - 29.3, mean 28.7 °C (based on 1746 cells).				
+"Amphiprion-ocellaris","Marine;  reef-associated; non-migratory; depth range 1 - 15 m (Ref. 7247), usually 3 - 15 m (Ref. 55267). Tropical; 46°N -   17°S, 92°E -   147°E (Ref. 55267)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 26.2 - 29.3, mean 28.7 °C (based on 1746 cells).				
 				 				
 				
 					
@@ -403,7 +403,7 @@ Amphiprion-ocellaris;"Marine;  reef-associated; non-migratory; depth range 1 - 1
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 115 [69, 209] mg/100g ; Iron = 0.909 [0.558, 1.451] mg/100g ; Protein = 18.6 [17.5, 19.6] % ; Omega3 = 0.142 [0.086, 0.235] g/100g ; Selenium = 18.8 [10.6, 37.0] μg/100g ; VitaminA = 223 [75, 636] μg/100g ; Zinc = 1.84 [1.26, 2.60] mg/100g (wet weight);"
-Dunckerocampus-dactyliophorus;"Marine;  reef-associated; depth range 5 - 56 m (Ref. 1602). Tropical; 33°N -   26°S";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 24.8 - 29, mean 27.8 °C (based on 672 cells).				
+"Dunckerocampus-dactyliophorus","Marine;  reef-associated; depth range 5 - 56 m (Ref. 1602). Tropical; 33°N -   26°S","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 24.8 - 29, mean 27.8 °C (based on 672 cells).				
 				 				
 				
 					
@@ -442,7 +442,7 @@ Dunckerocampus-dactyliophorus;"Marine;  reef-associated; depth range 5 - 56 m (R
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 93.5 [54.0, 188.5] mg/100g ; Iron = 0.776 [0.447, 1.440] mg/100g ; Protein = 18.2 [17.0, 19.3] % ; Omega3 = 0.128 [0.074, 0.232] g/100g ; Selenium = 37.4 [19.3, 82.4] μg/100g ; VitaminA = 78.1 [26.7, 221.2] μg/100g ; Zinc = 1.39 [0.94, 2.00] mg/100g (wet weight);"
-Anoplopoma-fimbria;"Marine;  bathydemersal; oceanodromous (Ref. 51243); depth range 175 - 2740 m (Ref. 6793), usually 175 - 1450 m (Ref. 10935). Deep-water; 64°N -   23°N, 141°E -   109°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1.4 - 5.5, mean 2.5 °C (based on 599 cells).				
+"Anoplopoma-fimbria","Marine;  bathydemersal; oceanodromous (Ref. 51243); depth range 175 - 2740 m (Ref. 6793), usually 175 - 1450 m (Ref. 10935). Deep-water; 64°N -   23°N, 141°E -   109°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1.4 - 5.5, mean 2.5 °C (based on 599 cells).				
 				 				
 				
 					
@@ -482,9 +482,9 @@ Anoplopoma-fimbria;"Marine;  bathydemersal; oceanodromous (Ref. 51243); depth ra
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Malaclemys-terrapin;NA;nonvenomous;NA;NA
-Spea-bombifrons;NA;nonvenomous;NA;NA
-Synchiropus-splendidus;"Marine;  reef-associated; depth range 1 - 18 m (Ref. 9710), usually 1 - 18 m (Ref. 27115). Tropical";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 25 - 29.3, mean 28.6 °C (based on 1677 cells).				
+"Malaclemys-terrapin",NA,"nonvenomous",NA,NA
+"Spea-bombifrons",NA,"nonvenomous",NA,NA
+"Synchiropus-splendidus","Marine;  reef-associated; depth range 1 - 18 m (Ref. 9710), usually 1 - 18 m (Ref. 27115). Tropical","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 25 - 29.3, mean 28.6 °C (based on 1677 cells).				
 				 				
 				
 					
@@ -523,7 +523,7 @@ Synchiropus-splendidus;"Marine;  reef-associated; depth range 1 - 18 m (Ref. 971
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 173 [102, 321] mg/100g ; Iron = 1.07 [0.65, 1.70] mg/100g ; Protein = 18.8 [17.8, 19.8] % ; Omega3 = 0.162 [0.097, 0.270] g/100g ; Selenium = 22.9 [12.2, 42.7] μg/100g ; VitaminA = 122 [42, 355] μg/100g ; Zinc = 2.37 [1.61, 3.38] mg/100g (wet weight);"
-Acanthochromis-polyacanthus;"Marine;  reef-associated; non-migratory; depth range 1 - 65 m (Ref. 9710), usually 4 - 20 m (Ref. 90102). Tropical; 15°N -   26°S, 116°E -   169°E (Ref. 56301)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 25.1 - 28.9, mean 27.8 °C (based on 458 cells).				
+"Acanthochromis-polyacanthus","Marine;  reef-associated; non-migratory; depth range 1 - 65 m (Ref. 9710), usually 4 - 20 m (Ref. 90102). Tropical; 15°N -   26°S, 116°E -   169°E (Ref. 56301)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 25.1 - 28.9, mean 27.8 °C (based on 458 cells).				
 				 				
 				
 					
@@ -562,7 +562,7 @@ Acanthochromis-polyacanthus;"Marine;  reef-associated; non-migratory; depth rang
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 112 [57, 167] mg/100g ; Iron = 0.861 [0.520, 1.422] mg/100g ; Protein = 18.3 [17.1, 19.4] % ; Omega3 = 0.121 [0.074, 0.195] g/100g ; Selenium = 36.9 [20.2, 68.6] μg/100g ; VitaminA = 50.9 [13.7, 180.6] μg/100g ; Zinc = 1.67 [1.14, 2.38] mg/100g (wet weight);"
-Erpetoichthys-calabaricus;"Freshwater; brackish;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; depth range 0 - ? m (Ref. 557). Tropical; 22°C - 28°C (Ref. 1672)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Erpetoichthys-calabaricus","Freshwater; brackish;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; depth range 0 - ? m (Ref. 557). Tropical; 22°C - 28°C (Ref. 1672)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0001   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -589,7 +589,7 @@ Erpetoichthys-calabaricus;"Freshwater; brackish;  demersal; pH range: 6.0 - 8.0;
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (35 of 100)."
-Dicentrarchus-labrax;"Marine; freshwater; brackish;  demersal; oceanodromous; depth range 10 - 100 m (Ref. 9987). Subtropical; 8°C - 24°C (Ref. 4944); 72°N -   11°N, 19°W -   42°E (Ref. 54221)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 7.3 - 19.5, mean 10.7 °C (based on 788 cells).				
+"Dicentrarchus-labrax","Marine; freshwater; brackish;  demersal; oceanodromous; depth range 10 - 100 m (Ref. 9987). Subtropical; 8°C - 24°C (Ref. 4944); 72°N -   11°N, 19°W -   42°E (Ref. 54221)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 7.3 - 19.5, mean 10.7 °C (based on 788 cells).				
 				 				
 				
 					
@@ -629,7 +629,7 @@ Dicentrarchus-labrax;"Marine; freshwater; brackish;  demersal; oceanodromous; de
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Lates-calcarifer;"Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 10 - 40 m (Ref. 7261). Tropical; 15°C - 28°C (Ref. 2060); 49°N -   26°S, 56°E -   155°E (Ref. 54239)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 25 - 29.1, mean 28.3 °C (based on 710 cells).				
+"Lates-calcarifer","Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 10 - 40 m (Ref. 7261). Tropical; 15°C - 28°C (Ref. 2060); 49°N -   26°S, 56°E -   155°E (Ref. 54239)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 25 - 29.1, mean 28.3 °C (based on 710 cells).				
 				 				
 				
 					
@@ -669,7 +669,7 @@ Lates-calcarifer;"Marine; freshwater; brackish;  demersal; catadromous (Ref. 512
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Syngnathus-scovelli;"Marine; freshwater; brackish;  demersal; depth range 0 - 6 m (Ref. 26938), usually ? - 6 m (Ref. 26938). Tropical";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 23.3 - 28.1, mean 27.2 °C (based on 814 cells).				
+"Syngnathus-scovelli","Marine; freshwater; brackish;  demersal; depth range 0 - 6 m (Ref. 26938), usually ? - 6 m (Ref. 26938). Tropical","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 23.3 - 28.1, mean 27.2 °C (based on 814 cells).				
 				 				
 				
 					
@@ -700,8 +700,8 @@ Syngnathus-scovelli;"Marine; freshwater; brackish;  demersal; depth range 0 - 6 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (12 of 100)."
-Podarcis-raffonei;NA;nonvenomous;NA;NA
-Scomber-japonicus;"Marine;  pelagic-neritic; oceanodromous (Ref. 51243); depth range 0 - 300 m (Ref. 168), usually 50 - 200 m (Ref. 35185). Subtropical; 10°C - 27°C (Ref. 35185); 60°N -   48°S, 116°E -   70°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 9.3 - 27.7, mean 20.7 °C (based on 1526 cells).				
+"Podarcis-raffonei",NA,"nonvenomous",NA,NA
+"Scomber-japonicus","Marine;  pelagic-neritic; oceanodromous (Ref. 51243); depth range 0 - 300 m (Ref. 168), usually 50 - 200 m (Ref. 35185). Subtropical; 10°C - 27°C (Ref. 35185); 60°N -   48°S, 116°E -   70°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 9.3 - 27.7, mean 20.7 °C (based on 1526 cells).				
 				 				
 				
 					
@@ -741,7 +741,7 @@ Scomber-japonicus;"Marine;  pelagic-neritic; oceanodromous (Ref. 51243); depth r
 										
 					
 											Price category  (Ref. 80766):  						High."
-Xyrauchen-texanus;"Freshwater;  demersal; potamodromous (Ref. 51243). Temperate; 37°N -   34°N";nonvenomous;Harmless;"Comments & Corrections
+"Xyrauchen-texanus","Freshwater;  demersal; potamodromous (Ref. 51243). Temperate; 37°N -   34°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -762,7 +762,7 @@ Xyrauchen-texanus;"Freshwater;  demersal; potamodromous (Ref. 51243). Temperate;
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Pristis-pectinata;"Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 10 - 88 m (Ref. 114953). Subtropical; 16°C - 30°C";nonvenomous;Traumatogenic (Ref. 6871);"Preferred temperature (Ref. 123201): 22.9 - 28, mean 27.1 °C (based on 776 cells).				
+"Pristis-pectinata","Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 10 - 88 m (Ref. 114953). Subtropical; 16°C - 30°C","nonvenomous","Traumatogenic (Ref. 6871)","Preferred temperature (Ref. 123201): 22.9 - 28, mean 27.1 °C (based on 776 cells).				
 				 				
 				
 					
@@ -800,8 +800,8 @@ Pristis-pectinata;"Marine; freshwater; brackish;  demersal; amphidromous (Ref. 5
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Antechinus-flavipes;NA;nonvenomous;NA;NA
-Ctenopharyngodon-idella;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 30 m (Ref. 6898). Subtropical; 0°C - 35°C (Ref. 52059); 50°N -   23°N, 100°E -   142°E (Ref. 48)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Antechinus-flavipes",NA,"nonvenomous",NA,NA
+"Ctenopharyngodon-idella","Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 30 m (Ref. 6898). Subtropical; 0°C - 35°C (Ref. 52059); 50°N -   23°N, 100°E -   142°E (Ref. 48)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -835,7 +835,7 @@ Ctenopharyngodon-idella;"Freshwater; brackish;  benthopelagic; potamodromous (Re
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Labeo-rohita;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 4832). Tropical; 32°N -   21°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Labeo-rohita","Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 4832). Tropical; 32°N -   21°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -869,8 +869,8 @@ Labeo-rohita;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Gopherus-flavomarginatus;NA;nonvenomous;NA;NA
-Epinephelus-moara;"Marine;  reef-associated; depth range 20 - 200 m (Ref. 5222). Tropical; 38°N -   18°N, 108°E -   142°E (Ref. 5222)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 17.7 - 23.7, mean 20.5 °C (based on 94 cells).				
+"Gopherus-flavomarginatus",NA,"nonvenomous",NA,NA
+"Epinephelus-moara","Marine;  reef-associated; depth range 20 - 200 m (Ref. 5222). Tropical; 38°N -   18°N, 108°E -   142°E (Ref. 5222)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 17.7 - 23.7, mean 20.5 °C (based on 94 cells).				
 				 				
 				
 					
@@ -908,7 +908,7 @@ Epinephelus-moara;"Marine;  reef-associated; depth range 20 - 200 m (Ref. 5222).
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Epinephelus-fuscoguttatus;"Marine;  reef-associated; depth range 1 - 60 m (Ref. 9710). Tropical; 29°N -   27°S, 33°E -   171°W (Ref. 5222)";nonvenomous;Reports of ciguatera poisoning (Ref. 4690);"Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.2 °C (based on 1118 cells).				
+"Epinephelus-fuscoguttatus","Marine;  reef-associated; depth range 1 - 60 m (Ref. 9710). Tropical; 29°N -   27°S, 33°E -   171°W (Ref. 5222)","nonvenomous","Reports of ciguatera poisoning (Ref. 4690)","Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.2 °C (based on 1118 cells).				
 				 				
 				
 					
@@ -948,7 +948,7 @@ Epinephelus-fuscoguttatus;"Marine;  reef-associated; depth range 1 - 60 m (Ref. 
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Brienomyrus-brachyistius;"Freshwater; brackish;  benthopelagic. Tropical; 25°C - 28°C (Ref. 2060)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Brienomyrus-brachyistius","Freshwater; brackish;  benthopelagic. Tropical; 25°C - 28°C (Ref. 2060)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -975,7 +975,7 @@ Brienomyrus-brachyistius;"Freshwater; brackish;  benthopelagic. Tropical; 25°C 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Thunnus-albacares;"Marine; brackish;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 1 - 1602 m, usually 1 - 250 m (Ref. 6390). Tropical; 15°C - 31°C (Ref. 168); 50°N -   50°S, 180°W -   180°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 16.5 - 28.9, mean 26.7 °C (based on 6382 cells).				
+"Thunnus-albacares","Marine; brackish;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 1 - 1602 m, usually 1 - 250 m (Ref. 6390). Tropical; 15°C - 31°C (Ref. 168); 50°N -   50°S, 180°W -   180°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 16.5 - 28.9, mean 26.7 °C (based on 6382 cells).				
 				 				
 				
 					
@@ -1015,7 +1015,7 @@ Thunnus-albacares;"Marine; brackish;  pelagic-oceanic; oceanodromous (Ref. 51243
 										
 					
 											Price category  (Ref. 80766):  						High."
-Siniperca-chuatsi;"Freshwater;  benthopelagic; pH range: 7.0 - 7.4; dH range: 2 - 5; depth range 10 - ? m (Ref. 26334). Temperate; 4°C - 22°C (Ref. 2059); 53°N -   34°N, 113°E -   142°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Siniperca-chuatsi","Freshwater;  benthopelagic; pH range: 7.0 - 7.4; dH range: 2 - 5; depth range 10 - ? m (Ref. 26334). Temperate; 4°C - 22°C (Ref. 2059); 53°N -   34°N, 113°E -   142°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1049,7 +1049,7 @@ Siniperca-chuatsi;"Freshwater;  benthopelagic; pH range: 7.0 - 7.4; dH range: 2 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Puntigrus-tetrazona;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 20°C - 26°C (Ref. 13371); 6°N -   3°S, 95°E -   118°E";nonvenomous;Harmless;"Comments & Corrections
+"Puntigrus-tetrazona","Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 20°C - 26°C (Ref. 13371); 6°N -   3°S, 95°E -   118°E","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1070,7 +1070,7 @@ Puntigrus-tetrazona;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Clupea-harengus;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 364 m (Ref. 58426), usually 0 - 200 m (Ref. 6683). Temperate; 1°C - 18°C (Ref. 188); 80°N -   33°N, 95°W -   70°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.5 - 11.2, mean 6.6 °C (based on 912 cells).				
+"Clupea-harengus","Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 364 m (Ref. 58426), usually 0 - 200 m (Ref. 6683). Temperate; 1°C - 18°C (Ref. 188); 80°N -   33°N, 95°W -   70°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.5 - 11.2, mean 6.6 °C (based on 912 cells).				
 				 				
 				
 					
@@ -1110,7 +1110,7 @@ Clupea-harengus;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); d
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Plectropomus-leopardus;"Marine;  reef-associated; depth range 3 - 100 m (Ref. 9710). Tropical; 24°C -  ? (Ref. 2160); 35°N -   30°S, 99°E -   178°W (Ref. 5222)";nonvenomous;Reports of ciguatera poisoning (Ref. 4821);"Preferred temperature (Ref. 123201): 24.7 - 29, mean 28 °C (based on 1194 cells).				
+"Plectropomus-leopardus","Marine;  reef-associated; depth range 3 - 100 m (Ref. 9710). Tropical; 24°C -  ? (Ref. 2160); 35°N -   30°S, 99°E -   178°W (Ref. 5222)","nonvenomous","Reports of ciguatera poisoning (Ref. 4821)","Preferred temperature (Ref. 123201): 24.7 - 29, mean 28 °C (based on 1194 cells).				
 				 				
 				
 					
@@ -1150,7 +1150,7 @@ Plectropomus-leopardus;"Marine;  reef-associated; depth range 3 - 100 m (Ref. 97
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Thunnus-maccoyii;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 50 - 2743 m (Ref. 57178). Temperate; 5°C - 20°C (Ref. 168); 10°S -   60°S, 180°W -   180°E (Ref. 54921)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 2.5 - 7.9, mean 5 °C (based on 439 cells).				
+"Thunnus-maccoyii","Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 50 - 2743 m (Ref. 57178). Temperate; 5°C - 20°C (Ref. 168); 10°S -   60°S, 180°W -   180°E (Ref. 54921)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 2.5 - 7.9, mean 5 °C (based on 439 cells).				
 				 				
 				
 					
@@ -1190,8 +1190,8 @@ Thunnus-maccoyii;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth ra
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Nibea-albiflora;"Marine;  benthopelagic; depth range 25 - 80 m (Ref. 11230). Temperate; 39°N -   18°N, 105°E -   135°E";nonvenomous;Harmless;"Nutrients  (Ref. 124155):  Calcium = 33.4 [17.5, 69.7] mg/100g ; Iron = 0.315 [0.149, 0.588] mg/100g ; Protein = 18.8 [17.5, 20.1] % ; Omega3 = 0.603 [0.290, 1.145] g/100g ; Selenium = 14.9 [6.8, 31.8] μg/100g ; VitaminA = 16.9 [4.2, 71.0] μg/100g ; Zinc = 0.529 [0.363, 0.798] mg/100g (wet weight);"
-Haplochromis-burtoni;"Freshwater;  benthopelagic; pH range: 8.5 - 9.0; dH range: 12 - 16; non-migratory. Tropical; 20°C - 25°C (Ref. 13371); 3°S -   9°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Nibea-albiflora","Marine;  benthopelagic; depth range 25 - 80 m (Ref. 11230). Temperate; 39°N -   18°N, 105°E -   135°E","nonvenomous","Harmless","Nutrients  (Ref. 124155):  Calcium = 33.4 [17.5, 69.7] mg/100g ; Iron = 0.315 [0.149, 0.588] mg/100g ; Protein = 18.8 [17.5, 20.1] % ; Omega3 = 0.603 [0.290, 1.145] g/100g ; Selenium = 14.9 [6.8, 31.8] μg/100g ; VitaminA = 16.9 [4.2, 71.0] μg/100g ; Zinc = 0.529 [0.363, 0.798] mg/100g (wet weight);"
+"Haplochromis-burtoni","Freshwater;  benthopelagic; pH range: 8.5 - 9.0; dH range: 12 - 16; non-migratory. Tropical; 20°C - 25°C (Ref. 13371); 3°S -   9°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1225,7 +1225,7 @@ Haplochromis-burtoni;"Freshwater;  benthopelagic; pH range: 8.5 - 9.0; dH range:
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Toxotes-jaculatrix;"Freshwater; brackish;  pelagic-neritic; amphidromous (Ref. 51243). Tropical; 25°C - 30°C (Ref. 1672)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Toxotes-jaculatrix","Freshwater; brackish;  pelagic-neritic; amphidromous (Ref. 51243). Tropical; 25°C - 30°C (Ref. 1672)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1259,7 +1259,7 @@ Toxotes-jaculatrix;"Freshwater; brackish;  pelagic-neritic; amphidromous (Ref. 5
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Gasterosteus-aculeatus;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 100 m (Ref. 50550). Subtropical; 4°C - 20°C (Ref. 1672); 72°N -   25°N, 117°E -   60°E (Ref. 26213)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 2 - 13.5, mean 8 °C (based on 2296 cells).				
+"Gasterosteus-aculeatus","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 100 m (Ref. 50550). Subtropical; 4°C - 20°C (Ref. 1672); 72°N -   25°N, 117°E -   60°E (Ref. 26213)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 2 - 13.5, mean 8 °C (based on 2296 cells).				
 				 				
 				
 					
@@ -1299,7 +1299,7 @@ Gasterosteus-aculeatus;"Marine; freshwater; brackish;  benthopelagic; anadromous
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Simochromis-diagramma;"Freshwater;  benthopelagic. Tropical; 25°C -  ? (Ref. 2059); 3°S -   9°S";nonvenomous;Harmless;"Comments & Corrections
+"Simochromis-diagramma","Freshwater;  benthopelagic. Tropical; 25°C -  ? (Ref. 2059); 3°S -   9°S","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1320,7 +1320,7 @@ Simochromis-diagramma;"Freshwater;  benthopelagic. Tropical; 25°C -  ? (Ref. 20
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Perca-fluviatilis;"Freshwater; brackish;  demersal; pH range: 7.0 - 7.5; dH range: 8 - 12; anadromous (Ref. 51243); depth range 1 - 30 m (Ref. 9988), usually 3 - 4 m (Ref. 55947). Temperate; 10°C - 22°C (Ref. 1672); 74°N -   38°N, 91°W -   168°E";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Perca-fluviatilis","Freshwater; brackish;  demersal; pH range: 7.0 - 7.5; dH range: 8 - 12; anadromous (Ref. 51243); depth range 1 - 30 m (Ref. 9988), usually 3 - 4 m (Ref. 55947). Temperate; 10°C - 22°C (Ref. 1672); 74°N -   38°N, 91°W -   168°E","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1354,7 +1354,7 @@ Perca-fluviatilis;"Freshwater; brackish;  demersal; pH range: 7.0 - 7.5; dH rang
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Pimephales-promelas;"Freshwater;  demersal. Subtropical; 0°C - 33°C (Ref. 35682); 61°N -   29°N";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Pimephales-promelas","Freshwater;  demersal. Subtropical; 0°C - 33°C (Ref. 35682); 61°N -   29°N","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1381,7 +1381,7 @@ Pimephales-promelas;"Freshwater;  demersal. Subtropical; 0°C - 33°C (Ref. 3568
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (17 of 100)."
-Oreochromis-aureus;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 8°C - 30°C (Ref. 2); 35°N -   10°N";nonvenomous;Potential pest (Ref. 6465);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Oreochromis-aureus","Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 8°C - 30°C (Ref. 2); 35°N -   10°N","nonvenomous","Potential pest (Ref. 6465)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1415,7 +1415,7 @@ Oreochromis-aureus;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Micropterus-salmoides;"Freshwater;  benthopelagic; pH range: 7.0 - 7.5; dH range: 10 - ?; depth range 0 - 6 m (Ref. 1998). Subtropical; 10°C - 32°C (Ref. 12741); 46°N -   24°N, 125°W -   65°W (Ref. 89798)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Micropterus-salmoides","Freshwater;  benthopelagic; pH range: 7.0 - 7.5; dH range: 10 - ?; depth range 0 - 6 m (Ref. 1998). Subtropical; 10°C - 32°C (Ref. 12741); 46°N -   24°N, 125°W -   65°W (Ref. 89798)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1449,7 +1449,7 @@ Micropterus-salmoides;"Freshwater;  benthopelagic; pH range: 7.0 - 7.5; dH range
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Cyprinodon-tularosa;"Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 26°C - 30°C (Ref. 13614); 34°N -   33°N";nonvenomous;Harmless;"Comments & Corrections
+"Cyprinodon-tularosa","Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 26°C - 30°C (Ref. 13614); 34°N -   33°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1470,7 +1470,7 @@ Cyprinodon-tularosa;"Freshwater; brackish;  benthopelagic; non-migratory. Subtro
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Sebastes-umbrosus;"Marine;  demersal; depth range 30 - 119 m (Ref. 2850), usually ? - 70 m (Ref. 2850). Subtropical; 37°N -   25°N, 123°W -   112°W";nonvenomous;Harmless;"Comments & Corrections
+"Sebastes-umbrosus","Marine;  demersal; depth range 30 - 119 m (Ref. 2850), usually ? - 70 m (Ref. 2850). Subtropical; 37°N -   25°N, 123°W -   112°W","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1491,7 +1491,7 @@ Sebastes-umbrosus;"Marine;  demersal; depth range 30 - 119 m (Ref. 2850), usuall
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Pungitius-pungitius;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 110 m (Ref. 58426), usually 70 - 77 m (Ref. 1998). Boreal; 10°C - 20°C (Ref. 1672); 82°N -   35°N, 180°W -   180°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.4 - 10.2, mean 4.1 °C (based on 169 cells).				
+"Pungitius-pungitius","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 110 m (Ref. 58426), usually 70 - 77 m (Ref. 1998). Boreal; 10°C - 20°C (Ref. 1672); 82°N -   35°N, 180°W -   180°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.4 - 10.2, mean 4.1 °C (based on 169 cells).				
 				 				
 				
 					
@@ -1529,7 +1529,7 @@ Pungitius-pungitius;"Marine; freshwater; brackish;  benthopelagic; anadromous (R
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Acanthopagrus-latus;"Marine; freshwater; brackish;  demersal. Subtropical; 34°N -   15°N, 105°E -   137°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 21.7 - 28.5, mean 27.4 °C (based on 644 cells).				
+"Acanthopagrus-latus","Marine; freshwater; brackish;  demersal. Subtropical; 34°N -   15°N, 105°E -   137°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 21.7 - 28.5, mean 27.4 °C (based on 644 cells).				
 				 				
 				
 					
@@ -1570,7 +1570,7 @@ Acanthopagrus-latus;"Marine; freshwater; brackish;  demersal. Subtropical; 34°N
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 87.2 [43.9, 161.3] mg/100g ; Iron = 1.02 [0.56, 2.12] mg/100g ; Protein = 19.6 [18.5, 20.8] % ; Omega3 = 0.31 [0.18, 0.53] g/100g ; Selenium = 19.5 [9.0, 40.3] μg/100g ; VitaminA = 8.92 [2.50, 30.68] μg/100g ; Zinc = 0.745 [0.490, 1.109] mg/100g (wet weight);"
-Fundulus-heteroclitus;"Marine; freshwater; brackish;  benthopelagic; non-migratory. Temperate; 10°C - 24°C (Ref. 12468); 52°N -   28°N, 82°W -   55°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 6.1 - 23.7, mean 9.3 °C (based on 163 cells).				
+"Fundulus-heteroclitus","Marine; freshwater; brackish;  benthopelagic; non-migratory. Temperate; 10°C - 24°C (Ref. 12468); 52°N -   28°N, 82°W -   55°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 6.1 - 23.7, mean 9.3 °C (based on 163 cells).				
 				 				
 				
 					
@@ -1609,7 +1609,7 @@ Fundulus-heteroclitus;"Marine; freshwater; brackish;  benthopelagic; non-migrato
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 82.9 [39.2, 188.9] mg/100g ; Iron = 0.442 [0.225, 0.881] mg/100g ; Protein = 17.9 [16.5, 19.2] % ; Omega3 = 0.594 [0.249, 1.464] g/100g ; Selenium = 4.78 [1.73, 11.60] μg/100g ; VitaminA = 29.2 [7.9, 115.4] μg/100g ; Zinc = 1.09 [0.70, 1.68] mg/100g (wet weight);"
-Sander-lucioperca;"Freshwater; brackish;  pelagic; potamodromous (Ref. 51243); depth range 2 - 30 m (Ref. 30578), usually 2 - 3 m (Ref. 27368). Temperate; 6°C - 22°C (Ref. 2059); 67°N -   36°N, 1°W -   75°E";nonvenomous;Potential pest (Ref. 57271);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Sander-lucioperca","Freshwater; brackish;  pelagic; potamodromous (Ref. 51243); depth range 2 - 30 m (Ref. 30578), usually 2 - 3 m (Ref. 27368). Temperate; 6°C - 22°C (Ref. 2059); 67°N -   36°N, 1°W -   75°E","nonvenomous","Potential pest (Ref. 57271)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1643,7 +1643,7 @@ Sander-lucioperca;"Freshwater; brackish;  pelagic; potamodromous (Ref. 51243); d
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Morone-saxatilis;"Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 30 - ? m (Ref. 2850). Temperate; 8°C - 25°C (Ref. 47172); 49°N -   27°N, 94°W -   59°W (Ref. 86798)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1 - 23.5, mean 9.3 °C (based on 22 cells).				
+"Morone-saxatilis","Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 30 - ? m (Ref. 2850). Temperate; 8°C - 25°C (Ref. 47172); 49°N -   27°N, 94°W -   59°W (Ref. 86798)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1 - 23.5, mean 9.3 °C (based on 22 cells).				
 				 				
 				
 					
@@ -1683,7 +1683,7 @@ Morone-saxatilis;"Marine; freshwater; brackish;  demersal; anadromous (Ref. 5124
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Gymnodraco-acuticeps;"Marine;  demersal; depth range 0 - 550 m. Polar; 61°S -   78°S";nonvenomous;Harmless;"Comments & Corrections
+"Gymnodraco-acuticeps","Marine;  demersal; depth range 0 - 550 m. Polar; 61°S -   78°S","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1704,7 +1704,7 @@ Gymnodraco-acuticeps;"Marine;  demersal; depth range 0 - 550 m. Polar; 61°S -  
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Pseudochaenichthys-georgianus;"Marine;  demersal; depth range 0 - 475 m. Polar; 53°S -   73°S, 179°W -   24°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): -1.3 - 1.2, mean -0.1 °C (based on 18 cells).				
+"Pseudochaenichthys-georgianus","Marine;  demersal; depth range 0 - 475 m. Polar; 53°S -   73°S, 179°W -   24°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): -1.3 - 1.2, mean -0.1 °C (based on 18 cells).				
 				 				
 				
 					
@@ -1744,7 +1744,7 @@ Pseudochaenichthys-georgianus;"Marine;  demersal; depth range 0 - 475 m. Polar; 
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Trematomus-bernacchii;"Marine;  demersal; depth range 0 - 700 m (Ref. 11892), usually 0 - 200 m (Ref. 45168). Polar; 61°S -   78°S";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): -1.8 - -0.8, mean -1.7 °C (based on 2076 cells).				
+"Trematomus-bernacchii","Marine;  demersal; depth range 0 - 700 m (Ref. 11892), usually 0 - 200 m (Ref. 45168). Polar; 61°S -   78°S","nonvenomous","Harmless","Preferred temperature (Ref. 123201): -1.8 - -0.8, mean -1.7 °C (based on 2076 cells).				
 				 				
 				
 					
@@ -1782,7 +1782,7 @@ Trematomus-bernacchii;"Marine;  demersal; depth range 0 - 700 m (Ref. 11892), us
 										
 					
 											Price category  (Ref. 80766):  						High."
-Anarrhichthys-ocellatus;"Marine;  demersal; depth range 1 - 226 m (Ref. 2850). Temperate; 80°N -   26°N, 117°E -   111°W (Ref. 57366)";nonvenomous;Traumatogenic (Ref. 2850);"Preferred temperature (Ref. 123201): 1.2 - 10.5, mean 4.7 °C (based on 485 cells).				
+"Anarrhichthys-ocellatus","Marine;  demersal; depth range 1 - 226 m (Ref. 2850). Temperate; 80°N -   26°N, 117°E -   111°W (Ref. 57366)","nonvenomous","Traumatogenic (Ref. 2850)","Preferred temperature (Ref. 123201): 1.2 - 10.5, mean 4.7 °C (based on 485 cells).				
 				 				
 				
 					
@@ -1820,7 +1820,7 @@ Anarrhichthys-ocellatus;"Marine;  demersal; depth range 1 - 226 m (Ref. 2850). T
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Chanos-chanos;"Marine; freshwater; brackish;  benthopelagic; amphidromous (Ref. 51243); depth range 1 - 30 m (Ref. 6898), usually ? - 15 m (Ref. 89972). Tropical; 15°C - 43°C (Ref. 43081); 46°N -   52°S, 19°E -   77°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 20.7 - 29.2, mean 28.2 °C (based on 4182 cells).				
+"Chanos-chanos","Marine; freshwater; brackish;  benthopelagic; amphidromous (Ref. 51243); depth range 1 - 30 m (Ref. 6898), usually ? - 15 m (Ref. 89972). Tropical; 15°C - 43°C (Ref. 43081); 46°N -   52°S, 19°E -   77°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 20.7 - 29.2, mean 28.2 °C (based on 4182 cells).				
 				 				
 				
 					
@@ -1860,7 +1860,7 @@ Chanos-chanos;"Marine; freshwater; brackish;  benthopelagic; amphidromous (Ref. 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Triplophysa-tibetana;"Freshwater;  benthopelagic. High altitude";nonvenomous;Harmless;"Comments & Corrections
+"Triplophysa-tibetana","Freshwater;  benthopelagic. High altitude","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -1881,7 +1881,7 @@ Triplophysa-tibetana;"Freshwater;  benthopelagic. High altitude";nonvenomous;Har
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Archocentrus-centrarchus;"Freshwater;  benthopelagic. Tropical; 26°C - 36°C (Ref. 36880)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Archocentrus-centrarchus","Freshwater;  benthopelagic. Tropical; 26°C - 36°C (Ref. 36880)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -1908,7 +1908,7 @@ Archocentrus-centrarchus;"Freshwater;  benthopelagic. Tropical; 26°C - 36°C (R
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Sparus-aurata;"Marine; brackish;  demersal; depth range 1 - 150 m (Ref. 35388), usually 1 - 30 m (Ref. 54890). Subtropical; 62°N -   15°N, 17°W -   43°E (Ref. 54890)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 12.1 - 21, mean 17.8 °C (based on 258 cells).				
+"Sparus-aurata","Marine; brackish;  demersal; depth range 1 - 150 m (Ref. 35388), usually 1 - 30 m (Ref. 54890). Subtropical; 62°N -   15°N, 17°W -   43°E (Ref. 54890)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 12.1 - 21, mean 17.8 °C (based on 258 cells).				
 				 				
 				
 					
@@ -1948,7 +1948,7 @@ Sparus-aurata;"Marine; brackish;  demersal; depth range 1 - 150 m (Ref. 35388), 
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Sphaeramia-orbicularis;"Marine;  reef-associated; depth range 0 - 5 m (Ref. 9710). Tropical; 31°N -   27°S, 32°E -   173°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 26.3 - 29.3, mean 28.6 °C (based on 2452 cells).				
+"Sphaeramia-orbicularis","Marine;  reef-associated; depth range 0 - 5 m (Ref. 9710). Tropical; 31°N -   27°S, 32°E -   173°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 26.3 - 29.3, mean 28.6 °C (based on 2452 cells).				
 				 				
 				
 					
@@ -1986,7 +1986,7 @@ Sphaeramia-orbicularis;"Marine;  reef-associated; depth range 0 - 5 m (Ref. 9710
 										
 					
 											Price category  (Ref. 80766):  						High."
-Collichthys-lucidus;"Marine;  demersal; oceanodromous (Ref. 51243); depth range ? - 90 m (Ref. 11230). Subtropical";nonvenomous;Harmless;"Comments & Corrections
+"Collichthys-lucidus","Marine;  demersal; oceanodromous (Ref. 51243); depth range ? - 90 m (Ref. 11230). Subtropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -2007,8 +2007,8 @@ Collichthys-lucidus;"Marine;  demersal; oceanodromous (Ref. 51243); depth range 
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Perca-flavescens;"Freshwater; brackish;  benthopelagic; depth range 0 - 56 m (Ref. 11004), usually ? - 9 m (Ref. 1998). Subtropical; 0°C - 30°C (Ref. 35682); 66°N -   30°N, 124°W -   59°W (Ref. 86798)";nonvenomous;Harmless (Ref. 57406);"Nutrients  (Ref. 124155):  Calcium = 30.3 [13.5, 69.8] mg/100g ; Iron = 0.379 [0.205, 0.696] mg/100g ; Protein = 17.5 [16.4, 18.6] % ; Omega3 = 0.157 [0.070, 0.345] g/100g ; Selenium = 18.5 [6.2, 51.4] μg/100g ; VitaminA = 26.1 [11.2, 61.2] μg/100g ; Zinc = 0.785 [0.530, 1.181] mg/100g (wet weight); based on nutrient studies."
-Anabarilius-grahami;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Perca-flavescens","Freshwater; brackish;  benthopelagic; depth range 0 - 56 m (Ref. 11004), usually ? - 9 m (Ref. 1998). Subtropical; 0°C - 30°C (Ref. 35682); 66°N -   30°N, 124°W -   59°W (Ref. 86798)","nonvenomous","Harmless (Ref. 57406)","Nutrients  (Ref. 124155):  Calcium = 30.3 [13.5, 69.8] mg/100g ; Iron = 0.379 [0.205, 0.696] mg/100g ; Protein = 17.5 [16.4, 18.6] % ; Omega3 = 0.157 [0.070, 0.345] g/100g ; Selenium = 18.5 [6.2, 51.4] μg/100g ; VitaminA = 26.1 [11.2, 61.2] μg/100g ; Zinc = 0.785 [0.530, 1.181] mg/100g (wet weight); based on nutrient studies."
+"Anabarilius-grahami","Freshwater;  benthopelagic. Subtropical","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2035,7 +2035,7 @@ Anabarilius-grahami;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Harmle
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Oreochromis-niloticus;"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 32849), usually ? - 20 m (Ref. 34290). Tropical; 14°C - 33°C (Ref. 3); 32°N -   5°S, 17°W -   38°E";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Oreochromis-niloticus","Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 32849), usually ? - 20 m (Ref. 34290). Tropical; 14°C - 33°C (Ref. 3); 32°N -   5°S, 17°W -   38°E","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2069,7 +2069,7 @@ Oreochromis-niloticus;"Freshwater; brackish;  benthopelagic; potamodromous (Ref.
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Maylandia-zebra;"Freshwater;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19; depth range 6 - 28 m. Tropical; 22°C - 28°C (Ref. 1672); 8°S -   15°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Maylandia-zebra","Freshwater;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19; depth range 6 - 28 m. Tropical; 22°C - 28°C (Ref. 1672); 8°S -   15°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2096,7 +2096,7 @@ Maylandia-zebra;"Freshwater;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19; d
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Seriola-lalandi;"Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E";nonvenomous;Harmless (Ref. 4795);"Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
+"Seriola-lalandi","Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E","nonvenomous","Harmless (Ref. 4795)","Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
 				 				
 				
 					
@@ -2136,7 +2136,7 @@ Seriola-lalandi;"Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Seriola-dumerili;"Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - 385 m (Ref. 11441), usually 18 - 72 m (Ref. 9626). Subtropical; 49°N -   36°S, 98°W -   128°E";nonvenomous;Reports of ciguatera poisoning;"Preferred temperature (Ref. 123201): 16.9 - 29, mean 27.1 °C (based on 3486 cells).				
+"Seriola-dumerili","Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - 385 m (Ref. 11441), usually 18 - 72 m (Ref. 9626). Subtropical; 49°N -   36°S, 98°W -   128°E","nonvenomous","Reports of ciguatera poisoning","Preferred temperature (Ref. 123201): 16.9 - 29, mean 27.1 °C (based on 3486 cells).				
 				 				
 				
 					
@@ -2176,7 +2176,7 @@ Seriola-dumerili;"Marine;  reef-associated; oceanodromous (Ref. 51243); depth ra
 										
 					
 											Price category  (Ref. 80766):  						High."
-Cyprinodon-variegatus;"Marine; freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 45°N -   0°N, 98°W -   49°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 15.4 - 27.7, mean 26.7 °C (based on 572 cells).				
+"Cyprinodon-variegatus","Marine; freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 45°N -   0°N, 98°W -   49°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 15.4 - 27.7, mean 26.7 °C (based on 572 cells).				
 				 				
 				
 					
@@ -2215,7 +2215,7 @@ Cyprinodon-variegatus;"Marine; freshwater; brackish;  benthopelagic; non-migrato
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 200 [104, 445] mg/100g ; Iron = 1.36 [0.70, 2.71] mg/100g ; Protein = 17 [16, 18] % ; Omega3 = 0.251 [0.113, 0.552] g/100g ; Selenium = 10.3 [4.6, 25.5] μg/100g ; VitaminA = 21.2 [5.7, 77.3] μg/100g ; Zinc = 1.99 [1.28, 3.21] mg/100g (wet weight);"
-Pundamilia-nyererei;"Freshwater;  benthopelagic; depth range 1 - 4 m (Ref. 4983). Tropical; 22°C - 28°C (Ref. 12468); 1°N -   3°S";nonvenomous;Harmless;"Comments & Corrections
+"Pundamilia-nyererei","Freshwater;  benthopelagic; depth range 1 - 4 m (Ref. 4983). Tropical; 22°C - 28°C (Ref. 12468); 1°N -   3°S","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -2236,7 +2236,7 @@ Pundamilia-nyererei;"Freshwater;  benthopelagic; depth range 1 - 4 m (Ref. 4983)
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Dissostichus-eleginoides;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2144 m (Ref. 127764), usually 70 - 1500 m (Ref. 2121). Temperate; 33°S -   66°S, 77°W -   180°E (Ref. 54228)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1.8 - 8.8, mean 4.5 °C (based on 1109 cells).				
+"Dissostichus-eleginoides","Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2144 m (Ref. 127764), usually 70 - 1500 m (Ref. 2121). Temperate; 33°S -   66°S, 77°W -   180°E (Ref. 54228)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1.8 - 8.8, mean 4.5 °C (based on 1109 cells).				
 				 				
 				
 					
@@ -2276,7 +2276,7 @@ Dissostichus-eleginoides;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); 
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Acipenser-oxyrinchus;"Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 1 - 46 m (Ref. 4639). Subtropical; 56°N -   10°S, 102°W -   33°W (Ref. 54265)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 4.3 - 24.4, mean 17.3 °C (based on 268 cells).				
+"Acipenser-oxyrinchus","Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 1 - 46 m (Ref. 4639). Subtropical; 56°N -   10°S, 102°W -   33°W (Ref. 54265)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 4.3 - 24.4, mean 17.3 °C (based on 268 cells).				
 				 				
 				
 					
@@ -2314,9 +2314,9 @@ Acipenser-oxyrinchus;"Marine; freshwater; brackish;  demersal; anadromous (Ref. 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Podarcis-lilfordi;NA;nonvenomous;NA;NA
-Lates-japonicus;"Marine; freshwater; brackish;  demersal. Subtropical; 45°N -   24°N";nonvenomous;Harmless;
-Merluccius-polli;"Marine;  bathydemersal; non-migratory; depth range 50 - 1248 m (Ref. 112558), usually 50 - 550 m (Ref. 58452). Deep-water; 29°N -   19°S, 19°W -   15°E (Ref. 58452)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 7.3 - 19.8, mean 14.2 °C (based on 93 cells).				
+"Podarcis-lilfordi",NA,"nonvenomous",NA,NA
+"Lates-japonicus","Marine; freshwater; brackish;  demersal. Subtropical; 45°N -   24°N","nonvenomous","Harmless",""
+"Merluccius-polli","Marine;  bathydemersal; non-migratory; depth range 50 - 1248 m (Ref. 112558), usually 50 - 550 m (Ref. 58452). Deep-water; 29°N -   19°S, 19°W -   15°E (Ref. 58452)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 7.3 - 19.8, mean 14.2 °C (based on 93 cells).				
 				 				
 				
 					
@@ -2356,7 +2356,7 @@ Merluccius-polli;"Marine;  bathydemersal; non-migratory; depth range 50 - 1248 m
 										
 					
 											Price category  (Ref. 80766):  						High."
-Alosa-alosa;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 89642); depth range 10 - 300 m (Ref. 10536). Temperate; 61°N -   20°N, 17°W -   22°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 7 - 15.6, mean 10.1 °C (based on 480 cells).				
+"Alosa-alosa","Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 89642); depth range 10 - 300 m (Ref. 10536). Temperate; 61°N -   20°N, 17°W -   22°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 7 - 15.6, mean 10.1 °C (based on 480 cells).				
 				 				
 				
 					
@@ -2396,7 +2396,7 @@ Alosa-alosa;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 89
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Megalobrama-amblycephala;"Freshwater;  benthopelagic; depth range 5 - 20 m (Ref. 6898). Temperate; 10°C - 20°C (Ref. 13614); 32°N -   23°N";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Megalobrama-amblycephala","Freshwater;  benthopelagic; depth range 5 - 20 m (Ref. 6898). Temperate; 10°C - 20°C (Ref. 13614); 32°N -   23°N","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2430,7 +2430,7 @@ Megalobrama-amblycephala;"Freshwater;  benthopelagic; depth range 5 - 20 m (Ref.
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Girardinichthys-multiradiatus;"Freshwater;  demersal; pH range: 6.0 - 7.5; dH range: ? - 15. Temperate; 12°C - 20°C (Ref. 2060); 21°N -   19°N";nonvenomous;Harmless;"Comments & Corrections
+"Girardinichthys-multiradiatus","Freshwater;  demersal; pH range: 6.0 - 7.5; dH range: ? - 15. Temperate; 12°C - 20°C (Ref. 2060); 21°N -   19°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -2451,7 +2451,7 @@ Girardinichthys-multiradiatus;"Freshwater;  demersal; pH range: 6.0 - 7.5; dH ra
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Micropterus-dolomieu;"Freshwater;  benthopelagic; depth range 1 - 7 m (Ref. 120820). Subtropical; 9°C - 30°C (Ref. 1998); 50°N -   33°N, 95°W -   63°W (Ref. 86798)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Micropterus-dolomieu","Freshwater;  benthopelagic; depth range 1 - 7 m (Ref. 120820). Subtropical; 9°C - 30°C (Ref. 1998); 50°N -   33°N, 95°W -   63°W (Ref. 86798)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2485,8 +2485,8 @@ Micropterus-dolomieu;"Freshwater;  benthopelagic; depth range 1 - 7 m (Ref. 1208
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Daphnia-pulex;NA;nonvenomous;NA;NA
-Scatophagus-argus;"Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 0 - 5 m (Ref. 90102). Tropical; 20°C - 28°C (Ref. 13371); 35°N -   33°S, 48°E -   171°W";venomous;Venomous (Ref. 6565);"Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.6 °C (based on 2701 cells).				
+"Daphnia-pulex",NA,"nonvenomous",NA,NA
+"Scatophagus-argus","Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 0 - 5 m (Ref. 90102). Tropical; 20°C - 28°C (Ref. 13371); 35°N -   33°S, 48°E -   171°W","venomous","Venomous (Ref. 6565)","Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.6 °C (based on 2701 cells).				
 				 				
 				
 					
@@ -2524,8 +2524,8 @@ Scatophagus-argus;"Marine; freshwater; brackish;  demersal; amphidromous (Ref. 5
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Salmo-salar;NA;nonvenomous;NA;NA
-Coregonus-clupeaformis;"Freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 8 - 128 m (Ref. 3849). Temperate; 8°C - 14°C (Ref. 1998); 72°N -   41°N, 149°W -   61°W (Ref. 86798)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Salmo-salar",NA,"nonvenomous",NA,NA
+"Coregonus-clupeaformis","Freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 8 - 128 m (Ref. 3849). Temperate; 8°C - 14°C (Ref. 1998); 72°N -   41°N, 149°W -   61°W (Ref. 86798)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2559,10 +2559,10 @@ Coregonus-clupeaformis;"Freshwater; brackish;  benthopelagic; anadromous (Ref. 1
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Mauremys-mutica;NA;nonvenomous;NA;NA
-Pelomyxa-schiedti;NA;nonvenomous;NA;NA
-Gracilinanus-agilis;NA;nonvenomous;NA;NA
-Gambusia-affinis;"Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous. Subtropical; 12°C - 29°C (Ref. 52055); 42°N -   26°N";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Mauremys-mutica",NA,"nonvenomous",NA,NA
+"Pelomyxa-schiedti",NA,"nonvenomous",NA,NA
+"Gracilinanus-agilis",NA,"nonvenomous",NA,NA
+"Gambusia-affinis","Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous. Subtropical; 12°C - 29°C (Ref. 52055); 42°N -   26°N","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2596,9 +2596,9 @@ Gambusia-affinis;"Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Dromiciops-gliroides;NA;nonvenomous;NA;NA
-Naja-naja;NA;nonvenomous;NA;NA
-Oncorhynchus-tshawytscha;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 375 m (Ref. 58426). Temperate; 0°C - 25°C (Ref. 35682); 71°N -   27°N, 136°E -   112°W (Ref. 54251)";nonvenomous;Potential pest (Ref. 12257);"Preferred temperature (Ref. 123201): 0.7 - 8, mean 3.5 °C (based on 561 cells).				
+"Dromiciops-gliroides",NA,"nonvenomous",NA,NA
+"Naja-naja",NA,"nonvenomous",NA,NA
+"Oncorhynchus-tshawytscha","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 375 m (Ref. 58426). Temperate; 0°C - 25°C (Ref. 35682); 71°N -   27°N, 136°E -   112°W (Ref. 54251)","nonvenomous","Potential pest (Ref. 12257)","Preferred temperature (Ref. 123201): 0.7 - 8, mean 3.5 °C (based on 561 cells).				
 				 				
 				
 					
@@ -2638,7 +2638,7 @@ Oncorhynchus-tshawytscha;"Marine; freshwater; brackish;  benthopelagic; anadromo
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Melanotaenia-boesemani;"Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19. Tropical; 27°C - 30°C (Ref. 2060); 1°S -   2°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Melanotaenia-boesemani","Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19. Tropical; 27°C - 30°C (Ref. 2060); 1°S -   2°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2665,7 +2665,7 @@ Melanotaenia-boesemani;"Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH rang
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Cheilinus-undulatus;"Marine;  reef-associated; depth range 0 - 100 m (Ref. 58652). Tropical; 30°N -   23°S";nonvenomous;Reports of ciguatera poisoning (Ref. 5374);"Preferred temperature (Ref. 123201): 24.9 - 28.8, mean 27.5 °C (based on 580 cells).				
+"Cheilinus-undulatus","Marine;  reef-associated; depth range 0 - 100 m (Ref. 58652). Tropical; 30°N -   23°S","nonvenomous","Reports of ciguatera poisoning (Ref. 5374)","Preferred temperature (Ref. 123201): 24.9 - 28.8, mean 27.5 °C (based on 580 cells).				
 				 				
 				
 					
@@ -2703,7 +2703,7 @@ Cheilinus-undulatus;"Marine;  reef-associated; depth range 0 - 100 m (Ref. 58652
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Oryzias-melastigma;"Freshwater; brackish;  benthopelagic. Tropical";nonvenomous;Harmless;"Comments & Corrections
+"Oryzias-melastigma","Freshwater; brackish;  benthopelagic. Tropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -2724,7 +2724,7 @@ Oryzias-melastigma;"Freshwater; brackish;  benthopelagic. Tropical";nonvenomous;
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Amblyraja-radiata;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 5 - 1540 m (Ref. 117245), usually 25 - 440 m (Ref. 114953). Boreal; -1°C - 14°C (Ref. 49751); 79°N -   38°N, 95°W -   54°E (Ref. 55275)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): -0.8 - 5, mean 1 °C (based on 340 cells).				
+"Amblyraja-radiata","Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 5 - 1540 m (Ref. 117245), usually 25 - 440 m (Ref. 114953). Boreal; -1°C - 14°C (Ref. 49751); 79°N -   38°N, 95°W -   54°E (Ref. 55275)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): -0.8 - 5, mean 1 °C (based on 340 cells).				
 				 				
 				
 					
@@ -2762,7 +2762,7 @@ Amblyraja-radiata;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); dept
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Polypterus-senegalus;"Freshwater;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243). Tropical; 25°C - 28°C (Ref. 2060); 16°N -   2°S, 17°W -   37°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5002   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Polypterus-senegalus","Freshwater;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243). Tropical; 25°C - 28°C (Ref. 2060); 16°N -   2°S, 17°W -   37°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5002   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2796,8 +2796,8 @@ Polypterus-senegalus;"Freshwater;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Mauremys-reevesii;NA;nonvenomous;NA;NA
-Salvelinus-namaycush;"Freshwater;  benthopelagic; non-migratory; depth range 3 - 61 m (Ref. 120394), usually 18 - 53 m (Ref. 1998). Temperate; 4°C - 13°C (Ref. 120394); 75°N -   38°N, 168°W -   67°W (Ref. 86798)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Mauremys-reevesii",NA,"nonvenomous",NA,NA
+"Salvelinus-namaycush","Freshwater;  benthopelagic; non-migratory; depth range 3 - 61 m (Ref. 120394), usually 18 - 53 m (Ref. 1998). Temperate; 4°C - 13°C (Ref. 120394); 75°N -   38°N, 168°W -   67°W (Ref. 86798)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2831,7 +2831,7 @@ Salvelinus-namaycush;"Freshwater;  benthopelagic; non-migratory; depth range 3 -
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Scyliorhinus-canicula;"Marine;  demersal; depth range 10 - 780 m (Ref. 56504), usually 80 - 100 m (Ref. 81056). Subtropical; 63°N -   3°N, 32°W -   37°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 7.2 - 16.2, mean 10.1 °C (based on 28 cells).				
+"Scyliorhinus-canicula","Marine;  demersal; depth range 10 - 780 m (Ref. 56504), usually 80 - 100 m (Ref. 81056). Subtropical; 63°N -   3°N, 32°W -   37°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 7.2 - 16.2, mean 10.1 °C (based on 28 cells).				
 				 				
 				
 					
@@ -2871,7 +2871,7 @@ Scyliorhinus-canicula;"Marine;  demersal; depth range 10 - 780 m (Ref. 56504), u
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Kryptolebias-marmoratus;"Freshwater; brackish;  benthopelagic; pH range: ? - 7.5; dH range: ? - 16; non-migratory; depth range 0 - ? m (Ref. 55170). Tropical; 18°C - 24°C (Ref. 2060); 31°N -   3°N, 93°W -   49°W (Ref. 55170)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5039   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Kryptolebias-marmoratus","Freshwater; brackish;  benthopelagic; pH range: ? - 7.5; dH range: ? - 16; non-migratory; depth range 0 - ? m (Ref. 55170). Tropical; 18°C - 24°C (Ref. 2060); 31°N -   3°N, 93°W -   49°W (Ref. 55170)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5039   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2898,7 +2898,7 @@ Kryptolebias-marmoratus;"Freshwater; brackish;  benthopelagic; pH range: ? - 7.5
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Pygocentrus-nattereri;"Freshwater;  pelagic; pH range: 5.5 - 7.5; dH range: ? - 20. Subtropical; 23°C - 27°C (Ref. 13371); 9°N -   34°S";nonvenomous;Traumatogenic (Ref. 4537);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Pygocentrus-nattereri","Freshwater;  pelagic; pH range: 5.5 - 7.5; dH range: ? - 20. Subtropical; 23°C - 27°C (Ref. 13371); 9°N -   34°S","nonvenomous","Traumatogenic (Ref. 4537)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -2932,7 +2932,7 @@ Pygocentrus-nattereri;"Freshwater;  pelagic; pH range: 5.5 - 7.5; dH range: ? - 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Syngnathus-acus;"Marine; brackish;  demersal; non-migratory (Ref. 88171); depth range 0 - 110 m (Ref. 4281), usually 3 - 15 m (Ref. 126547). Subtropical; 71°N -   35°S, 19°W -   42°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 10.3 - 22.6, mean 17.7 °C (based on 934 cells).				
+"Syngnathus-acus","Marine; brackish;  demersal; non-migratory (Ref. 88171); depth range 0 - 110 m (Ref. 4281), usually 3 - 15 m (Ref. 126547). Subtropical; 71°N -   35°S, 19°W -   42°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 10.3 - 22.6, mean 17.7 °C (based on 934 cells).				
 				 				
 				
 					
@@ -2971,9 +2971,9 @@ Syngnathus-acus;"Marine; brackish;  demersal; non-migratory (Ref. 88171); depth 
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 54.6 [12.4, 151.7] mg/100g ; Iron = 1.02 [0.39, 3.52] mg/100g ; Protein = 3.7 [0.1, 7.5] % ; Omega3 = 0.286 [0.130, 0.629] g/100g ; Selenium = 22.8 [5.1, 60.3] μg/100g ; VitaminA = 9.35 [4.02, 21.44] μg/100g ; Zinc = 0.838 [0.431, 1.605] mg/100g (wet weight);"
-Trichosurus-vulpecula;NA;nonvenomous;NA;NA
-Colossoma-macropomum;"Freshwater;  benthopelagic; pH range: 5.0 - 7.8; dH range: ? - 20; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 22°C - 28°C (Ref. 1672); 15°S -   35°S";nonvenomous;Traumatogenic;"Nutrients  (Ref. 124155):  Calcium = 43.6 [17.8, 103.8] mg/100g ; Iron = 1.09 [0.51, 2.44] mg/100g ; Protein = 17.6 [15.5, 19.7] % ; Omega3 = 0.28 [0.10, 0.78] g/100g ; Selenium = 125 [45, 312] μg/100g ; VitaminA = 14 [4, 47] μg/100g ; Zinc = 1.43 [0.94, 2.22] mg/100g (wet weight); based on nutrient studies."
-Neolamprologus-brichardi;"Freshwater;  benthopelagic; pH range: 8.0 - 9.0; dH range: 9 - 19. Tropical; 22°C - 25°C (Ref. 1672); 3°S -   6°S";nonvenomous;Harmless;"Comments & Corrections
+"Trichosurus-vulpecula",NA,"nonvenomous",NA,NA
+"Colossoma-macropomum","Freshwater;  benthopelagic; pH range: 5.0 - 7.8; dH range: ? - 20; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 22°C - 28°C (Ref. 1672); 15°S -   35°S","nonvenomous","Traumatogenic","Nutrients  (Ref. 124155):  Calcium = 43.6 [17.8, 103.8] mg/100g ; Iron = 1.09 [0.51, 2.44] mg/100g ; Protein = 17.6 [15.5, 19.7] % ; Omega3 = 0.28 [0.10, 0.78] g/100g ; Selenium = 125 [45, 312] μg/100g ; VitaminA = 14 [4, 47] μg/100g ; Zinc = 1.43 [0.94, 2.22] mg/100g (wet weight); based on nutrient studies."
+"Neolamprologus-brichardi","Freshwater;  benthopelagic; pH range: 8.0 - 9.0; dH range: 9 - 19. Tropical; 22°C - 25°C (Ref. 1672); 3°S -   6°S","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -2994,10 +2994,10 @@ Neolamprologus-brichardi;"Freshwater;  benthopelagic; pH range: 8.0 - 9.0; dH ra
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Zootoca-vivipara;NA;nonvenomous;NA;NA
-Trachemys-scripta;NA;nonvenomous;NA;NA
-Pantherophis-guttatus;NA;nonvenomous;NA;NA
-Thalassophryne-amazonica;"Freshwater;  demersal. Tropical";venomous;Venomous (Ref. 30721);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Zootoca-vivipara",NA,"nonvenomous",NA,NA
+"Trachemys-scripta",NA,"nonvenomous",NA,NA
+"Pantherophis-guttatus",NA,"nonvenomous",NA,NA
+"Thalassophryne-amazonica","Freshwater;  demersal. Tropical","venomous","Venomous (Ref. 30721)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3024,9 +3024,9 @@ Thalassophryne-amazonica;"Freshwater;  demersal. Tropical";venomous;Venomous (Re
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Geotrypetes-seraphini;NA;nonvenomous;NA;NA
-Asterias-rubens;NA;nonvenomous;NA;NA
-Epinephelus-lanceolatus;"Marine; brackish;  reef-associated; depth range 1 - 200 m (Ref. 89972), usually ? - 50 m (Ref. 37816). Tropical; 29°N -   39°S, 24°E -   122°W (Ref. 5222)";nonvenomous;Traumatogenic (Ref. 4690);"Preferred temperature (Ref. 123201): 24.3 - 29.1, mean 28.1 °C (based on 1346 cells).				
+"Geotrypetes-seraphini",NA,"nonvenomous",NA,NA
+"Asterias-rubens",NA,"nonvenomous",NA,NA
+"Epinephelus-lanceolatus","Marine; brackish;  reef-associated; depth range 1 - 200 m (Ref. 89972), usually ? - 50 m (Ref. 37816). Tropical; 29°N -   39°S, 24°E -   122°W (Ref. 5222)","nonvenomous","Traumatogenic (Ref. 4690)","Preferred temperature (Ref. 123201): 24.3 - 29.1, mean 28.1 °C (based on 1346 cells).				
 				 				
 				
 					
@@ -3064,7 +3064,7 @@ Epinephelus-lanceolatus;"Marine; brackish;  reef-associated; depth range 1 - 200
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Anabas-testudineus;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 0 - ? m (Ref. 4833). Tropical; 22°C - 30°C (Ref. 1672); 28°N -   10°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Anabas-testudineus","Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 0 - ? m (Ref. 4833). Tropical; 22°C - 30°C (Ref. 1672); 28°N -   10°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3098,7 +3098,7 @@ Anabas-testudineus;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243);
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Mastacembelus-armatus;"Freshwater; brackish;  demersal; pH range: 6.5 - 7.5; dH range: ? - 15; potamodromous (Ref. 51243). Tropical; 22°C - 28°C (Ref. 1672); 38°N -   1°N";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Mastacembelus-armatus","Freshwater; brackish;  demersal; pH range: 6.5 - 7.5; dH range: ? - 15; potamodromous (Ref. 51243). Tropical; 22°C - 28°C (Ref. 1672); 38°N -   1°N","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3132,9 +3132,9 @@ Mastacembelus-armatus;"Freshwater; brackish;  demersal; pH range: 6.5 - 7.5; dH 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Lacerta-agilis;NA;nonvenomous;NA;NA
-Chelonoidis-abingdonii;NA;nonvenomous;NA;NA
-Xiphophorus-hellerii;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 22°C - 28°C (Ref. 52054); 26°N -   12°N";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Lacerta-agilis",NA,"nonvenomous",NA,NA
+"Chelonoidis-abingdonii",NA,"nonvenomous",NA,NA
+"Xiphophorus-hellerii","Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 22°C - 28°C (Ref. 52054); 26°N -   12°N","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3161,7 +3161,7 @@ Xiphophorus-hellerii;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0;
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Etheostoma-spectabile;"Freshwater;  benthopelagic. Temperate; 4°C - 18°C (Ref. 2059); 43°N -   30°N";nonvenomous;Harmless;"Comments & Corrections
+"Etheostoma-spectabile","Freshwater;  benthopelagic. Temperate; 4°C - 18°C (Ref. 2059); 43°N -   30°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -3182,10 +3182,10 @@ Etheostoma-spectabile;"Freshwater;  benthopelagic. Temperate; 4°C - 18°C (Ref.
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Thamnophis-elegans;NA;nonvenomous;NA;NA
-Sarcophilus-harrisii;NA;nonvenomous;NA;NA
-Gopherus-evgoodei;NA;nonvenomous;NA;NA
-Salarias-fasciatus;"Marine; brackish;  reef-associated; depth range 0 - 8 m (Ref. 9710). Tropical; 30°N -   23°S, 32°E -   169°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.5 °C (based on 2623 cells).				
+"Thamnophis-elegans",NA,"nonvenomous",NA,NA
+"Sarcophilus-harrisii",NA,"nonvenomous",NA,NA
+"Gopherus-evgoodei",NA,"nonvenomous",NA,NA
+"Salarias-fasciatus","Marine; brackish;  reef-associated; depth range 0 - 8 m (Ref. 9710). Tropical; 30°N -   23°S, 32°E -   169°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.5 °C (based on 2623 cells).				
 				 				
 				
 					
@@ -3223,7 +3223,7 @@ Salarias-fasciatus;"Marine; brackish;  reef-associated; depth range 0 - 8 m (Ref
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Myripristis-murdjan;"Marine;  reef-associated; depth range 1 - 50 m (Ref. 9710). Tropical; 30°N -   35°S";nonvenomous;Reports of ciguatera poisoning (Ref. 4690);"Preferred temperature (Ref. 123201): 24.7 - 29, mean 28 °C (based on 1080 cells).				
+"Myripristis-murdjan","Marine;  reef-associated; depth range 1 - 50 m (Ref. 9710). Tropical; 30°N -   35°S","nonvenomous","Reports of ciguatera poisoning (Ref. 4690)","Preferred temperature (Ref. 123201): 24.7 - 29, mean 28 °C (based on 1080 cells).				
 				 				
 				
 					
@@ -3261,8 +3261,8 @@ Myripristis-murdjan;"Marine;  reef-associated; depth range 1 - 50 m (Ref. 9710).
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Terrapene-carolina;NA;nonvenomous;NA;NA
-Oncorhynchus-nerka;"Marine; freshwater; brackish;  pelagic-oceanic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Temperate; 0°C - 25°C (Ref. 35682); 72°N -   42°N, 130°E -   109°W (Ref. 117423)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1 - 8.4, mean 4.2 °C (based on 374 cells).				
+"Terrapene-carolina",NA,"nonvenomous",NA,NA
+"Oncorhynchus-nerka","Marine; freshwater; brackish;  pelagic-oceanic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Temperate; 0°C - 25°C (Ref. 35682); 72°N -   42°N, 130°E -   109°W (Ref. 117423)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1 - 8.4, mean 4.2 °C (based on 374 cells).				
 				 				
 				
 					
@@ -3302,7 +3302,7 @@ Oncorhynchus-nerka;"Marine; freshwater; brackish;  pelagic-oceanic; anadromous (
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Scleropages-formosus;"Freshwater;  benthopelagic. Tropical; 24°C - 30°C (Ref. 2060)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Scleropages-formosus","Freshwater;  benthopelagic. Tropical; 24°C - 30°C (Ref. 2060)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3336,8 +3336,8 @@ Scleropages-formosus;"Freshwater;  benthopelagic. Tropical; 24°C - 30°C (Ref. 
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Podarcis-muralis;NA;nonvenomous;NA;NA
-Xiphophorus-couchianus;"Freshwater;  benthopelagic; non-migratory. Tropical; 27°C - 30°C (Ref. 2060)";nonvenomous;Harmless;"Comments & Corrections
+"Podarcis-muralis",NA,"nonvenomous",NA,NA
+"Xiphophorus-couchianus","Freshwater;  benthopelagic; non-migratory. Tropical; 27°C - 30°C (Ref. 2060)","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -3358,7 +3358,7 @@ Xiphophorus-couchianus;"Freshwater;  benthopelagic; non-migratory. Tropical; 27�
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Larimichthys-crocea;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 120 m (Ref. 43239). Temperate; 38°N -   13°N, 106°E -   141°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 20.8 - 24.7, mean 22.8 °C (based on 54 cells).				
+"Larimichthys-crocea","Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 120 m (Ref. 43239). Temperate; 38°N -   13°N, 106°E -   141°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 20.8 - 24.7, mean 22.8 °C (based on 54 cells).				
 				 				
 				
 					
@@ -3398,7 +3398,7 @@ Larimichthys-crocea;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Carassius-auratus;"Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 6898). Subtropical; 0°C - 41°C (Ref. 35682); 53°N -   22°N";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Carassius-auratus","Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 6898). Subtropical; 0°C - 41°C (Ref. 35682); 53°N -   22°N","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3432,11 +3432,11 @@ Carassius-auratus;"Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Astatotilapia-calliptera;"Freshwater;  benthopelagic. Tropical; 24°C - 28°C (Ref. 2059); 13°S -   21°S";nonvenomous;Harmless;
-Apteryx-rowi;NA;nonvenomous;NA;NA
-Pelodiscus-sinensis;NA;nonvenomous;NA;NA
-Python-bivittatus;NA;nonvenomous;NA;NA
-Paramormyrops-kingsleyae;"Freshwater;  benthopelagic. Tropical";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5005   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Astatotilapia-calliptera","Freshwater;  benthopelagic. Tropical; 24°C - 28°C (Ref. 2059); 13°S -   21°S","nonvenomous","Harmless",""
+"Apteryx-rowi",NA,"nonvenomous",NA,NA
+"Pelodiscus-sinensis",NA,"nonvenomous",NA,NA
+"Python-bivittatus",NA,"nonvenomous",NA,NA
+"Paramormyrops-kingsleyae","Freshwater;  benthopelagic. Tropical","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5005   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3463,7 +3463,7 @@ Paramormyrops-kingsleyae;"Freshwater;  benthopelagic. Tropical";nonvenomous;Harm
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Xiphophorus-maculatus;"Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 25°C (Ref. 1672); 23°N -   17°N, 99°W -   86°W";nonvenomous;;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Xiphophorus-maculatus","Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 25°C (Ref. 1672); 23°N -   17°N, 99°W -   86°W","nonvenomous","","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3490,7 +3490,7 @@ Xiphophorus-maculatus;"Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Danio-rerio;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 18°C - 24°C (Ref. 1672); 33°N -   8°N, 66°E -   98°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Danio-rerio","Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 18°C - 24°C (Ref. 1672); 33°N -   8°N, 66°E -   98°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3517,7 +3517,7 @@ Danio-rerio;"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (11 of 100)."
-Hippocampus-comes;"Marine;  reef-associated; non-migratory; depth range 0 - 32 m (Ref. 128812). Tropical; 15°N -   10°S, 91°E -   128°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 28.3 - 29.3, mean 28.8 °C (based on 688 cells).				
+"Hippocampus-comes","Marine;  reef-associated; non-migratory; depth range 0 - 32 m (Ref. 128812). Tropical; 15°N -   10°S, 91°E -   128°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 28.3 - 29.3, mean 28.8 °C (based on 688 cells).				
 				 				
 				
 					
@@ -3555,7 +3555,7 @@ Hippocampus-comes;"Marine;  reef-associated; non-migratory; depth range 0 - 32 m
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Poecilia-reticulata;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 28°C (Ref. 1672); 14°N -   2°N, 67°W -   52°W";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Poecilia-reticulata","Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 28°C (Ref. 1672); 14°N -   2°N, 67°W -   52°W","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3582,7 +3582,7 @@ Poecilia-reticulata;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (33 of 100)."
-Sinocyclocheilus-rhinocerous;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Harmless;"Comments & Corrections
+"Sinocyclocheilus-rhinocerous","Freshwater;  benthopelagic. Subtropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -3603,7 +3603,7 @@ Sinocyclocheilus-rhinocerous;"Freshwater;  benthopelagic. Subtropical";nonvenomo
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Poecilia-formosa;"Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 27°N -   25°N";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Poecilia-formosa","Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 27°N -   25°N","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3630,7 +3630,7 @@ Poecilia-formosa;"Freshwater; brackish;  benthopelagic; non-migratory. Subtropic
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Sinocyclocheilus-anshuiensis;"Freshwater;  benthopelagic. Subtropical";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Sinocyclocheilus-anshuiensis","Freshwater;  benthopelagic. Subtropical","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3657,7 +3657,7 @@ Sinocyclocheilus-anshuiensis;"Freshwater;  benthopelagic. Subtropical";nonvenomo
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Sinocyclocheilus-grahami;"Freshwater;  benthopelagic. Temperate";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Sinocyclocheilus-grahami","Freshwater;  benthopelagic. Temperate","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3684,7 +3684,7 @@ Sinocyclocheilus-grahami;"Freshwater;  benthopelagic. Temperate";nonvenomous;Har
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Poecilia-mexicana;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 7.5; dH range: 20 - 30; non-migratory. Tropical; 22°C - 28°C (Ref. 12468); 19°N -   14°N";nonvenomous;Potential pest (Ref. 1982);"Comments & Corrections
+"Poecilia-mexicana","Freshwater; brackish;  benthopelagic; pH range: 7.0 - 7.5; dH range: 20 - 30; non-migratory. Tropical; 22°C - 28°C (Ref. 12468); 19°N -   14°N","nonvenomous","Potential pest (Ref. 1982)","Comments & Corrections
 			
 			
 			
@@ -3705,7 +3705,7 @@ Poecilia-mexicana;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 7.5; dH
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Poecilia-latipinna;"Marine; freshwater; brackish;  benthopelagic; non-migratory; depth range 0 - ? m (Ref. 55263). Subtropical; 20°C - 28°C (Ref. 2060); 40°N -   16°N, 103°W -   76°W (Ref. 55263)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Poecilia-latipinna","Marine; freshwater; brackish;  benthopelagic; non-migratory; depth range 0 - ? m (Ref. 55263). Subtropical; 20°C - 28°C (Ref. 2060); 40°N -   16°N, 103°W -   76°W (Ref. 55263)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3732,7 +3732,7 @@ Poecilia-latipinna;"Marine; freshwater; brackish;  benthopelagic; non-migratory;
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Latimeria-chalumnae;"Marine;  demersal; non-migratory; depth range 150 - 700 m (Ref. 38430), usually 180 - 250 m (Ref. 27564). Deep-water; 13°C - 25°C (Ref. 38429); 3°S -   34°S, 25°E -   51°E (Ref. 46167)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 13.4 - 18.3, mean 15.6 °C (based on 16 cells).				
+"Latimeria-chalumnae","Marine;  demersal; non-migratory; depth range 150 - 700 m (Ref. 38430), usually 180 - 250 m (Ref. 27564). Deep-water; 13°C - 25°C (Ref. 38429); 3°S -   34°S, 25°E -   51°E (Ref. 46167)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 13.4 - 18.3, mean 15.6 °C (based on 16 cells).				
 				 				
 				
 					
@@ -3763,8 +3763,8 @@ Latimeria-chalumnae;"Marine;  demersal; non-migratory; depth range 150 - 700 m (
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100)."
-Chelonia-mydas;NA;nonvenomous;NA;NA
-Notothenia-coriiceps;"Marine;  demersal; depth range 0 - 550 m. Polar; 46°S -   78°S, 180°W -   180°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): -1.7 - 2.4, mean -0.6 °C (based on 170 cells).				
+"Chelonia-mydas",NA,"nonvenomous",NA,NA
+"Notothenia-coriiceps","Marine;  demersal; depth range 0 - 550 m. Polar; 46°S -   78°S, 180°W -   180°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): -1.7 - 2.4, mean -0.6 °C (based on 170 cells).				
 				 				
 				
 					
@@ -3804,7 +3804,7 @@ Notothenia-coriiceps;"Marine;  demersal; depth range 0 - 550 m. Polar; 46°S -  
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Stegastes-partitus;"Marine;  reef-associated; non-migratory; depth range 0 - 100 m (Ref. 9626). Tropical; 33°N -   5°S, 98°W -   34°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 24.2 - 28, mean 26.9 °C (based on 262 cells).				
+"Stegastes-partitus","Marine;  reef-associated; non-migratory; depth range 0 - 100 m (Ref. 9626). Tropical; 33°N -   5°S, 98°W -   34°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 24.2 - 28, mean 26.9 °C (based on 262 cells).				
 				 				
 				
 					
@@ -3843,8 +3843,8 @@ Stegastes-partitus;"Marine;  reef-associated; non-migratory; depth range 0 - 100
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 123 [65, 204] mg/100g ; Iron = 0.889 [0.533, 1.467] mg/100g ; Protein = 18.2 [17.1, 19.3] % ; Omega3 = 0.157 [0.098, 0.256] g/100g ; Selenium = 30.7 [16.8, 59.7] μg/100g ; VitaminA = 111 [31, 375] μg/100g ; Zinc = 2.37 [1.62, 3.37] mg/100g (wet weight);"
-Rana-temporaria;NA;nonvenomous;NA;NA
-Cyprinus-carpio;"Freshwater; brackish;  benthopelagic; pH range: 6.5 - 9.0; dH range: 10 - 15; potamodromous (Ref. 51243); depth range 0 - 29 m (Ref. 120823). Subtropical; 3°C - 35°C (Ref. 12741); 54°N -   34°N, 12°E -   74°E (Ref. 59043)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Rana-temporaria",NA,"nonvenomous",NA,NA
+"Cyprinus-carpio","Freshwater; brackish;  benthopelagic; pH range: 6.5 - 9.0; dH range: 10 - 15; potamodromous (Ref. 51243); depth range 0 - 29 m (Ref. 120823). Subtropical; 3°C - 35°C (Ref. 12741); 54°N -   34°N, 12°E -   74°E (Ref. 59043)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3878,8 +3878,8 @@ Cyprinus-carpio;"Freshwater; brackish;  benthopelagic; pH range: 6.5 - 9.0; dH r
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Xenopus-laevis;NA;nonvenomous;NA;NA
-Silurus-meridionalis;"Freshwater;  demersal. Subtropical";nonvenomous;Harmless;"Comments & Corrections
+"Xenopus-laevis",NA,"nonvenomous",NA,NA
+"Silurus-meridionalis","Freshwater;  demersal. Subtropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -3900,7 +3900,7 @@ Silurus-meridionalis;"Freshwater;  demersal. Subtropical";nonvenomous;Harmless;"
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Oncorhynchus-keta;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550), usually ? - 61 m (Ref. 96339). Temperate; 0°C - 24°C (Ref. 35682); 67°N -   24°N, 130°E -   110°W (Ref. 117423)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1.1 - 8.3, mean 3.3 °C (based on 192 cells).				
+"Oncorhynchus-keta","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550), usually ? - 61 m (Ref. 96339). Temperate; 0°C - 24°C (Ref. 35682); 67°N -   24°N, 130°E -   110°W (Ref. 117423)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1.1 - 8.3, mean 3.3 °C (based on 192 cells).				
 				 				
 				
 					
@@ -3940,7 +3940,7 @@ Oncorhynchus-keta;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Carassius-gibelio;"Freshwater; brackish;  benthopelagic; pH range: 7.1 - 7.5; dH range: 12 - ?; potamodromous (Ref. 51243); depth range 0 - ? m. Temperate; 10°C - 20°C (Ref. 2059); 62°N -   35°N, 10°W -   155°E";nonvenomous;Potential pest (Ref. 83969);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Carassius-gibelio","Freshwater; brackish;  benthopelagic; pH range: 7.1 - 7.5; dH range: 12 - ?; potamodromous (Ref. 51243); depth range 0 - ? m. Temperate; 10°C - 20°C (Ref. 2059); 62°N -   35°N, 10°W -   155°E","nonvenomous","Potential pest (Ref. 83969)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -3974,7 +3974,7 @@ Carassius-gibelio;"Freshwater; brackish;  benthopelagic; pH range: 7.1 - 7.5; dH
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Solea-senegalensis;"Marine;  demersal; depth range 12 - 100 m (Ref. 5304). Tropical; 47°N -   16°S, 19°W -   14°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 13.6 - 21.6, mean 18.6 °C (based on 46 cells).				
+"Solea-senegalensis","Marine;  demersal; depth range 12 - 100 m (Ref. 5304). Tropical; 47°N -   16°S, 19°W -   14°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 13.6 - 21.6, mean 18.6 °C (based on 46 cells).				
 				 				
 				
 					
@@ -4014,8 +4014,8 @@ Solea-senegalensis;"Marine;  demersal; depth range 12 - 100 m (Ref. 5304). Tropi
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Engystomops-pustulosus;NA;nonvenomous;NA;NA
-Albula-glossodonta;"Brackish;  reef-associated; oceanodromous (Ref. 51243); depth range ? - 10 m (Ref. 89972). Tropical; 32°N -   32°S, 42°E -   139°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 24.6 - 29.3, mean 28.1 °C (based on 2148 cells).				
+"Engystomops-pustulosus",NA,"nonvenomous",NA,NA
+"Albula-glossodonta","Brackish;  reef-associated; oceanodromous (Ref. 51243); depth range ? - 10 m (Ref. 89972). Tropical; 32°N -   32°S, 42°E -   139°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 24.6 - 29.3, mean 28.1 °C (based on 2148 cells).				
 				 				
 				
 					
@@ -4053,7 +4053,7 @@ Albula-glossodonta;"Brackish;  reef-associated; oceanodromous (Ref. 51243); dept
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Astyanax-mexicanus;"Freshwater;  benthopelagic; potamodromous (Ref. 47195). Subtropical; 36°N -   24°N";nonvenomous;Harmless;"Comments & Corrections
+"Astyanax-mexicanus","Freshwater;  benthopelagic; potamodromous (Ref. 47195). Subtropical; 36°N -   24°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4074,8 +4074,8 @@ Astyanax-mexicanus;"Freshwater;  benthopelagic; potamodromous (Ref. 47195). Subt
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Hymenochirus-boettgeri;NA;nonvenomous;NA;NA
-Nematolebias-whitei;"Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 5 - 8; non-migratory. Tropical; 20°C - 23°C (Ref. 1672)";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Hymenochirus-boettgeri",NA,"nonvenomous",NA,NA
+"Nematolebias-whitei","Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 5 - 8; non-migratory. Tropical; 20°C - 23°C (Ref. 1672)","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -4102,7 +4102,7 @@ Nematolebias-whitei;"Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Megalops-atlanticus;"Marine; freshwater; brackish;  reef-associated; amphidromous (Ref. 51243); depth range 0 - 40 m (Ref. 3789), usually 0 - 15 m (Ref. 42064). Subtropical; 10°C - 40°C (Ref. 93687); 49°N -   44°S, 99°W -   14°E (Ref. 55254)";nonvenomous;Reports of ciguatera poisoning (Ref. 31172);"Preferred temperature (Ref. 123201): 19.6 - 28, mean 27 °C (based on 1409 cells).				
+"Megalops-atlanticus","Marine; freshwater; brackish;  reef-associated; amphidromous (Ref. 51243); depth range 0 - 40 m (Ref. 3789), usually 0 - 15 m (Ref. 42064). Subtropical; 10°C - 40°C (Ref. 93687); 49°N -   44°S, 99°W -   14°E (Ref. 55254)","nonvenomous","Reports of ciguatera poisoning (Ref. 31172)","Preferred temperature (Ref. 123201): 19.6 - 28, mean 27 °C (based on 1409 cells).				
 				 				
 				
 					
@@ -4142,8 +4142,8 @@ Megalops-atlanticus;"Marine; freshwater; brackish;  reef-associated; amphidromou
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-mis-burtoni;NA;nonvenomous;NA;NA
-Caranx-melampygus;"Marine; brackish;  reef-associated; depth range 0 - 190 m (Ref. 9710). Tropical; 35°N -   35°S, 30°E -   78°W";nonvenomous;Reports of ciguatera poisoning (Ref. 4690);"Preferred temperature (Ref. 123201): 23.2 - 29, mean 27.9 °C (based on 2624 cells).				
+"mis-burtoni",NA,"nonvenomous",NA,NA
+"Caranx-melampygus","Marine; brackish;  reef-associated; depth range 0 - 190 m (Ref. 9710). Tropical; 35°N -   35°S, 30°E -   78°W","nonvenomous","Reports of ciguatera poisoning (Ref. 4690)","Preferred temperature (Ref. 123201): 23.2 - 29, mean 27.9 °C (based on 2624 cells).				
 				 				
 				
 					
@@ -4183,7 +4183,7 @@ Caranx-melampygus;"Marine; brackish;  reef-associated; depth range 0 - 190 m (Re
 										
 					
 											Price category  (Ref. 80766):  						High."
-Alosa-sapidissima;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 6793). Subtropical; 54°N -   28°N, 84°W -   52°W (Ref. 86798)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.5 - 11.5, mean 5.6 °C (based on 113 cells).				
+"Alosa-sapidissima","Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 6793). Subtropical; 54°N -   28°N, 84°W -   52°W (Ref. 86798)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.5 - 11.5, mean 5.6 °C (based on 113 cells).				
 				 				
 				
 					
@@ -4223,7 +4223,7 @@ Alosa-sapidissima;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (R
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Chelmon-rostratus;"Marine; brackish;  reef-associated; non-migratory; depth range 1 - 25 m (Ref. 9710). Tropical";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 24.7 - 29.3, mean 28.5 °C (based on 3215 cells).				
+"Chelmon-rostratus","Marine; brackish;  reef-associated; non-migratory; depth range 1 - 25 m (Ref. 9710). Tropical","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 24.7 - 29.3, mean 28.5 °C (based on 3215 cells).				
 				 				
 				
 					
@@ -4261,7 +4261,7 @@ Chelmon-rostratus;"Marine; brackish;  reef-associated; non-migratory; depth rang
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Anguilla-anguilla;"Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 0 - 700 m (Ref. 54218). Temperate; 4°C - 20°C (Ref. 2059); 75°N -   8°N, 82°W -   50°E (Ref. 42249)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 3 - 14.5, mean 7.9 °C (based on 1203 cells).				
+"Anguilla-anguilla","Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 0 - 700 m (Ref. 54218). Temperate; 4°C - 20°C (Ref. 2059); 75°N -   8°N, 82°W -   50°E (Ref. 42249)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 3 - 14.5, mean 7.9 °C (based on 1203 cells).				
 				 				
 				
 					
@@ -4299,8 +4299,8 @@ Anguilla-anguilla;"Marine; freshwater; brackish;  demersal; catadromous (Ref. 51
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Bufo-bufo;NA;nonvenomous;NA;NA
-Xiphias-gladius;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2878 m (Ref. 116993), usually 0 - 550 m (Ref. 54934). Temperate; 5°C - 27°C (Ref. 43); 69°N -   50°S, 180°W -   180°E (Ref. 54934)";nonvenomous;;"Preferred temperature (Ref. 123201): 10.9 - 27.6, mean 22.7 °C (based on 5276 cells).				
+"Bufo-bufo",NA,"nonvenomous",NA,NA
+"Xiphias-gladius","Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2878 m (Ref. 116993), usually 0 - 550 m (Ref. 54934). Temperate; 5°C - 27°C (Ref. 43); 69°N -   50°S, 180°W -   180°E (Ref. 54934)","nonvenomous","","Preferred temperature (Ref. 123201): 10.9 - 27.6, mean 22.7 °C (based on 5276 cells).				
 				 				
 				
 					
@@ -4340,8 +4340,8 @@ Xiphias-gladius;"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth ran
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-olypterus-senegalus;NA;nonvenomous;NA;NA
-Oncorhynchus-mykiss;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 200 m (Ref. 50550). Subtropical; 10°C - 24°C (Ref. 12741); 67°N -   32°N, 135°E -   117°W";nonvenomous;Potential pest;"Preferred temperature (Ref. 123201): 1.3 - 10, mean 5.4 °C (based on 315 cells).				
+"olypterus-senegalus",NA,"nonvenomous",NA,NA
+"Oncorhynchus-mykiss","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 200 m (Ref. 50550). Subtropical; 10°C - 24°C (Ref. 12741); 67°N -   32°N, 135°E -   117°W","nonvenomous","Potential pest","Preferred temperature (Ref. 123201): 1.3 - 10, mean 5.4 °C (based on 315 cells).				
 				 				
 				
 					
@@ -4381,7 +4381,7 @@ Oncorhynchus-mykiss;"Marine; freshwater; brackish;  benthopelagic; anadromous (R
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Megalops-cyprinoides;"Marine; freshwater; brackish;  benthopelagic; amphidromous; depth range 50 - ? m (Ref. 2847). Tropical; 34°N -   37°S, 16°E -   130°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 19.8 - 27.6, mean 24.4 °C (based on 501 cells).				
+"Megalops-cyprinoides","Marine; freshwater; brackish;  benthopelagic; amphidromous; depth range 50 - ? m (Ref. 2847). Tropical; 34°N -   37°S, 16°E -   130°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 19.8 - 27.6, mean 24.4 °C (based on 501 cells).				
 				 				
 				
 					
@@ -4421,7 +4421,7 @@ Megalops-cyprinoides;"Marine; freshwater; brackish;  benthopelagic; amphidromous
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Lucifuga-dentata;"Freshwater;  demersal. Tropical; 22°N -   20°N";nonvenomous;Harmless;"Comments & Corrections
+"Lucifuga-dentata","Freshwater;  demersal. Tropical; 22°N -   20°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4442,7 +4442,7 @@ Lucifuga-dentata;"Freshwater;  demersal. Tropical; 22°N -   20°N";nonvenomous;
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Nothobranchius-furzeri;"Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 4 - 15; non-migratory. Tropical; 23°C - 30°C (Ref. 2060); 21°S -   23°S";nonvenomous;Harmless;"Comments & Corrections
+"Nothobranchius-furzeri","Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 4 - 15; non-migratory. Tropical; 23°C - 30°C (Ref. 2060); 21°S -   23°S","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4463,8 +4463,8 @@ Nothobranchius-furzeri;"Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH rang
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-eolamprologus-brichardi;NA;nonvenomous;NA;NA
-Clarias-magur;"Freshwater;  demersal. Tropical";nonvenomous;Harmless;"Comments & Corrections
+"eolamprologus-brichardi",NA,"nonvenomous",NA,NA
+"Clarias-magur","Freshwater;  demersal. Tropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4485,7 +4485,7 @@ Clarias-magur;"Freshwater;  demersal. Tropical";nonvenomous;Harmless;"Comments &
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Electrophorus-electricus;"Freshwater;  benthopelagic. Tropical; 23°C - 28°C (Ref. 1672)";nonvenomous;Other;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Electrophorus-electricus","Freshwater;  benthopelagic. Tropical; 23°C - 28°C (Ref. 1672)","nonvenomous","Other","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -4519,7 +4519,7 @@ Electrophorus-electricus;"Freshwater;  benthopelagic. Tropical; 23°C - 28°C (R
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Etheostoma-cragini;"Freshwater;  benthopelagic. Subtropical; 40°N -   33°N";nonvenomous;Harmless;"Comments & Corrections
+"Etheostoma-cragini","Freshwater;  benthopelagic. Subtropical; 40°N -   33°N","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4540,7 +4540,7 @@ Etheostoma-cragini;"Freshwater;  benthopelagic. Subtropical; 40°N -   33°N";no
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Cyclopterus-lumpus;"Marine;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 868 m (Ref. 58496), usually 50 - 150 m (Ref. 4701). Polar; 3°C - 11°C (Ref. 127841); 80°N -   32°N, 95°W -   49°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.6 - 11.4, mean 7.1 °C (based on 732 cells).				
+"Cyclopterus-lumpus","Marine;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 868 m (Ref. 58496), usually 50 - 150 m (Ref. 4701). Polar; 3°C - 11°C (Ref. 127841); 80°N -   32°N, 95°W -   49°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.6 - 11.4, mean 7.1 °C (based on 732 cells).				
 				 				
 				
 					
@@ -4580,7 +4580,7 @@ Cyclopterus-lumpus;"Marine;  benthopelagic; oceanodromous (Ref. 51243); depth ra
 										
 					
 											Price category  (Ref. 80766):  						Low."
-Esox-lucius;"Freshwater; brackish;  pelagic; potamodromous; depth range 0 - 30 m (Ref. 1998), usually 1 - 5 m (Ref. 1998). Subtropical; 10°C - 28°C (Ref. 12741); 72°N -   37°N, 11°W -   55°W (Ref. 121102)";nonvenomous;Potential pest;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5157   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Esox-lucius","Freshwater; brackish;  pelagic; potamodromous; depth range 0 - 30 m (Ref. 1998), usually 1 - 5 m (Ref. 1998). Subtropical; 10°C - 28°C (Ref. 12741); 72°N -   37°N, 11°W -   55°W (Ref. 121102)","nonvenomous","Potential pest","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5157   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -4614,8 +4614,8 @@ Esox-lucius;"Freshwater; brackish;  pelagic; potamodromous; depth range 0 - 30 m
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Ameiurus-melas;"Freshwater;  demersal; pH range: 6.5 - 8.0; dH range: 4 - 25; amphidromous (Ref. 51243); depth range 10 - ? m. Temperate; 8°C - 30°C (Ref. 2059); 52°N -   26°N";nonvenomous;Potential pest;"Nutrients  (Ref. 124155):  Calcium = 26.2 [14.2, 56.7] mg/100g ; Iron = 0.454 [0.256, 0.749] mg/100g ; Protein = 17.2 [15.2, 19.0] % ; Omega3 = 1.23 [0.46, 3.30] g/100g ; Selenium = 17 [7, 43] μg/100g ; VitaminA = 20.3 [6.4, 62.9] μg/100g ; Zinc = 0.612 [0.409, 0.891] mg/100g (wet weight);"
-Channa-argus;"Freshwater;  benthopelagic. Subtropical; 4°C - 22°C (Ref. 2060); 54°N -   25°N, 111°E -   141°E";nonvenomous;Potential pest (Ref. 45309);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Ameiurus-melas","Freshwater;  demersal; pH range: 6.5 - 8.0; dH range: 4 - 25; amphidromous (Ref. 51243); depth range 10 - ? m. Temperate; 8°C - 30°C (Ref. 2059); 52°N -   26°N","nonvenomous","Potential pest","Nutrients  (Ref. 124155):  Calcium = 26.2 [14.2, 56.7] mg/100g ; Iron = 0.454 [0.256, 0.749] mg/100g ; Protein = 17.2 [15.2, 19.0] % ; Omega3 = 1.23 [0.46, 3.30] g/100g ; Selenium = 17 [7, 43] μg/100g ; VitaminA = 20.3 [6.4, 62.9] μg/100g ; Zinc = 0.612 [0.409, 0.891] mg/100g (wet weight);"
+"Channa-argus","Freshwater;  benthopelagic. Subtropical; 4°C - 22°C (Ref. 2060); 54°N -   25°N, 111°E -   141°E","nonvenomous","Potential pest (Ref. 45309)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -4649,8 +4649,8 @@ Channa-argus;"Freshwater;  benthopelagic. Subtropical; 4°C - 22°C (Ref. 2060);
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Xenopus-tropicalis;NA;nonvenomous;NA;NA
-Oncorhynchus-kisutch;"Marine; freshwater; brackish;  pelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Subtropical; 0°C - 25°C (Ref. 35682); 72°N -   22°N, 135°E -   111°W (Ref. 117423)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 1 - 8.9, mean 3.9 °C (based on 453 cells).				
+"Xenopus-tropicalis",NA,"nonvenomous",NA,NA
+"Oncorhynchus-kisutch","Marine; freshwater; brackish;  pelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Subtropical; 0°C - 25°C (Ref. 35682); 72°N -   22°N, 135°E -   111°W (Ref. 117423)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 1 - 8.9, mean 3.9 °C (based on 453 cells).				
 				 				
 				
 					
@@ -4690,7 +4690,7 @@ Oncorhynchus-kisutch;"Marine; freshwater; brackish;  pelagic; anadromous (Ref. 5
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Pangasianodon-hypophthalmus;"Freshwater;  benthopelagic; pH range: 6.5 - 7.5; dH range: 2 - 29; potamodromous (Ref. 51243). Tropical; 22°C - 26°C (Ref. 13371); 19°N -   8°N";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Pangasianodon-hypophthalmus","Freshwater;  benthopelagic; pH range: 6.5 - 7.5; dH range: 2 - 29; potamodromous (Ref. 51243). Tropical; 22°C - 26°C (Ref. 13371); 19°N -   8°N","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -4724,7 +4724,7 @@ Pangasianodon-hypophthalmus;"Freshwater;  benthopelagic; pH range: 6.5 - 7.5; dH
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Gadus-morhua;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 600 m (Ref. 1371), usually 150 - 200 m (Ref. 54441). Temperate; 0°C - 15°C; 83°N -   35°N, 76°W -   86°E (Ref. 1371)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.5 - 10.3, mean 6.6 °C (based on 769 cells).				
+"Gadus-morhua","Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 600 m (Ref. 1371), usually 150 - 200 m (Ref. 54441). Temperate; 0°C - 15°C; 83°N -   35°N, 76°W -   86°E (Ref. 1371)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.5 - 10.3, mean 6.6 °C (based on 769 cells).				
 				 				
 				
 					
@@ -4764,7 +4764,7 @@ Gadus-morhua;"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); dept
 										
 					
 											Price category  (Ref. 80766):  						Medium."
-Takifugu-flavidus;"Marine;  demersal. Temperate";nonvenomous;Poisonous to eat (Ref. 559);"Preferred temperature (Ref. 123201): 13.7 - 22.8, mean 18.6 °C (based on 36 cells).				
+"Takifugu-flavidus","Marine;  demersal. Temperate","nonvenomous","Poisonous to eat (Ref. 559)","Preferred temperature (Ref. 123201): 13.7 - 22.8, mean 18.6 °C (based on 36 cells).				
 				 				
 				
 					
@@ -4795,8 +4795,8 @@ Takifugu-flavidus;"Marine;  demersal. Temperate";nonvenomous;Poisonous to eat (R
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (33 of 100)."
-Bagarius-yarrelli;"Freshwater; brackish;  benthopelagic; pH range: 6.5 - 7.8; dH range: 12 - 30; potamodromous (Ref. 51243). Tropical; 18°C - 25°C (Ref. 2060)";nonvenomous;Harmless;"Nutrients  (Ref. 124155):  Calcium = 40 [15, 84] mg/100g ; Iron = 0.536 [0.254, 1.225] mg/100g ; Protein = 16 [14, 18] % ; Omega3 = 0.0789 [, ] g/100g ; Selenium = 47.7 [14.7, 154.7] μg/100g ; VitaminA = 22 [4, 108] μg/100g ; Zinc = 1.42 [0.83, 2.42] mg/100g (wet weight);"
-Danionella-translucida;"Freshwater;  benthopelagic. Tropical";nonvenomous;Harmless;"Comments & Corrections
+"Bagarius-yarrelli","Freshwater; brackish;  benthopelagic; pH range: 6.5 - 7.8; dH range: 12 - 30; potamodromous (Ref. 51243). Tropical; 18°C - 25°C (Ref. 2060)","nonvenomous","Harmless","Nutrients  (Ref. 124155):  Calcium = 40 [15, 84] mg/100g ; Iron = 0.536 [0.254, 1.225] mg/100g ; Protein = 16 [14, 18] % ; Omega3 = 0.0789 [, ] g/100g ; Selenium = 47.7 [14.7, 154.7] μg/100g ; VitaminA = 22 [4, 108] μg/100g ; Zinc = 1.42 [0.83, 2.42] mg/100g (wet weight);"
+"Danionella-translucida","Freshwater;  benthopelagic. Tropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -4817,7 +4817,7 @@ Danionella-translucida;"Freshwater;  benthopelagic. Tropical";nonvenomous;Harmle
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Takifugu-rubripes;"Marine; freshwater; brackish;  demersal; non-migratory. Temperate; 46°N -   21°N, 119°E -   142°E";nonvenomous;Poisonous to eat (Ref. 637);"Preferred temperature (Ref. 123201): 13.5 - 23, mean 19 °C (based on 96 cells).				
+"Takifugu-rubripes","Marine; freshwater; brackish;  demersal; non-migratory. Temperate; 46°N -   21°N, 119°E -   142°E","nonvenomous","Poisonous to eat (Ref. 637)","Preferred temperature (Ref. 123201): 13.5 - 23, mean 19 °C (based on 96 cells).				
 				 				
 				
 					
@@ -4855,7 +4855,7 @@ Takifugu-rubripes;"Marine; freshwater; brackish;  demersal; non-migratory. Tempe
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Salmo-trutta;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 28 m (Ref. 101587), usually 1 - 2 m (Ref. 101587). Subtropical; 18°C - 24°C (Ref. 12741); 71°N -   34°N, 25°W -   57°E";nonvenomous;Potential pest;"Preferred temperature (Ref. 123201): 6.5 - 15.8, mean 10.1 °C (based on 918 cells).				
+"Salmo-trutta","Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 28 m (Ref. 101587), usually 1 - 2 m (Ref. 101587). Subtropical; 18°C - 24°C (Ref. 12741); 71°N -   34°N, 25°W -   57°E","nonvenomous","Potential pest","Preferred temperature (Ref. 123201): 6.5 - 15.8, mean 10.1 °C (based on 918 cells).				
 				 				
 				
 					
@@ -4895,7 +4895,7 @@ Salmo-trutta;"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 5
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Echeneis-naucrates;"Marine; brackish;  reef-associated; depth range 1 - 85 m (Ref. 86942). Subtropical; 45°N -   45°S, 180°W -   180°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 18.3 - 28.6, mean 27.2 °C (based on 566 cells).				
+"Echeneis-naucrates","Marine; brackish;  reef-associated; depth range 1 - 85 m (Ref. 86942). Subtropical; 45°N -   45°S, 180°W -   180°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 18.3 - 28.6, mean 27.2 °C (based on 566 cells).				
 				 				
 				
 					
@@ -4933,7 +4933,7 @@ Echeneis-naucrates;"Marine; brackish;  reef-associated; depth range 1 - 85 m (Re
 										
 					
 											Price category  (Ref. 80766):  						High."
-Takifugu-bimaculatus;"Marine;  demersal. Subtropical";nonvenomous;Poisonous to eat (Ref. 42715);"Comments & Corrections
+"Takifugu-bimaculatus","Marine;  demersal. Subtropical","nonvenomous","Poisonous to eat (Ref. 42715)","Comments & Corrections
 			
 			
 			
@@ -4954,7 +4954,7 @@ Takifugu-bimaculatus;"Marine;  demersal. Subtropical";nonvenomous;Poisonous to e
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Cottoperca-gobio;"Marine;  demersal. Subtropical; 34°S -   57°S, 76°W -   53°W";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 6.8 - 13.7, mean 9 °C (based on 281 cells).				
+"Cottoperca-gobio","Marine;  demersal. Subtropical; 34°S -   57°S, 76°W -   53°W","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 6.8 - 13.7, mean 9 °C (based on 281 cells).				
 				 				
 				
 					
@@ -4993,7 +4993,7 @@ Cottoperca-gobio;"Marine;  demersal. Subtropical; 34°S -   57°S, 76°W -   53�
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 71.9 [40.2, 145.7] mg/100g ; Iron = 1.23 [0.75, 2.11] mg/100g ; Protein = 17.9 [15.5, 21.1] % ; Omega3 = 0.282 [0.173, 0.476] g/100g ; Selenium = 23.7 [11.3, 52.3] μg/100g ; VitaminA = 11.2 [3.6, 34.7] μg/100g ; Zinc = 0.603 [0.419, 0.897] mg/100g (wet weight); based on nutrient studies."
-Labrus-bergylta;"Marine;  reef-associated; depth range 1 - 50 m (Ref. 5292), usually 2 - 30 m (Ref. 35388). Temperate; 64°N -   27°N, 32°W -   22°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 8.7 - 13.3, mean 10.5 °C (based on 376 cells).				
+"Labrus-bergylta","Marine;  reef-associated; depth range 1 - 50 m (Ref. 5292), usually 2 - 30 m (Ref. 35388). Temperate; 64°N -   27°N, 32°W -   22°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 8.7 - 13.3, mean 10.5 °C (based on 376 cells).				
 				 				
 				
 					
@@ -5033,7 +5033,7 @@ Labrus-bergylta;"Marine;  reef-associated; depth range 1 - 50 m (Ref. 5292), usu
 										
 					
 											Price category  (Ref. 80766):  						High."
-Denticeps-clupeoides;"Freshwater;  pelagic. Tropical; 20°C - 25°C (Ref. 13614); 7°N -   4°N, 2°E -   9°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Denticeps-clupeoides","Freshwater;  pelagic. Tropical; 20°C - 25°C (Ref. 13614); 7°N -   4°N, 2°E -   9°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -5067,7 +5067,7 @@ Denticeps-clupeoides;"Freshwater;  pelagic. Tropical; 20°C - 25°C (Ref. 13614)
 										
 					
 											Price category  (Ref. 80766):  						High."
-Gouania-willdenowi;"Marine;  demersal; depth range 0 - 2 m (Ref. 123696). Subtropical; 45°N -   30°N, 1°W -   36°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 17.7 - 21.8, mean 19.3 °C (based on 464 cells).				
+"Gouania-willdenowi","Marine;  demersal; depth range 0 - 2 m (Ref. 123696). Subtropical; 45°N -   30°N, 1°W -   36°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 17.7 - 21.8, mean 19.3 °C (based on 464 cells).				
 				 				
 				
 					
@@ -5106,8 +5106,8 @@ Gouania-willdenowi;"Marine;  demersal; depth range 0 - 2 m (Ref. 123696). Subtro
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 229 [39, 929] mg/100g ; Iron = 1.53 [0.53, 5.20] mg/100g ; Protein = 3.01 [0.00, 6.87] % ; Omega3 = 0.246 [0.093, 0.680] g/100g ; Selenium = 5.31 [1.05, 20.19] μg/100g ; VitaminA = 58.3 [13.0, 249.9] μg/100g ; Zinc = 1.68 [0.78, 3.62] mg/100g (wet weight);"
-Parambassis-ranga;"Freshwater; brackish;  demersal; pH range: 7.0 - 8.0; dH range: 9 - 19; potamodromous (Ref. 51243). Tropical; 20°C - 30°C (Ref. 1672); 38°N -   1°N";nonvenomous;Harmless;"Nutrients  (Ref. 124155):  Calcium = 678 [434, 1,182] mg/100g ; Iron = 1.63 [1.04, 2.50] mg/100g ; Protein = 16.8 [15.2, 18.6] % ; Omega3 = 0.172 [0.079, 0.380] g/100g ; Selenium = 26.3 [10.5, 59.5] μg/100g ; VitaminA = 72.5 [35.1, 147.7] μg/100g ; Zinc = 2.32 [1.66, 3.18] mg/100g (wet weight); based on nutrient studies."
-Siganus-virgatus;"Marine; brackish;  reef-associated; depth range 1 - ? m (Ref. 48637), usually 1 - 20 m (Ref. 27115). Tropical; 23°C - 28°C (Ref. 27115); 35°N -   25°S, 77°E -   154°E";venomous;Venomous (Ref. 4537);"Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.3 °C (based on 1192 cells).				
+"Parambassis-ranga","Freshwater; brackish;  demersal; pH range: 7.0 - 8.0; dH range: 9 - 19; potamodromous (Ref. 51243). Tropical; 20°C - 30°C (Ref. 1672); 38°N -   1°N","nonvenomous","Harmless","Nutrients  (Ref. 124155):  Calcium = 678 [434, 1,182] mg/100g ; Iron = 1.63 [1.04, 2.50] mg/100g ; Protein = 16.8 [15.2, 18.6] % ; Omega3 = 0.172 [0.079, 0.380] g/100g ; Selenium = 26.3 [10.5, 59.5] μg/100g ; VitaminA = 72.5 [35.1, 147.7] μg/100g ; Zinc = 2.32 [1.66, 3.18] mg/100g (wet weight); based on nutrient studies."
+"Siganus-virgatus","Marine; brackish;  reef-associated; depth range 1 - ? m (Ref. 48637), usually 1 - 20 m (Ref. 27115). Tropical; 23°C - 28°C (Ref. 27115); 35°N -   25°S, 77°E -   154°E","venomous","Venomous (Ref. 4537)","Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.3 °C (based on 1192 cells).				
 				 				
 				
 					
@@ -5145,7 +5145,7 @@ Siganus-virgatus;"Marine; brackish;  reef-associated; depth range 1 - ? m (Ref. 
 										
 					
 											Price category  (Ref. 80766):  						High."
-Scophthalmus-maximus;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 20 - 70 m (Ref. 6302). Temperate; 70°N -   30°N, 25°W -   42°E";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 5.9 - 11.9, mean 9.4 °C (based on 239 cells).				
+"Scophthalmus-maximus","Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 20 - 70 m (Ref. 6302). Temperate; 70°N -   30°N, 25°W -   42°E","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 5.9 - 11.9, mean 9.4 °C (based on 239 cells).				
 				 				
 				
 					
@@ -5185,7 +5185,7 @@ Scophthalmus-maximus;"Marine; brackish;  demersal; oceanodromous (Ref. 51243); d
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Cynoglossus-semilaevis;"Marine; freshwater; brackish;  demersal. Subtropical";nonvenomous;Harmless;"Comments & Corrections
+"Cynoglossus-semilaevis","Marine; freshwater; brackish;  demersal. Subtropical","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -5206,7 +5206,7 @@ Cynoglossus-semilaevis;"Marine; freshwater; brackish;  demersal. Subtropical";no
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Salvelinus-alpinus;"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 70 m (Ref. 30578), usually 0 - 1 m (Ref. 101587). Temperate; 4°C - 16°C (Ref. 2059); 82°N -   41°N, 180°W -   180°E (Ref. 117475)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 0.1 - 9.7, mean 1.9 °C (based on 316 cells).				
+"Salvelinus-alpinus","Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 70 m (Ref. 30578), usually 0 - 1 m (Ref. 101587). Temperate; 4°C - 16°C (Ref. 2059); 82°N -   41°N, 180°W -   180°E (Ref. 117475)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 0.1 - 9.7, mean 1.9 °C (based on 316 cells).				
 				 				
 				
 					
@@ -5246,7 +5246,7 @@ Salvelinus-alpinus;"Marine; freshwater; brackish;  benthopelagic; anadromous (Re
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Oryzias-latipes;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; amphidromous (Ref. 51243). Subtropical; 18°C - 24°C (Ref. 2060); 55°N -   10°N, 85°E -   105°E";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Oryzias-latipes","Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; amphidromous (Ref. 51243). Subtropical; 18°C - 24°C (Ref. 2060); 55°N -   10°N, 85°E -   105°E","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -5273,7 +5273,7 @@ Oryzias-latipes;"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH r
 				
 									
 					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100)."
-Monopterus-albus;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 3 - ? m (Ref. 2686). Tropical; 25°C - 28°C (Ref. 2060); 34°N -   6°S";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Monopterus-albus","Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 3 - ? m (Ref. 2686). Tropical; 25°C - 28°C (Ref. 2060); 34°N -   6°S","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -5307,7 +5307,7 @@ Monopterus-albus;"Freshwater; brackish;  demersal; potamodromous (Ref. 51243); d
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Paralichthys-olivaceus;"Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 200 m (Ref. 11230). Subtropical; 62°N -   1°N, 99°E -   163°E (Ref. 54698)";nonvenomous;Harmless;"Preferred temperature (Ref. 123201): 8.6 - 25, mean 18.8 °C (based on 241 cells).				
+"Paralichthys-olivaceus","Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 200 m (Ref. 11230). Subtropical; 62°N -   1°N, 99°E -   163°E (Ref. 54698)","nonvenomous","Harmless","Preferred temperature (Ref. 123201): 8.6 - 25, mean 18.8 °C (based on 241 cells).				
 				 				
 				
 					
@@ -5347,7 +5347,7 @@ Paralichthys-olivaceus;"Marine;  demersal; oceanodromous (Ref. 51243); depth ran
 										
 					
 											Price category  (Ref. 80766):  						Very high."
-Lepisosteus-oculatus;"Freshwater; brackish;  demersal. Subtropical; 12°C - 20°C (Ref. 2060); 52°N -   24°N, 99°W -   74°W";nonvenomous;Harmless;"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Lepisosteus-oculatus","Freshwater; brackish;  demersal. Subtropical; 12°C - 20°C (Ref. 2060); 52°N -   24°N, 99°W -   74°W","nonvenomous","Harmless","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -5381,7 +5381,7 @@ Lepisosteus-oculatus;"Freshwater; brackish;  demersal. Subtropical; 12°C - 20°
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Austrofundulus-limnaeus;"Freshwater;  benthopelagic; non-migratory. Tropical; 22°C - 26°C (Ref. 2060)";nonvenomous;Harmless;"Comments & Corrections
+"Austrofundulus-limnaeus","Freshwater;  benthopelagic; non-migratory. Tropical; 22°C - 26°C (Ref. 2060)","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
@@ -5402,8 +5402,8 @@ Austrofundulus-limnaeus;"Freshwater;  benthopelagic; non-migratory. Tropical; 22
 				Accessed through: Not available
 								FishBase mirror site : localhost
 							Page last modified by : mrius-barile - 20 July 2016"
-Sebastiscus-marmoratus;"Marine;  demersal; oceanodromous (Ref. 51243). Tropical";venomous;Venomous (Ref. 57406);"Nutrients  (Ref. 124155):  Calcium = 147 [48, 378] mg/100g ; Iron = 1.3 [0.6, 2.8] mg/100g ; Protein = 17.5 [15.7, 19.3] % ; Omega3 = 0.406 [0.173, 1.105] g/100g ; Selenium = 69.5 [32.9, 184.0] μg/100g ; VitaminA = 34.3 [12.9, 94.7] μg/100g ; Zinc = 1.04 [0.59, 1.59] mg/100g (wet weight);"
-Scorpaenopsis-oxycephala;"Marine;  reef-associated; depth range ? - 400 m (Ref. 100719). Tropical; 30°N -   36°S, 24°E -   171°E";venomous;Venomous (Ref. 2334);"Preferred temperature (Ref. 123201): 20.3 - 28.3, mean 26.5 °C (based on 973 cells).				
+"Sebastiscus-marmoratus","Marine;  demersal; oceanodromous (Ref. 51243). Tropical","venomous","Venomous (Ref. 57406)","Nutrients  (Ref. 124155):  Calcium = 147 [48, 378] mg/100g ; Iron = 1.3 [0.6, 2.8] mg/100g ; Protein = 17.5 [15.7, 19.3] % ; Omega3 = 0.406 [0.173, 1.105] g/100g ; Selenium = 69.5 [32.9, 184.0] μg/100g ; VitaminA = 34.3 [12.9, 94.7] μg/100g ; Zinc = 1.04 [0.59, 1.59] mg/100g (wet weight);"
+"Scorpaenopsis-oxycephala","Marine;  reef-associated; depth range ? - 400 m (Ref. 100719). Tropical; 30°N -   36°S, 24°E -   171°E","venomous","Venomous (Ref. 2334)","Preferred temperature (Ref. 123201): 20.3 - 28.3, mean 26.5 °C (based on 973 cells).				
 				 				
 				
 					
@@ -5442,7 +5442,7 @@ Scorpaenopsis-oxycephala;"Marine;  reef-associated; depth range ? - 400 m (Ref. 
 				
 					
 						Nutrients  (Ref. 124155):  Calcium = 40.3 [19.1, 89.5] mg/100g ; Iron = 0.523 [0.282, 1.489] mg/100g ; Protein = 18.2 [16.3, 20.2] % ; Omega3 = 0.247 [0.109, 0.685] g/100g ; Selenium = 48.3 [25.0, 121.0] μg/100g ; VitaminA = 110 [38, 316] μg/100g ; Zinc = 1.12 [0.77, 1.62] mg/100g (wet weight);"
-Hypodytes-rubripinnis;"Marine;  reef-associated. Tropical";venomous;Venomous (Ref. 559);"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+"Hypodytes-rubripinnis","Marine;  reef-associated. Tropical","venomous","Venomous (Ref. 559)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
 					
                 
                     					
@@ -5476,7 +5476,7 @@ Hypodytes-rubripinnis;"Marine;  reef-associated. Tropical";venomous;Venomous (Re
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Synanceia-verrucosa;"Marine;  reef-associated; non-migratory; depth range 0 - 30 m (Ref. 37816). Tropical; 30°N -   30°S, 30°E -   139°W";venomous;Venomous (Ref. 4690);"Preferred temperature (Ref. 123201): 24.9 - 29.3, mean 28.3 °C (based on 3300 cells).				
+"Synanceia-verrucosa","Marine;  reef-associated; non-migratory; depth range 0 - 30 m (Ref. 37816). Tropical; 30°N -   30°S, 30°E -   139°W","venomous","Venomous (Ref. 4690)","Preferred temperature (Ref. 123201): 24.9 - 29.3, mean 28.3 °C (based on 3300 cells).				
 				 				
 				
 					
@@ -5514,7 +5514,7 @@ Synanceia-verrucosa;"Marine;  reef-associated; non-migratory; depth range 0 - 30
 										
 					
 											Price category  (Ref. 80766):  						Unknown."
-Tetraodon-nigroviridis;"Freshwater; brackish;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19. Tropical; 24°C - 28°C (Ref. 30491)";nonvenomous;Harmless;"Comments & Corrections
+"Tetraodon-nigroviridis","Freshwater; brackish;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19. Tropical; 24°C - 28°C (Ref. 30491)","nonvenomous","Harmless","Comments & Corrections
 			
 			
 			
