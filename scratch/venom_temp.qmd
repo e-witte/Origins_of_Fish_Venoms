@@ -64,11 +64,13 @@ for (i in 1:length(all_links)) {
 } ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary. 
 
 ##Create and curate data frame
-sum_dat <- all_fish_data %>% 
+sum_dat <- all_fish_data %>% #create a smaller data frame containing the variables of interest
   select(habitat, threat_to_humans, model_predictions)
-colnames(sum_dat) <- c("habitat", "threat_to_humans", "model_predictions")
+colnames(sum_dat) <- c("habitat", "threat_to_humans", "model_predictions") #keep both habitat and model predictions because temperature may be taken from both.
 sum_dat<- sum_dat %>% mutate(species = dat$Species, .before = habitat)
-view(sum_dat)
+view(sum_dat) 
 
-sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_humans)
+sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates 
+
+write_csv2(sum_dat, "data/sum_dat.csv") # write file. 
 
