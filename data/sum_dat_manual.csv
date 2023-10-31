@@ -1,0 +1,5369 @@
+species,venom_stat(threat_to_humans),habitat,model_predictions,temp_min,temp_max
+Synanceia-horrida,venomous,Marine; brackish;  reef-associated; depth range 0 - 40 m (Ref. 90102). Tropical,"Preferred temperature (Ref. 123201): 24.4 - 29, mean 27.9 °C (based on 874 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01622 (0.00606 - 0.04338), b=3.06 (2.84 - 3.28), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.8 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (44 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 35.7 [17.6, 70.5] mg/100g ; Iron = 0.558 [0.288, 1.280] mg/100g ; Protein = 18.2 [16.6, 19.7] % ; Omega3 = 0.19 [0.08, 0.49] g/100g ; Selenium = 32.4 [16.6, 74.8] μg/100g ; VitaminA = 125 [40, 395] μg/100g ; Zinc = 1.21 [0.84, 1.76] mg/100g (wet weight);",24.4,29
+Betta-splendens,nonvenomous,"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 24°C - 30°C (Ref. 1672); 22°N -   8°N, 99°E -   107°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00977 (0.00367 - 0.02602), b=2.97 (2.74 - 3.20), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.41 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1; multiple annual spawning; Fec to 390).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",24,30
+Gadus-macrocephalus,nonvenomous,"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 10 - 1280 m (Ref. 50550), usually 100 - 400 m (Ref. 54440). Boreal; 6°C - 9°C (Ref. 11800); 63°N -   31°N, 119°E -   119°W (Ref. 54440)","Preferred temperature (Ref. 123201): 0.5 - 6.4, mean 2.9 °C (based on 495 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00724 (0.00626 - 0.00839), b=3.10 (3.06 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.2   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Musick et al. 2000 (Ref. 36717); tmax=25; tm=3-8; K=0.11-0.27; Fec >1million).					
+								
+					
+						 Prior r = 0.34, 95% CL = 0.22 - 0.51, Based on 7 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (50 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (45 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",6,9
+Carassius-carassius,nonvenomous,"Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 2163). Temperate; 2°C - 22°C (Ref. 1672); 69°N -   35°N, 10°W -   169°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01349 (0.01053 - 0.01727), b=3.04 (3.00 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.24 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 3.7 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=2).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (39 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",2,22
+Centropristis-striata,venomous,Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - ? m (Ref. 9988). Temperate; 45°N -   25°N,"Nutrients  (Ref. 124155):  Calcium = 10.3 [5.8, 21.8] mg/100g ; Iron = 0.206 [0.105, 0.391] mg/100g ; Protein = 18.8 [16.9, 20.6] % ; Omega3 = 0.401 [0.220, 0.718] g/100g ; Selenium = 9.98 [4.95, 22.14] μg/100g ; VitaminA = 60 [17, 246] μg/100g ; Zinc = 0.411 [0.270, 0.632] mg/100g (wet weight);",,
+Onychostoma-macrolepis,nonvenomous,Freshwater;  benthopelagic. Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Hemibagrus-wyckioides,nonvenomous,Freshwater;  demersal; potamodromous (Ref. 51243). Subtropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01122 (0.00624 - 0.02017), b=2.99 (2.84 - 3.14), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.60 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (78 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 16.8 [3.2, 67.2] mg/100g ; Iron = 0.731 [0.261, 2.245] mg/100g ; Protein = 17.7 [15.6, 19.7] % ; Omega3 = 0.35 [0.13, 0.89] g/100g ; Selenium = 52.7 [20.1, 125.3] μg/100g ; VitaminA = 26.9 [4.8, 146.3] μg/100g ; Zinc = 0.82 [0.55, 1.24] mg/100g (wet weight);",,
+Triplophysa-rosa,nonvenomous,Freshwater;  demersal. Subtropical; 13°C -  ? (Ref. 57680),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00708 (0.00335 - 0.01497), b=3.00 (2.83 - 3.17), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",13,?
+Triplophysa-dalaica,nonvenomous,Freshwater;  benthopelagic. Temperate,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Seriola-aureovittata,nonvenomous,"Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E","Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01862 (0.01003 - 0.03456), b=2.92 (2.75 - 3.09), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.2   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.13; tm=2; tmax=12).					
+								
+					
+						 Prior r = 0.28, 95% CL = 0.16 - 0.49, Based on 5 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (69 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (50 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",18,24
+Salvelinus-fontinalis,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 15 - 27 m (Ref. 3899). Temperate; 0°C - 25°C (Ref. 35682); 61°N -   34°N, 124°W -   52°W (Ref. 86798)","Preferred temperature (Ref. 123201): 1.5 - 10.7, mean 4.5 °C (based on 47 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00912 (0.00779 - 0.01068), b=3.03 (2.98 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=1-3; tmax=7).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (63 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",0,25
+Leucoraja-erinacea,nonvenomous,"Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 914 m (Ref. 106604). Temperate; 49°N -   33°N, 78°W -   59°W (Ref. 55277)","Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Poeciliopsis-prolifica,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: ? - 8.0; dH range: 2 - 10. Subtropical; 24°C - 28°C (Ref. 2059),"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",24,28
+Amphiprion-ocellaris,nonvenomous,"Marine;  reef-associated; non-migratory; depth range 1 - 15 m (Ref. 7247), usually 3 - 15 m (Ref. 55267). Tropical; 46°N -   17°S, 92°E -   147°E (Ref. 55267)","Preferred temperature (Ref. 123201): 26.2 - 29.3, mean 28.7 °C (based on 1746 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01479 (0.00648 - 0.03378), b=3.00 (2.80 - 3.20), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.36 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1; Fec=600).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 115 [69, 209] mg/100g ; Iron = 0.909 [0.558, 1.451] mg/100g ; Protein = 18.6 [17.5, 19.6] % ; Omega3 = 0.142 [0.086, 0.235] g/100g ; Selenium = 18.8 [10.6, 37.0] μg/100g ; VitaminA = 223 [75, 636] μg/100g ; Zinc = 1.84 [1.26, 2.60] mg/100g (wet weight);",26.2,29.3
+Dunckerocampus-dactyliophorus,nonvenomous,Marine;  reef-associated; depth range 5 - 56 m (Ref. 1602). Tropical; 33°N -   26°S,"Preferred temperature (Ref. 123201): 24.8 - 29, mean 27.8 °C (based on 672 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5078   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00085 (0.00032 - 0.00225), b=3.04 (2.81 - 3.27), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.55 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 93.5 [54.0, 188.5] mg/100g ; Iron = 0.776 [0.447, 1.440] mg/100g ; Protein = 18.2 [17.0, 19.3] % ; Omega3 = 0.128 [0.074, 0.232] g/100g ; Selenium = 37.4 [19.3, 82.4] μg/100g ; VitaminA = 78.1 [26.7, 221.2] μg/100g ; Zinc = 1.39 [0.94, 2.00] mg/100g (wet weight);",24.8,29
+Anoplopoma-fimbria,nonvenomous,"Marine;  bathydemersal; oceanodromous (Ref. 51243); depth range 175 - 2740 m (Ref. 6793), usually 175 - 1450 m (Ref. 10935). Deep-water; 64°N -   23°N, 141°E -   109°W","Preferred temperature (Ref. 123201): 1.4 - 5.5, mean 2.5 °C (based on 599 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.2500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01096 (0.00786 - 0.01529), b=2.99 (2.89 - 3.09), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.8 (4.9 - 7.8) years. Estimated as median ln(3)/K based on 23 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (K=0.2; tm=6; Fec=100,000; tmax=94).					
+								
+					
+						 Prior r = 0.11, 95% CL = 0.06 - 0.16, Based on 5 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (49 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High vulnerability (58 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",1.4,5.5
+Synchiropus-splendidus,nonvenomous,"Marine;  reef-associated; depth range 1 - 18 m (Ref. 9710), usually 1 - 18 m (Ref. 27115). Tropical","Preferred temperature (Ref. 123201): 25 - 29.3, mean 28.6 °C (based on 1677 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01175 (0.00533 - 0.02588), b=3.01 (2.82 - 3.20), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 173 [102, 321] mg/100g ; Iron = 1.07 [0.65, 1.70] mg/100g ; Protein = 18.8 [17.8, 19.8] % ; Omega3 = 0.162 [0.097, 0.270] g/100g ; Selenium = 22.9 [12.2, 42.7] μg/100g ; VitaminA = 122 [42, 355] μg/100g ; Zinc = 2.37 [1.61, 3.38] mg/100g (wet weight);",25,29.3
+Acanthochromis-polyacanthus,nonvenomous,"Marine;  reef-associated; non-migratory; depth range 1 - 65 m (Ref. 9710), usually 4 - 20 m (Ref. 90102). Tropical; 15°N -   26°S, 116°E -   169°E (Ref. 56301)","Preferred temperature (Ref. 123201): 25.1 - 28.9, mean 27.8 °C (based on 458 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.03236 (0.01934 - 0.05413), b=3.04 (2.89 - 3.19), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.7   ±0.30 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (13 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 112 [57, 167] mg/100g ; Iron = 0.861 [0.520, 1.422] mg/100g ; Protein = 18.3 [17.1, 19.4] % ; Omega3 = 0.121 [0.074, 0.195] g/100g ; Selenium = 36.9 [20.2, 68.6] μg/100g ; VitaminA = 50.9 [13.7, 180.6] μg/100g ; Zinc = 1.67 [1.14, 2.38] mg/100g (wet weight);",25.1,28.9
+Erpetoichthys-calabaricus,nonvenomous,Freshwater; brackish;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; depth range 0 - ? m (Ref. 557). Tropical; 22°C - 28°C (Ref. 1672),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00162 (0.00111 - 0.00237), b=3.03 (2.92 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.40 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tmax=20; Fec = 264).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (35 of 100).",,
+Dicentrarchus-labrax,nonvenomous,"Marine; freshwater; brackish;  demersal; oceanodromous; depth range 10 - 100 m (Ref. 9987). Subtropical; 8°C - 24°C (Ref. 4944); 72°N -   11°N, 19°W -   42°E (Ref. 54221)","Preferred temperature (Ref. 123201): 7.3 - 19.5, mean 10.7 °C (based on 788 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7656   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00776 - 0.01122), b=3.02 (2.96 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.50 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 7.8 (5.0 - 11.0) years. Estimated as median ln(3)/K based on 33 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.06-0.33; tm=2-8; tmax=30; Fec=230,000).					
+								
+					
+						 Prior r = 0.54, 95% CL = 0.35 - 0.84, Based on 14 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (66 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (47 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",8,24
+Lates-calcarifer,nonvenomous,"Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 10 - 40 m (Ref. 7261). Tropical; 15°C - 28°C (Ref. 2060); 49°N -   26°S, 56°E -   155°E (Ref. 54239)","Preferred temperature (Ref. 123201): 25 - 29.1, mean 28.3 °C (based on 710 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5006   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01000 (0.00634 - 0.01577), b=3.00 (2.87 - 3.13), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.60 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.09-0.13; tm=1-5; Fec = 15,300,000).					
+								
+					
+						 Prior r = 0.58, 95% CL = 0.38 - 0.87, Based on 13 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (70 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (72 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",25,29.1
+Syngnathus-scovelli,nonvenomous,"Marine; freshwater; brackish;  demersal; depth range 0 - 6 m (Ref. 26938), usually ? - 6 m (Ref. 26938). Tropical","Preferred temperature (Ref. 123201): 23.3 - 28.1, mean 27.2 °C (based on 814 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00028 (0.00012 - 0.00065), b=3.21 (3.03 - 3.39), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.45 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tmax=3).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (12 of 100).",23.3,28.1
+Scomber-japonicus,nonvenomous,"Marine;  pelagic-neritic; oceanodromous (Ref. 51243); depth range 0 - 300 m (Ref. 168), usually 50 - 200 m (Ref. 35185). Subtropical; 10°C - 27°C (Ref. 35185); 60°N -   48°S, 116°E -   70°W","Preferred temperature (Ref. 123201): 9.3 - 27.7, mean 20.7 °C (based on 1526 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00741 (0.00663 - 0.00829), b=3.05 (3.02 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 3.6 (3.1 - 5.0) years. Estimated as median ln(3)/K based on 24 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.12-0.22; tm=2-3; tmax=18).					
+								
+					
+						 Prior r = 0.48, 95% CL = 0.32 - 0.73, Based on 3 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (31 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Low vulnerability (24 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",10,27
+Xyrauchen-texanus,nonvenomous,Freshwater;  demersal; potamodromous (Ref. 51243). Temperate; 37°N -   34°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Pristis-pectinata,nonvenomous,Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 10 - 88 m (Ref. 114953). Subtropical; 16°C - 30°C,"Preferred temperature (Ref. 123201): 22.9 - 28, mean 27.1 °C (based on 776 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5234   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00407 (0.00162 - 0.01028), b=3.02 (2.80 - 3.24), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.80 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 32.3 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Fec=15).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (84 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",16,30
+Ctenopharyngodon-idella,nonvenomous,"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 30 m (Ref. 6898). Subtropical; 0°C - 35°C (Ref. 52059); 50°N -   23°N, 100°E -   142°E (Ref. 48)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00803 - 0.01085), b=3.09 (3.05 - 3.13), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.00 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.13-0.19; tm=2-10; tmax=21; Fec=50,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (69 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",0,35
+Labeo-rohita,nonvenomous,Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m (Ref. 4832). Tropical; 32°N -   21°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00813 (0.00699 - 0.00945), b=3.08 (3.05 - 3.11), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.2   ±0.12 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 4.0 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=3; tmax=10).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (48 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",,
+Epinephelus-moara,nonvenomous,"Marine;  reef-associated; depth range 20 - 200 m (Ref. 5222). Tropical; 38°N -   18°N, 108°E -   142°E (Ref. 5222)","Preferred temperature (Ref. 123201): 17.7 - 23.7, mean 20.5 °C (based on 94 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01148 (0.00671 - 0.01964), b=3.06 (2.92 - 3.20), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.0   ±0.66 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (82 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",17.7,23.7
+Epinephelus-fuscoguttatus,nonvenomous,"Marine;  reef-associated; depth range 1 - 60 m (Ref. 9710). Tropical; 29°N -   27°S, 33°E -   171°W (Ref. 5222)","Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.2 °C (based on 1118 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01047 (0.00700 - 0.01565), b=3.03 (2.91 - 3.15), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.1   ±0.72 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.16-0.20).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (57 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Very high vulnerability (91 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",25.4,29.1
+Brienomyrus-brachyistius,nonvenomous,Freshwater; brackish;  benthopelagic. Tropical; 25°C - 28°C (Ref. 2060),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00581 - 0.01499), b=2.71 (2.58 - 2.84), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.8   ±0.31 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming Fec < 5,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",25,28
+Thunnus-albacares,nonvenomous,"Marine; brackish;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 1 - 1602 m, usually 1 - 250 m (Ref. 6390). Tropical; 15°C - 31°C (Ref. 168); 50°N -   50°S, 180°W -   180°E","Preferred temperature (Ref. 123201): 16.5 - 28.9, mean 26.7 °C (based on 6382 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5039   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01445 (0.01182 - 0.01768), b=3.03 (2.99 - 3.07), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.4 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 2.8 (2.3 - 3.5) years. Estimated as median ln(3)/K based on 46 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.13-0.42; tm=2-5; tmax=8; Fec=200,000).					
+								
+					
+						 Prior r = 0.57, 95% CL = 0.37 - 0.85, Based on 5 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (46 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (42 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",15,31
+Siniperca-chuatsi,nonvenomous,"Freshwater;  benthopelagic; pH range: 7.0 - 7.4; dH range: 2 - 5; depth range 10 - ? m (Ref. 26334). Temperate; 4°C - 22°C (Ref. 2059); 53°N -   34°N, 113°E -   142°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01413 (0.01065 - 0.01873), b=3.00 (2.92 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.80 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 7.4 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=1-2).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (48 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",4,22
+Puntigrus-tetrazona,nonvenomous,"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 20°C - 26°C (Ref. 13371); 6°N -   3°S, 95°E -   118°E","Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",20,26
+Clupea-harengus,nonvenomous,"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 364 m (Ref. 58426), usually 0 - 200 m (Ref. 6683). Temperate; 1°C - 18°C (Ref. 188); 80°N -   33°N, 95°W -   70°E","Preferred temperature (Ref. 123201): 0.5 - 11.2, mean 6.6 °C (based on 912 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00550 (0.00483 - 0.00625), b=3.10 (3.06 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 3.3 (3.1 - 3.5) years. Estimated as median ln(3)/K based on 85 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (rm=0.1-0.5; K=0.2-0.6; tm=2-5; tmax=25; Fec=17,300-301,000).					
+								
+					
+						 Prior r = 0.45, 95% CL = 0.30 - 0.68, Based on 40 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (41 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Low to moderate vulnerability (29 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",1,18
+Plectropomus-leopardus,nonvenomous,24,?,,
+Thunnus-maccoyii,nonvenomous,"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 50 - 2743 m (Ref. 57178). Temperate; 5°C - 20°C (Ref. 168); 10°S -   60°S, 180°W -   180°E (Ref. 54921)","Preferred temperature (Ref. 123201): 2.5 - 7.9, mean 5 °C (based on 439 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5039   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01288 (0.01067 - 0.01556), b=3.03 (2.99 - 3.07), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.9   ±0.53 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.14-0.15; tm=8-9; tmax=20; Fec=14 million).					
+								
+					
+						 Prior r = 0.27, 95% CL = 0.18 - 0.41, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (67 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (38 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",,
+Nibea-albiflora,nonvenomous,"Marine;  benthopelagic; depth range 25 - 80 m (Ref. 11230). Temperate; 39°N -   18°N, 105°E -   135°E","Nutrients  (Ref. 124155):  Calcium = 33.4 [17.5, 69.7] mg/100g ; Iron = 0.315 [0.149, 0.588] mg/100g ; Protein = 18.8 [17.5, 20.1] % ; Omega3 = 0.603 [0.290, 1.145] g/100g ; Selenium = 14.9 [6.8, 31.8] μg/100g ; VitaminA = 16.9 [4.2, 71.0] μg/100g ; Zinc = 0.529 [0.363, 0.798] mg/100g (wet weight);",,
+Haplochromis-burtoni,nonvenomous,Freshwater;  benthopelagic; pH range: 8.5 - 9.0; dH range: 12 - 16; non-migratory. Tropical; 20°C - 25°C (Ref. 13371); 3°S -   9°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01479 (0.00690 - 0.03171), b=2.98 (2.81 - 3.15), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.35 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",20,25
+Toxotes-jaculatrix,nonvenomous,Freshwater; brackish;  pelagic-neritic; amphidromous (Ref. 51243). Tropical; 25°C - 30°C (Ref. 1672),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01660 (0.00632 - 0.04360), b=3.00 (2.77 - 3.23), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.6   ±0.27 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (20 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",25,30
+Gasterosteus-aculeatus,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 100 m (Ref. 50550). Subtropical; 4°C - 20°C (Ref. 1672); 72°N -   25°N, 117°E -   60°E (Ref. 26213)","Preferred temperature (Ref. 123201): 2 - 13.5, mean 8 °C (based on 2296 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00977 (0.00665 - 0.01435), b=3.09 (2.98 - 3.20), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (K=0.6-1.8; tm=1; tmax=4; Fec=80).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (24 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Low to moderate vulnerability (26 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",4,20
+Simochromis-diagramma,nonvenomous,Freshwater;  benthopelagic. Tropical; 25°C -  ? (Ref. 2059); 3°S -   9°S,25,?,
+Perca-fluviatilis,nonvenomous,"Freshwater; brackish;  demersal; pH range: 7.0 - 7.5; dH range: 8 - 12; anadromous (Ref. 51243); depth range 1 - 30 m (Ref. 9988), usually 3 - 4 m (Ref. 55947). Temperate; 10°C - 22°C (Ref. 1672); 74°N -   38°N, 91°W -   168°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00977 (0.00823 - 0.01161), b=3.09 (3.04 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.8 (5.3 - 7.3) years. Estimated as median ln(3)/K based on 38 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.1-0.4; tm=2-4; tmax=22; Fecundity=13,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (44 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,22
+Pimephales-promelas,nonvenomous,Freshwater;  demersal. Subtropical; 0°C - 33°C (Ref. 35682); 61°N -   29°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00851 (0.00615 - 0.01177), b=3.07 (2.98 - 3.16), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tmax=2).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (17 of 100).",0,33
+Oreochromis-aureus,nonvenomous,Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 8°C - 30°C (Ref. 2); 35°N -   10°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01778 (0.01389 - 0.02277), b=2.99 (2.95 - 3.03), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.1   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 2.2 (0.3 - 4.4) years. Estimated as median ln(3)/K based on 10 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (K=0.48-0.58; tm<1).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (26 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",8,30
+Micropterus-salmoides,nonvenomous,"Freshwater;  benthopelagic; pH range: 7.0 - 7.5; dH range: 10 - ?; depth range 0 - 6 m (Ref. 1998). Subtropical; 10°C - 32°C (Ref. 12741); 46°N -   24°N, 125°W -   65°W (Ref. 89798)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01047 (0.00902 - 0.01216), b=3.08 (3.03 - 3.13), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.4 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.2 (4.6 - 6.1) years. Estimated as median ln(3)/K based on 41 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.06-0.14; tm=3-5; tmax=16; Fec=2,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (42 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,32
+Cyprinodon-tularosa,nonvenomous,Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 26°C - 30°C (Ref. 13614); 34°N -   33°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",26,30
+Sebastes-umbrosus,nonvenomous,"Marine;  demersal; depth range 30 - 119 m (Ref. 2850), usually ? - 70 m (Ref. 2850). Subtropical; 37°N -   25°N, 123°W -   112°W","Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Pungitius-pungitius,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 110 m (Ref. 58426), usually 70 - 77 m (Ref. 1998). Boreal; 10°C - 20°C (Ref. 1672); 82°N -   35°N, 180°W -   180°E","Preferred temperature (Ref. 123201): 0.4 - 10.2, mean 4.1 °C (based on 169 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00490 (0.00255 - 0.00942), b=3.01 (2.83 - 3.19), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=1-2; tmax=5; Fec=350).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,20
+Acanthopagrus-latus,nonvenomous,"Marine; freshwater; brackish;  demersal. Subtropical; 34°N -   15°N, 105°E -   137°E","Preferred temperature (Ref. 123201): 21.7 - 28.5, mean 27.4 °C (based on 644 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01622 (0.01305 - 0.02015), b=2.96 (2.92 - 3.00), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.43 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.21; Fec=1,811,434).					
+								
+					
+						 Prior r = 0.53, 95% CL = 0.35 - 0.79, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (38 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (46 of 100).					
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 87.2 [43.9, 161.3] mg/100g ; Iron = 1.02 [0.56, 2.12] mg/100g ; Protein = 19.6 [18.5, 20.8] % ; Omega3 = 0.31 [0.18, 0.53] g/100g ; Selenium = 19.5 [9.0, 40.3] μg/100g ; VitaminA = 8.92 [2.50, 30.68] μg/100g ; Zinc = 0.745 [0.490, 1.109] mg/100g (wet weight);",21.7,28.5
+Fundulus-heteroclitus,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; non-migratory. Temperate; 10°C - 24°C (Ref. 12468); 52°N -   28°N, 82°W -   55°W","Preferred temperature (Ref. 123201): 6.1 - 23.7, mean 9.3 °C (based on 163 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00721 - 0.01208), b=3.17 (3.10 - 3.24), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.6   ±0.48 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 1.5 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm<1; tmax=4).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (19 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 82.9 [39.2, 188.9] mg/100g ; Iron = 0.442 [0.225, 0.881] mg/100g ; Protein = 17.9 [16.5, 19.2] % ; Omega3 = 0.594 [0.249, 1.464] g/100g ; Selenium = 4.78 [1.73, 11.60] μg/100g ; VitaminA = 29.2 [7.9, 115.4] μg/100g ; Zinc = 1.09 [0.70, 1.68] mg/100g (wet weight);",10,24
+Sander-lucioperca,nonvenomous,"Freshwater; brackish;  pelagic; potamodromous (Ref. 51243); depth range 2 - 30 m (Ref. 30578), usually 2 - 3 m (Ref. 27368). Temperate; 6°C - 22°C (Ref. 2059); 67°N -   36°N, 1°W -   75°E",,6,22
+Morone-saxatilis,nonvenomous,"Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 30 - ? m (Ref. 2850). Temperate; 8°C - 25°C (Ref. 47172); 49°N -   27°N, 94°W -   59°W (Ref. 86798)","Preferred temperature (Ref. 123201): 1 - 23.5, mean 9.3 °C (based on 22 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00743 - 0.01172), b=3.06 (2.99 - 3.13), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.7   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.12; tm=5-7; tmax=30; Fec=14,000).					
+								
+					
+						 Prior r = 0.28, 95% CL = 0.18 - 0.43, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (61 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High vulnerability (61 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",8,25
+Gymnodraco-acuticeps,nonvenomous,Marine;  demersal; depth range 0 - 550 m. Polar; 61°S -   78°S,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Pseudochaenichthys-georgianus,nonvenomous,"Marine;  demersal; depth range 0 - 475 m. Polar; 53°S -   73°S, 179°W -   24°W","Preferred temperature (Ref. 123201): -1.3 - 1.2, mean -0.1 °C (based on 18 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00646 (0.00292 - 0.01429), b=3.17 (2.97 - 3.37), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 4.5 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.24; tm=4; Fec = 4,666).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (47 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (73 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",-1.3,-1.2
+Trematomus-bernacchii,nonvenomous,"Marine;  demersal; depth range 0 - 700 m (Ref. 11892), usually 0 - 200 m (Ref. 45168). Polar; 61°S -   78°S","Preferred temperature (Ref. 123201): -1.8 - -0.8, mean -1.7 °C (based on 2076 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5005   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00537 (0.00282 - 0.01024), b=3.24 (3.07 - 3.41), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.9 (2.0 - 12.2) years. Estimated as median ln(3)/K based on 11 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.19-0.91; tm=3-6; tmax=10; Fec=1,200-3,123).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (53 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",-1.8,-0.8
+Anarrhichthys-ocellatus,nonvenomous,"Marine;  demersal; depth range 1 - 226 m (Ref. 2850). Temperate; 80°N -   26°N, 117°E -   111°W (Ref. 57366)","Preferred temperature (Ref. 123201): 1.2 - 10.5, mean 4.7 °C (based on 485 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00398 (0.00177 - 0.00897), b=3.17 (2.97 - 3.37), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.53 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm=7; Fec=10,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",1.2,10.5
+Chanos-chanos,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; amphidromous (Ref. 51243); depth range 1 - 30 m (Ref. 6898), usually ? - 15 m (Ref. 89972). Tropical; 15°C - 43°C (Ref. 43081); 46°N -   52°S, 19°E -   77°W","Preferred temperature (Ref. 123201): 20.7 - 29.2, mean 28.2 °C (based on 4182 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00851 (0.00651 - 0.01113), b=3.06 (2.98 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.4   ±0.20 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm=4-8; tmax=15; Fec=200,000).					
+								
+					
+						 Prior r = 0.28, 95% CL = 0.16 - 0.49, Based on 3 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (66 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",15,43
+Triplophysa-tibetana,nonvenomous,Freshwater;  benthopelagic. High altitude,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Archocentrus-centrarchus,nonvenomous,Freshwater;  benthopelagic. Tropical; 26°C - 36°C (Ref. 36880),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02291 (0.01073 - 0.04890), b=3.07 (2.89 - 3.25), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.6   ±0.28 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming Fec<1000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",26,36
+Sparus-aurata,nonvenomous,"Marine; brackish;  demersal; depth range 1 - 150 m (Ref. 35388), usually 1 - 30 m (Ref. 54890). Subtropical; 62°N -   15°N, 17°W -   43°E (Ref. 54890)","Preferred temperature (Ref. 123201): 12.1 - 21, mean 17.8 °C (based on 258 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01202 (0.01083 - 0.01334), b=3.02 (2.99 - 3.05), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 4.2 (3.0 - 6.4) years. Estimated as median ln(3)/K based on 12 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.28; tmax=11; tm=2-3).					
+								
+					
+						 Prior r = 0.57, 95% CL = 0.37 - 0.85, Based on 7 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (40 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (41 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",12.1,21
+Sphaeramia-orbicularis,nonvenomous,"Marine;  reef-associated; depth range 0 - 5 m (Ref. 9710). Tropical; 31°N -   27°S, 32°E -   173°W","Preferred temperature (Ref. 123201): 26.3 - 29.3, mean 28.6 °C (based on 2452 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02138 (0.01200 - 0.03810), b=3.07 (2.91 - 3.23), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.6   ±0.51 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",26.3,29.3
+Collichthys-lucidus,nonvenomous,Marine;  demersal; oceanodromous (Ref. 51243); depth range ? - 90 m (Ref. 11230). Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Perca-flavescens,nonvenomous,"Freshwater; brackish;  benthopelagic; depth range 0 - 56 m (Ref. 11004), usually ? - 9 m (Ref. 1998). Subtropical; 0°C - 30°C (Ref. 35682); 66°N -   30°N, 124°W -   59°W (Ref. 86798)","Nutrients  (Ref. 124155):  Calcium = 30.3 [13.5, 69.8] mg/100g ; Iron = 0.379 [0.205, 0.696] mg/100g ; Protein = 17.5 [16.4, 18.6] % ; Omega3 = 0.157 [0.070, 0.345] g/100g ; Selenium = 18.5 [6.2, 51.4] μg/100g ; VitaminA = 26.1 [11.2, 61.2] μg/100g ; Zinc = 0.785 [0.530, 1.181] mg/100g (wet weight); based on nutrient studies.",0,30
+Anabarilius-grahami,nonvenomous,Freshwater;  benthopelagic. Subtropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00617 (0.00286 - 0.01328), b=3.08 (2.91 - 3.25), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming Fec < 10,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Oreochromis-niloticus,nonvenomous,"Freshwater; brackish;  benthopelagic; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 32849), usually ? - 20 m (Ref. 34290). Tropical; 14°C - 33°C (Ref. 3); 32°N -   5°S, 17°W -   38°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01820 (0.01525 - 0.02172), b=2.98 (2.94 - 3.02), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 2.9 (2.2 - 3.9) years. Estimated as median ln(3)/K based on 26 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.14-0.41; tm=1-2; tmax=9; Fec < 1,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (30 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",14,33
+Maylandia-zebra,nonvenomous,Freshwater;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19; depth range 6 - 28 m. Tropical; 22°C - 28°C (Ref. 1672); 8°S -   15°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01479 (0.00690 - 0.03171), b=2.98 (2.81 - 3.15), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.3   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",22,28
+Seriola-lalandi,nonvenomous,"Marine; brackish;  benthopelagic; depth range 3 - 825 m (Ref. 4517). Subtropical; 18°C - 24°C (Ref. 6390); 55°N -   57°S, 180°W -   180°E","Preferred temperature (Ref. 123201): 9 - 23, mean 14.9 °C (based on 1169 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01862 (0.01003 - 0.03456), b=2.92 (2.75 - 3.09), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.2   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.13; tm=2; tmax=12).					
+								
+					
+						 Prior r = 0.28, 95% CL = 0.16 - 0.49, Based on 5 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (69 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (50 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",18,24
+Seriola-dumerili,nonvenomous,"Marine;  reef-associated; oceanodromous (Ref. 51243); depth range 1 - 385 m (Ref. 11441), usually 18 - 72 m (Ref. 9626). Subtropical; 49°N -   36°S, 98°W -   128°E","Preferred temperature (Ref. 123201): 16.9 - 29, mean 27.1 °C (based on 3486 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01738 (0.01336 - 0.02261), b=2.91 (2.83 - 2.99), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.5 (3.9 - 5.8) years. Estimated as median ln(3)/K based on 11 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.18; tm=4; tmax=15).					
+								
+					
+						 Prior r = 0.59, 95% CL = 0.39 - 0.89, Based on 4 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (54 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High vulnerability (62 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",16.9,29
+Cyprinodon-variegatus,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 45°N -   0°N, 98°W -   49°W","Preferred temperature (Ref. 123201): 15.4 - 27.7, mean 26.7 °C (based on 572 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02692 (0.01222 - 0.05929), b=3.12 (2.92 - 3.32), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.4   ±0.1 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming tm<1 and Fec<1000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 200 [104, 445] mg/100g ; Iron = 1.36 [0.70, 2.71] mg/100g ; Protein = 17 [16, 18] % ; Omega3 = 0.251 [0.113, 0.552] g/100g ; Selenium = 10.3 [4.6, 25.5] μg/100g ; VitaminA = 21.2 [5.7, 77.3] μg/100g ; Zinc = 1.99 [1.28, 3.21] mg/100g (wet weight);",15.4,27.7
+Pundamilia-nyererei,nonvenomous,Freshwater;  benthopelagic; depth range 1 - 4 m (Ref. 4983). Tropical; 22°C - 28°C (Ref. 12468); 1°N -   3°S,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",22,28
+Dissostichus-eleginoides,nonvenomous,"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2144 m (Ref. 127764), usually 70 - 1500 m (Ref. 2121). Temperate; 33°S -   66°S, 77°W -   180°E (Ref. 54228)","Preferred temperature (Ref. 123201): 1.8 - 8.8, mean 4.5 °C (based on 1109 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00631 (0.00362 - 0.01099), b=3.15 (2.99 - 3.31), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.8 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Fec=230,000; tmax>=21).					
+								
+					
+						 Prior r = 0.38, 95% CL = 0.25 - 0.57, Based on 2 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (71 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (47 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",1.8,8.8
+Acipenser-oxyrinchus,nonvenomous,"Marine; freshwater; brackish;  demersal; anadromous (Ref. 51243); depth range 1 - 46 m (Ref. 4639). Subtropical; 56°N -   10°S, 102°W -   33°W (Ref. 54265)","Preferred temperature (Ref. 123201): 4.3 - 24.4, mean 17.3 °C (based on 268 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00191 (0.00103 - 0.00352), b=3.19 (3.03 - 3.35), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.50 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (K=0.03; tm=7-34; tmax=60; Fec=1.03 million).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (85 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",4.3,24.4
+Lates-japonicus,nonvenomous,Marine; freshwater; brackish;  demersal. Subtropical; 45°N -   24°N,,,
+Merluccius-polli,nonvenomous,"Marine;  bathydemersal; non-migratory; depth range 50 - 1248 m (Ref. 112558), usually 50 - 550 m (Ref. 58452). Deep-water; 29°N -   19°S, 19°W -   15°E (Ref. 58452)","Preferred temperature (Ref. 123201): 7.3 - 19.8, mean 14.2 °C (based on 93 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00447 (0.00242 - 0.00825), b=3.09 (2.93 - 3.25), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.63 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 2.8 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.39(?); assuming tm>=2).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (35 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High vulnerability (58 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",7.3,19.8
+Alosa-alosa,nonvenomous,"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 89642); depth range 10 - 300 m (Ref. 10536). Temperate; 61°N -   20°N, 17°W -   22°E","Preferred temperature (Ref. 123201): 7 - 15.6, mean 10.1 °C (based on 480 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00646 (0.00525 - 0.00794), b=3.08 (3.04 - 3.12), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.0   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.19-0.29; tm=3.5; tmax=10).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (36 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (47 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",7,15.6
+Megalobrama-amblycephala,nonvenomous,Freshwater;  benthopelagic; depth range 5 - 20 m (Ref. 6898). Temperate; 10°C - 20°C (Ref. 13614); 32°N -   23°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00912 (0.00760 - 0.01094), b=3.10 (3.05 - 3.15), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,20
+Girardinichthys-multiradiatus,nonvenomous,Freshwater;  demersal; pH range: 6.0 - 7.5; dH range: ? - 15. Temperate; 12°C - 20°C (Ref. 2060); 21°N -   19°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",12,20
+Micropterus-dolomieu,nonvenomous,"Freshwater;  benthopelagic; depth range 1 - 7 m (Ref. 120820). Subtropical; 9°C - 30°C (Ref. 1998); 50°N -   33°N, 95°W -   63°W (Ref. 86798)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01096 (0.00898 - 0.01339), b=3.05 (2.99 - 3.11), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.6   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 6.8 (5.2 - 7.3) years. Estimated as median ln(3)/K based on 26 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.10-0.28; tm=3-6; tmax=14; Fec=5,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (49 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",9,30
+Scatophagus-argus,venomous,"Marine; freshwater; brackish;  demersal; amphidromous (Ref. 51243); depth range 0 - 5 m (Ref. 90102). Tropical; 20°C - 28°C (Ref. 13371); 35°N -   33°S, 48°E -   171°W","Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.6 °C (based on 2701 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.8125   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.03236 (0.02371 - 0.04416), b=2.92 (2.83 - 3.01), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.0   ±0.35 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 0.9 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm=1; Fec=337,309; K=1.2).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (20 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",20,28
+Salmo-salar,nonvenomous,NA,NA,,
+Coregonus-clupeaformis,nonvenomous,"Freshwater; brackish;  benthopelagic; anadromous (Ref. 120291); depth range 8 - 128 m (Ref. 3849). Temperate; 8°C - 14°C (Ref. 1998); 72°N -   41°N, 149°W -   61°W (Ref. 86798)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00550 (0.00475 - 0.00635), b=3.23 (3.19 - 3.27), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.0 (4.2 - 6.4) years. Estimated as median ln(3)/K based on 34 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.06-0.19; tmax=50).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (51 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",8,14
+Gambusia-affinis,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous. Subtropical; 12°C - 29°C (Ref. 52055); 42°N -   26°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00832 (0.00673 - 0.01028), b=3.13 (3.07 - 3.19), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 1.4 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=1.20; tmax=3; Fec=10-60).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (38 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",12,29
+Oncorhynchus-tshawytscha,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 375 m (Ref. 58426). Temperate; 0°C - 25°C (Ref. 35682); 71°N -   27°N, 136°E -   112°W (Ref. 54251)","Preferred temperature (Ref. 123201): 0.7 - 8, mean 3.5 °C (based on 561 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01047 (0.00482 - 0.02276), b=3.04 (2.87 - 3.21), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.7 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=4; tmax=9; Fec=4,000).					
+								
+					
+						 Prior r = 0.38, 95% CL = 0.25 - 0.57, Based on 4 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (52 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",0,25
+Melanotaenia-boesemani,nonvenomous,Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19. Tropical; 27°C - 30°C (Ref. 2060); 1°S -   2°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01122 (0.00514 - 0.02450), b=3.04 (2.87 - 3.21), in cm total length, based on all LWR estimates for this BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.9   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",27,30
+Cheilinus-undulatus,nonvenomous,Marine;  reef-associated; depth range 0 - 100 m (Ref. 58652). Tropical; 30°N -   23°S,"Preferred temperature (Ref. 123201): 24.9 - 28.8, mean 27.5 °C (based on 580 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5078   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01479 (0.01141 - 0.01917), b=2.97 (2.89 - 3.05), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.0   ±0.61 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 27.5 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm = 5-7; tmax = 32).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (74 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",24.9,28.8
+Oryzias-melastigma,nonvenomous,Freshwater; brackish;  benthopelagic. Tropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Amblyraja-radiata,nonvenomous,"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 5 - 1540 m (Ref. 117245), usually 25 - 440 m (Ref. 114953). Boreal; -1°C - 14°C (Ref. 49751); 79°N -   38°N, 95°W -   54°E (Ref. 55275)","Preferred temperature (Ref. 123201): -0.8 - 5, mean 1 °C (based on 340 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5010   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00331 (0.00284 - 0.00386), b=3.23 (3.19 - 3.27), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.2   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.17; tm=4; Fec=13-20).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (51 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",-1,14
+Polypterus-senegalus,nonvenomous,"Freshwater;  demersal; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243). Tropical; 25°C - 28°C (Ref. 2060); 16°N -   2°S, 17°W -   37°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5002   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00457 (0.00321 - 0.00651), b=2.98 (2.88 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tmax=34 in Aquarium; Fec < 1,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (54 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",25,28
+Salvelinus-namaycush,nonvenomous,"Freshwater;  benthopelagic; non-migratory; depth range 3 - 61 m (Ref. 120394), usually 18 - 53 m (Ref. 1998). Temperate; 4°C - 13°C (Ref. 120394); 75°N -   38°N, 168°W -   67°W (Ref. 86798)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00832 (0.00713 - 0.00971), b=3.02 (2.98 - 3.06), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.3   ±0.5 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 9.0 (4.5 - 12.2) years. Estimated as median ln(3)/K based on 12 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.05-0.12; tm=5-20; tmax=50; Fec=5,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (64 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",4,13
+Scyliorhinus-canicula,nonvenomous,"Marine;  demersal; depth range 10 - 780 m (Ref. 56504), usually 80 - 100 m (Ref. 81056). Subtropical; 63°N -   3°N, 32°W -   37°E","Preferred temperature (Ref. 123201): 7.2 - 16.2, mean 10.1 °C (based on 28 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00151 (0.00128 - 0.00179), b=3.20 (3.15 - 3.25), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.8   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.20; tm=9; Fec=96).					
+								
+					
+						 Prior r = 0.35, 95% CL = 0.23 - 0.53, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (62 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (53 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",7.2,16.2
+Kryptolebias-marmoratus,nonvenomous,"Freshwater; brackish;  benthopelagic; pH range: ? - 7.5; dH range: ? - 16; non-migratory; depth range 0 - ? m (Ref. 55170). Tropical; 18°C - 24°C (Ref. 2060); 31°N -   3°N, 93°W -   49°W (Ref. 55170)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5039   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00389 (0.00180 - 0.00842), b=3.12 (2.94 - 3.30), in cm total length, based on all LWR estimates for this BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.48 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm=0.5).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",18,24
+Pygocentrus-nattereri,nonvenomous,Freshwater;  pelagic; pH range: 5.5 - 7.5; dH range: ? - 20. Subtropical; 23°C - 27°C (Ref. 13371); 9°N -   34°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02089 (0.01363 - 0.03202), b=3.16 (3.04 - 3.28), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.61 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 1.7 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.89; tm=1; Fec=4,000-5,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (44 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",23,27
+Syngnathus-acus,nonvenomous,"Marine; brackish;  demersal; non-migratory (Ref. 88171); depth range 0 - 110 m (Ref. 4281), usually 3 - 15 m (Ref. 126547). Subtropical; 71°N -   35°S, 19°W -   42°E","Preferred temperature (Ref. 123201): 10.3 - 22.6, mean 17.7 °C (based on 934 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00025 (0.00019 - 0.00032), b=3.21 (3.15 - 3.27), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Fec=200).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (40 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 54.6 [12.4, 151.7] mg/100g ; Iron = 1.02 [0.39, 3.52] mg/100g ; Protein = 3.7 [0.1, 7.5] % ; Omega3 = 0.286 [0.130, 0.629] g/100g ; Selenium = 22.8 [5.1, 60.3] μg/100g ; VitaminA = 9.35 [4.02, 21.44] μg/100g ; Zinc = 0.838 [0.431, 1.605] mg/100g (wet weight);",10.3,22.6
+Colossoma-macropomum,nonvenomous,Freshwater;  benthopelagic; pH range: 5.0 - 7.8; dH range: ? - 20; potamodromous (Ref. 51243); depth range 5 - ? m. Tropical; 22°C - 28°C (Ref. 1672); 15°S -   35°S,"Nutrients  (Ref. 124155):  Calcium = 43.6 [17.8, 103.8] mg/100g ; Iron = 1.09 [0.51, 2.44] mg/100g ; Protein = 17.6 [15.5, 19.7] % ; Omega3 = 0.28 [0.10, 0.78] g/100g ; Selenium = 125 [45, 312] μg/100g ; VitaminA = 14 [4, 47] μg/100g ; Zinc = 1.43 [0.94, 2.22] mg/100g (wet weight); based on nutrient studies.",22,28
+Neolamprologus-brichardi,nonvenomous,Freshwater;  benthopelagic; pH range: 8.0 - 9.0; dH range: 9 - 19. Tropical; 22°C - 25°C (Ref. 1672); 3°S -   6°S,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",22,25
+Thalassophryne-amazonica,venomous,Freshwater;  demersal. Tropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00501 (0.00190 - 0.01323), b=3.15 (2.92 - 3.38), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.5 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Epinephelus-lanceolatus,nonvenomous,"Marine; brackish;  reef-associated; depth range 1 - 200 m (Ref. 89972), usually ? - 50 m (Ref. 37816). Tropical; 29°N -   39°S, 24°E -   122°W (Ref. 5222)","Preferred temperature (Ref. 123201): 24.3 - 29.1, mean 28.1 °C (based on 1346 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01175 (0.00558 - 0.02474), b=3.04 (2.88 - 3.20), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.0   ±0.60 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",24.3,29.1
+Anabas-testudineus,nonvenomous,Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 0 - ? m (Ref. 4833). Tropical; 22°C - 30°C (Ref. 1672); 28°N -   10°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02399 (0.01795 - 0.03206), b=2.93 (2.85 - 3.01), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.0   ±0.4 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 0.8 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Assuming tm=1; K=1.4; Fec=40,000-80,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (15 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",22,30
+Mastacembelus-armatus,nonvenomous,Freshwater; brackish;  demersal; pH range: 6.5 - 7.5; dH range: ? - 15; potamodromous (Ref. 51243). Tropical; 22°C - 28°C (Ref. 1672); 38°N -   1°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00372 (0.00271 - 0.00509), b=2.90 (2.81 - 2.99), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.8   ±0.27 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (56 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",22,28
+Xiphophorus-hellerii,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 22°C - 28°C (Ref. 52054); 26°N -   12°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01000 (0.00606 - 0.01650), b=3.06 (2.92 - 3.20), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.43 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1; Fec=20-200 * 12).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",22,28
+Etheostoma-spectabile,nonvenomous,Freshwater;  benthopelagic. Temperate; 4°C - 18°C (Ref. 2059); 43°N -   30°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",4,18
+Salarias-fasciatus,nonvenomous,"Marine; brackish;  reef-associated; depth range 0 - 8 m (Ref. 9710). Tropical; 30°N -   23°S, 32°E -   169°W","Preferred temperature (Ref. 123201): 25.4 - 29.3, mean 28.5 °C (based on 2623 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5001   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00851 (0.00448 - 0.01616), b=3.02 (2.85 - 3.19), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",25.4,29.3
+Myripristis-murdjan,nonvenomous,Marine;  reef-associated; depth range 1 - 50 m (Ref. 9710). Tropical; 30°N -   35°S,"Preferred temperature (Ref. 123201): 24.7 - 29, mean 28 °C (based on 1080 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01820 (0.01108 - 0.02990), b=3.06 (2.92 - 3.20), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (44 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",24.7,29
+Oncorhynchus-nerka,nonvenomous,"Marine; freshwater; brackish;  pelagic-oceanic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Temperate; 0°C - 25°C (Ref. 35682); 72°N -   42°N, 130°E -   109°W (Ref. 117423)","Preferred temperature (Ref. 123201): 1 - 8.4, mean 4.2 °C (based on 374 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01047 (0.00482 - 0.02276), b=3.04 (2.87 - 3.21), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 2.9 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.37-0.58; tm=2-4; tmax=7; Fec=300).					
+								
+					
+						 Prior r = 0.56, 95% CL = 0.37 - 0.85, Based on 6 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (31 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (72 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",1,8.4
+Scleropages-formosus,nonvenomous,Freshwater;  benthopelagic. Tropical; 24°C - 30°C (Ref. 2060),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00427 (0.00176 - 0.01033), b=3.10 (2.89 - 3.31), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.9   ±0.63 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm = 3-4; Fec = 50 (in concrete tanks)).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (56 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",24,30
+Xiphophorus-couchianus,nonvenomous,Freshwater;  benthopelagic; non-migratory. Tropical; 27°C - 30°C (Ref. 2060),"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",27,30
+Larimichthys-crocea,nonvenomous,"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 120 m (Ref. 43239). Temperate; 38°N -   13°N, 106°E -   141°E","Preferred temperature (Ref. 123201): 20.8 - 24.7, mean 22.8 °C (based on 54 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00891 (0.00583 - 0.01363), b=3.07 (2.95 - 3.19), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.56 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 5.2 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming tm=2-4).					
+								
+					
+						 Prior r = 0.30, 95% CL = 0.20 - 0.45, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (42 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Very high vulnerability (88 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",20.8,24.7
+Carassius-auratus,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19; potamodromous (Ref. 51243); depth range 0 - 20 m (Ref. 6898). Subtropical; 0°C - 41°C (Ref. 35682); 53°N -   22°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01288 (0.01105 - 0.01502), b=3.04 (3.00 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.17; tm=1; tmax=30).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (38 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",0,41
+Astatotilapia-calliptera,nonvenomous,Freshwater;  benthopelagic. Tropical; 24°C - 28°C (Ref. 2059); 13°S -   21°S,,24,28
+Paramormyrops-kingsleyae,nonvenomous,Freshwater;  benthopelagic. Tropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5005   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01318 (0.00615 - 0.02826), b=2.86 (2.68 - 3.04), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming Fec < 5,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Xiphophorus-maculatus,nonvenomous,"Freshwater;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 25°C (Ref. 1672); 23°N -   17°N, 99°W -   86°W","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01023 (0.00456 - 0.02295), b=3.13 (2.94 - 3.32), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.40 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",18,25
+Danio-rerio,nonvenomous,"Freshwater;  benthopelagic; pH range: 6.0 - 8.0; dH range: 5 - 19. Tropical; 18°C - 24°C (Ref. 1672); 33°N -   8°N, 66°E -   98°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00977 (0.00416 - 0.02293), b=3.04 (2.84 - 3.24), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tmax=5.5 (in captivity); tm<1; multiple spawning per year; Fec=400-500).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (11 of 100).",18,24
+Hippocampus-comes,nonvenomous,"Marine;  reef-associated; non-migratory; depth range 0 - 32 m (Ref. 128812). Tropical; 15°N -   10°S, 91°E -   128°E","Preferred temperature (Ref. 123201): 28.3 - 29.3, mean 28.8 °C (based on 688 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00447 (0.00175 - 0.01142), b=3.00 (2.78 - 3.22), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.5 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+						 Generation time: 0.6 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm=0.5-1).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",28.3,29.3
+Poecilia-reticulata,nonvenomous,"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; non-migratory. Tropical; 18°C - 28°C (Ref. 1672); 14°N -   2°N, 67°W -   52°W","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01288 (0.00929 - 0.01787), b=3.13 (3.07 - 3.19), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.40 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 0.3 (0.2 - 0.6) years. Estimated as median ln(3)/K based on 14 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm=0.16-0.25; Fec=20-40 with multiple spawning per year).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (33 of 100).",18,28
+Sinocyclocheilus-rhinocerous,nonvenomous,Freshwater;  benthopelagic. Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Poecilia-formosa,nonvenomous,Freshwater; brackish;  benthopelagic; non-migratory. Subtropical; 27°N -   25°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01318 (0.00567 - 0.03066), b=3.14 (2.96 - 3.32), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.5   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Sinocyclocheilus-anshuiensis,nonvenomous,Freshwater;  benthopelagic. Subtropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01148 (0.00535 - 0.02462), b=3.02 (2.85 - 3.19), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.9   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Sinocyclocheilus-grahami,nonvenomous,Freshwater;  benthopelagic. Temperate,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00603 (0.00279 - 0.01304), b=3.12 (2.93 - 3.31), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.9   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",,
+Poecilia-mexicana,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: 7.0 - 7.5; dH range: 20 - 30; non-migratory. Tropical; 22°C - 28°C (Ref. 12468); 19°N -   14°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",22,28
+Poecilia-latipinna,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; non-migratory; depth range 0 - ? m (Ref. 55263). Subtropical; 20°C - 28°C (Ref. 2060); 40°N -   16°N, 103°W -   76°W (Ref. 55263)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01288 (0.00763 - 0.02175), b=3.05 (2.91 - 3.19), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.00 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm<1; mutiple spawning per year; Fec=10--300).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",20,28
+Latimeria-chalumnae,nonvenomous,"Marine;  demersal; non-migratory; depth range 150 - 700 m (Ref. 38430), usually 180 - 250 m (Ref. 27564). Deep-water; 13°C - 25°C (Ref. 38429); 3°S -   34°S, 25°E -   51°E (Ref. 46167)","Preferred temperature (Ref. 123201): 13.4 - 18.3, mean 15.6 °C (based on 16 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.2539   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01230 (0.00844 - 0.01794), b=3.03 (2.92 - 3.14), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.72 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Very Low, minimum population doubling time more than 14 years (K=0.02; tmax=85; tm=40-69; Fec=5).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).",13,25
+Notothenia-coriiceps,nonvenomous,"Marine;  demersal; depth range 0 - 550 m. Polar; 46°S -   78°S, 180°W -   180°E","Preferred temperature (Ref. 123201): -1.7 - 2.4, mean -0.6 °C (based on 170 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5078   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00661 (0.00540 - 0.00808), b=3.21 (3.15 - 3.27), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.8   ±0.35 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Assuming tm>4).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (60 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (50 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",-1.7,2.4
+Stegastes-partitus,nonvenomous,"Marine;  reef-associated; non-migratory; depth range 0 - 100 m (Ref. 9626). Tropical; 33°N -   5°S, 98°W -   34°W","Preferred temperature (Ref. 123201): 24.2 - 28, mean 26.9 °C (based on 262 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01230 (0.00569 - 0.02662), b=3.06 (2.87 - 3.25), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.0   ±0.00 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 123 [65, 204] mg/100g ; Iron = 0.889 [0.533, 1.467] mg/100g ; Protein = 18.2 [17.1, 19.3] % ; Omega3 = 0.157 [0.098, 0.256] g/100g ; Selenium = 30.7 [16.8, 59.7] μg/100g ; VitaminA = 111 [31, 375] μg/100g ; Zinc = 2.37 [1.62, 3.37] mg/100g (wet weight);",24.2,28
+Cyprinus-carpio,nonvenomous,"Freshwater; brackish;  benthopelagic; pH range: 6.5 - 9.0; dH range: 10 - 15; potamodromous (Ref. 51243); depth range 0 - 29 m (Ref. 120823). Subtropical; 3°C - 35°C (Ref. 12741); 54°N -   34°N, 12°E -   74°E (Ref. 59043)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01778 (0.01633 - 0.01937), b=2.95 (2.92 - 2.98), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.4 (3.7 - 6.5) years. Estimated as median ln(3)/K based on 42 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.10-0.30; tm=1-3; tmax=20; Fec=36,000-2,000,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (42 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",3,35
+Silurus-meridionalis,nonvenomous,Freshwater;  demersal. Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Oncorhynchus-keta,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550), usually ? - 61 m (Ref. 96339). Temperate; 0°C - 24°C (Ref. 35682); 67°N -   24°N, 130°E -   110°W (Ref. 117423)","Preferred temperature (Ref. 123201): 1.1 - 8.3, mean 3.3 °C (based on 192 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01445 (0.00741 - 0.02819), b=3.10 (2.94 - 3.26), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.27-0.45; tm=2-5; tmax=6).					
+								
+					
+						 Prior r = 0.57, 95% CL = 0.37 - 0.85, Based on 7 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (49 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (71 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",1.1,8.3
+Carassius-gibelio,nonvenomous,"Freshwater; brackish;  benthopelagic; pH range: 7.1 - 7.5; dH range: 12 - ?; potamodromous (Ref. 51243); depth range 0 - ? m. Temperate; 10°C - 20°C (Ref. 2059); 62°N -   35°N, 10°W -   155°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5156   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01349 (0.01150 - 0.01583), b=3.04 (3.00 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.5   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 6.1 (4.7 - 6.1) years. Estimated as median ln(3)/K based on 21 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.13; tm=1-4).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (51 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,20
+Solea-senegalensis,nonvenomous,"Marine;  demersal; depth range 12 - 100 m (Ref. 5304). Tropical; 47°N -   16°S, 19°W -   14°E","Preferred temperature (Ref. 123201): 13.6 - 21.6, mean 18.6 °C (based on 46 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00813 (0.00541 - 0.01221), b=3.06 (2.94 - 3.18), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.45 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 6.2 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (49 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (43 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",13.6,21.6
+Albula-glossodonta,nonvenomous,"Brackish;  reef-associated; oceanodromous (Ref. 51243); depth range ? - 10 m (Ref. 89972). Tropical; 32°N -   32°S, 42°E -   139°W","Preferred temperature (Ref. 123201): 24.6 - 29.3, mean 28.1 °C (based on 2148 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5007   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01318 (0.00552 - 0.03150), b=3.04 (2.83 - 3.25), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.2 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+						 Generation time: 10.6 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (54 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",24.6,29.3
+Astyanax-mexicanus,nonvenomous,Freshwater;  benthopelagic; potamodromous (Ref. 47195). Subtropical; 36°N -   24°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Nematolebias-whitei,nonvenomous,Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 5 - 8; non-migratory. Tropical; 20°C - 23°C (Ref. 1672),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00891 (0.00396 - 0.02008), b=3.14 (2.94 - 3.34), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (tm=0.1).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",20,23
+Megalops-atlanticus,nonvenomous,"Marine; freshwater; brackish;  reef-associated; amphidromous (Ref. 51243); depth range 0 - 40 m (Ref. 3789), usually 0 - 15 m (Ref. 42064). Subtropical; 10°C - 40°C (Ref. 93687); 49°N -   44°S, 99°W -   14°E (Ref. 55254)",,10,40
+Caranx-melampygus,nonvenomous,"Marine; brackish;  reef-associated; depth range 0 - 190 m (Ref. 9710). Tropical; 35°N -   35°S, 30°E -   78°W","Preferred temperature (Ref. 123201): 23.2 - 29, mean 27.9 °C (based on 2624 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01738 (0.01430 - 0.02112), b=2.95 (2.92 - 2.98), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.8 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.23; tm=2; Fec=49,700).					
+								
+					
+						 Prior r = 0.69, 95% CL = 0.45 - 1.03, Based on 3 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (56 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (75 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",23.2,29
+Alosa-sapidissima,nonvenomous,"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 6793). Subtropical; 54°N -   28°N, 84°W -   52°W (Ref. 86798)","Preferred temperature (Ref. 123201): 0.5 - 11.5, mean 5.6 °C (based on 113 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00646 (0.00393 - 0.01061), b=3.08 (2.94 - 3.22), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 5.5 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.14; tm=4.7).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (50 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (44 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",0.5,11.5
+Chelmon-rostratus,nonvenomous,Marine; brackish;  reef-associated; non-migratory; depth range 1 - 25 m (Ref. 9710). Tropical,"Preferred temperature (Ref. 123201): 24.7 - 29.3, mean 28.5 °C (based on 3215 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01148 (0.00431 - 0.03057), b=3.09 (2.87 - 3.31), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.37 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",24.7,29.3
+Anguilla-anguilla,nonvenomous,"Marine; freshwater; brackish;  demersal; catadromous (Ref. 51243); depth range 0 - 700 m (Ref. 54218). Temperate; 4°C - 20°C (Ref. 2059); 75°N -   8°N, 82°W -   50°E (Ref. 42249)","Preferred temperature (Ref. 123201): 3 - 14.5, mean 7.9 °C (based on 1203 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00095 (0.00084 - 0.00108), b=3.17 (3.13 - 3.21), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.6   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 8.7 (7.5 - 12.6) years. Estimated as median ln(3)/K based on 26 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.1; tm=6-30; tmax=23).					
+								
+					
+						 Prior r = 0.20, 95% CL = 0.13 - 0.30, Based on 2 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (68 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",4,20
+Xiphias-gladius,nonvenomous,"Marine;  pelagic-oceanic; oceanodromous (Ref. 51243); depth range 0 - 2878 m (Ref. 116993), usually 0 - 550 m (Ref. 54934). Temperate; 5°C - 27°C (Ref. 43); 69°N -   50°S, 180°W -   180°E (Ref. 54934)","Preferred temperature (Ref. 123201): 10.9 - 27.6, mean 22.7 °C (based on 5276 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00372 (0.00159 - 0.00868), b=3.15 (2.94 - 3.36), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 8.5 (6.1 - 10.8) years. Estimated as median ln(3)/K based on 13 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (rm=0.076; K=0.23; tm=5-6; tmax=9).					
+								
+					
+						 Prior r = 0.56, 95% CL = 0.37 - 0.85, Based on 8 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (72 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (43 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",5,27
+Polypterus-senegalus,nonvenomous,NA,NA,25,28
+Oncorhynchus-mykiss,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 200 m (Ref. 50550). Subtropical; 10°C - 24°C (Ref. 12741); 67°N -   32°N, 135°E -   117°W","Preferred temperature (Ref. 123201): 1.3 - 10, mean 5.4 °C (based on 315 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00933 (0.00734 - 0.01187), b=3.03 (2.98 - 3.08), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.1   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 2.9 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.38-0.46; tm=2-5; tmax=11; Fec=200).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (43 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate to high vulnerability (52 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",1.3,10
+Megalops-cyprinoides,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; amphidromous; depth range 50 - ? m (Ref. 2847). Tropical; 34°N -   37°S, 16°E -   130°W","Preferred temperature (Ref. 123201): 19.8 - 27.6, mean 24.4 °C (based on 501 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0020   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00741 (0.00534 - 0.01030), b=3.07 (2.98 - 3.16), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.5   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming tm<=4).					
+								
+					
+						 Prior r = 0.57, 95% CL = 0.37 - 0.85, Based on 2 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (75 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",19.8,27.6
+Lucifuga-dentata,nonvenomous,Freshwater;  demersal. Tropical; 22°N -   20°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Nothobranchius-furzeri,nonvenomous,Freshwater;  benthopelagic; pH range: 6.5 - 7.0; dH range: 4 - 15; non-migratory. Tropical; 23°C - 30°C (Ref. 2060); 21°S -   23°S,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",23,30
+Neolamprologus-brichardi,nonvenomous,NA,NA,22,25
+Clarias-magur,nonvenomous,Freshwater;  demersal. Tropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Electrophorus-electricus,nonvenomous,Freshwater;  benthopelagic. Tropical; 23°C - 28°C (Ref. 1672),"Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00389 (0.00180 - 0.00842), b=3.12 (2.94 - 3.30), in cm total length, based on all LWR estimates for this BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.9   ±0.52 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=3; tmax=6 (captive); Fec=17,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",23,28
+Etheostoma-cragini,nonvenomous,Freshwater;  benthopelagic. Subtropical; 40°N -   33°N,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Cyclopterus-lumpus,nonvenomous,"Marine;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 868 m (Ref. 58496), usually 50 - 150 m (Ref. 4701). Polar; 3°C - 11°C (Ref. 127841); 80°N -   32°N, 95°W -   49°E","Preferred temperature (Ref. 123201): 0.6 - 11.4, mean 7.1 °C (based on 732 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02630 (0.01096 - 0.06313), b=2.99 (2.77 - 3.21), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.9   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.12; tm=3-5; tmax=13; Fec=100,000).					
+								
+					
+						 Prior r = 0.17, 95% CL = 0.10 - 0.27, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (47 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Low to moderate vulnerability (26 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Low.",3,11
+Esox-lucius,nonvenomous,"Freshwater; brackish;  pelagic; potamodromous; depth range 0 - 30 m (Ref. 1998), usually 1 - 5 m (Ref. 1998). Subtropical; 10°C - 28°C (Ref. 12741); 72°N -   37°N, 11°W -   55°W (Ref. 121102)","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5157   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00447 (0.00395 - 0.00505), b=3.08 (3.04 - 3.12), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.1   ±0.4 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 6.8 (5.7 - 8.3) years. Estimated as median ln(3)/K based on 37 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.07-0.3; tm=2-3; tmax=30; Fec=2,000-600,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (65 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",10,28
+Ameiurus-melas,nonvenomous,Freshwater;  demersal; pH range: 6.5 - 8.0; dH range: 4 - 25; amphidromous (Ref. 51243); depth range 10 - ? m. Temperate; 8°C - 30°C (Ref. 2059); 52°N -   26°N,"Nutrients  (Ref. 124155):  Calcium = 26.2 [14.2, 56.7] mg/100g ; Iron = 0.454 [0.256, 0.749] mg/100g ; Protein = 17.2 [15.2, 19.0] % ; Omega3 = 1.23 [0.46, 3.30] g/100g ; Selenium = 17 [7, 43] μg/100g ; VitaminA = 20.3 [6.4, 62.9] μg/100g ; Zinc = 0.612 [0.409, 0.891] mg/100g (wet weight);",8,30
+Channa-argus,nonvenomous,"Freshwater;  benthopelagic. Subtropical; 4°C - 22°C (Ref. 2060); 54°N -   25°N, 111°E -   141°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00741 (0.00489 - 0.01124), b=3.00 (2.88 - 3.12), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 8.5 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (62 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",4,22
+Oncorhynchus-kisutch,nonvenomous,"Marine; freshwater; brackish;  pelagic; anadromous (Ref. 51243); depth range 0 - 250 m (Ref. 50550). Subtropical; 0°C - 25°C (Ref. 35682); 72°N -   22°N, 135°E -   111°W (Ref. 117423)","Preferred temperature (Ref. 123201): 1 - 8.9, mean 3.9 °C (based on 453 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01047 (0.00482 - 0.02276), b=3.04 (2.87 - 3.21), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.2   ±0.70 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.98(?); tm=2-4; Fec=1,400).					
+								
+					
+						 Prior r = 0.36, 95% CL = 0.24 - 0.55, Based on 2 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (52 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (72 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",1,8.9
+Pangasianodon-hypophthalmus,nonvenomous,Freshwater;  benthopelagic; pH range: 6.5 - 7.5; dH range: 2 - 29; potamodromous (Ref. 51243). Tropical; 22°C - 26°C (Ref. 13371); 19°N -   8°N,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7500   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00479 (0.00303 - 0.00755), b=3.11 (2.98 - 3.24), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.46 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm=4-5; assuming tmax >10).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",22,26
+Gadus-morhua,nonvenomous,"Marine; brackish;  benthopelagic; oceanodromous (Ref. 51243); depth range 0 - 600 m (Ref. 1371), usually 150 - 200 m (Ref. 54441). Temperate; 0°C - 15°C; 83°N -   35°N, 76°W -   86°E (Ref. 1371)","Preferred temperature (Ref. 123201): 0.5 - 10.3, mean 6.6 °C (based on 769 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.6250   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00676 (0.00605 - 0.00756), b=3.08 (3.05 - 3.11), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.1   ±0.2 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 7.7 (7.1 - 9.2) years. Estimated as median ln(3)/K based on 57 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (rm=0.2-1.1; also (Ref. 36717)).					
+								
+					
+						 Prior r = 0.52, 95% CL = 0.34 - 0.78, Based on 48 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (65 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (39 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Medium.",0,15
+Takifugu-flavidus,nonvenomous,Marine;  demersal. Temperate,"Preferred temperature (Ref. 123201): 13.7 - 22.8, mean 18.6 °C (based on 36 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.02291 (0.00950 - 0.05523), b=2.89 (2.71 - 3.07), in cm total length, based on LWR estimates for this Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (33 of 100).",13.7,22.8
+Bagarius-yarrelli,nonvenomous,Freshwater; brackish;  benthopelagic; pH range: 6.5 - 7.8; dH range: 12 - 30; potamodromous (Ref. 51243). Tropical; 18°C - 25°C (Ref. 2060),"Nutrients  (Ref. 124155):  Calcium = 40 [15, 84] mg/100g ; Iron = 0.536 [0.254, 1.225] mg/100g ; Protein = 16 [14, 18] % ; Omega3 = 0.0789 [, ] g/100g ; Selenium = 47.7 [14.7, 154.7] μg/100g ; VitaminA = 22 [4, 108] μg/100g ; Zinc = 1.42 [0.83, 2.42] mg/100g (wet weight);",18,25
+Danionella-translucida,nonvenomous,Freshwater;  benthopelagic. Tropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Takifugu-rubripes,nonvenomous,"Marine; freshwater; brackish;  demersal; non-migratory. Temperate; 46°N -   21°N, 119°E -   142°E","Preferred temperature (Ref. 123201): 13.5 - 23, mean 19 °C (based on 96 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01622 (0.00717 - 0.03671), b=2.92 (2.74 - 3.10), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.6   ±0.57 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.15-0.17; assuming tm<5).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (30 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",13.5,23
+Salmo-trutta,nonvenomous,"Marine; freshwater; brackish;  pelagic-neritic; anadromous (Ref. 51243); depth range 0 - 28 m (Ref. 101587), usually 1 - 2 m (Ref. 101587). Subtropical; 18°C - 24°C (Ref. 12741); 71°N -   34°N, 25°W -   57°E","Preferred temperature (Ref. 123201): 6.5 - 15.8, mean 10.1 °C (based on 918 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00851 (0.00757 - 0.00957), b=3.03 (3.00 - 3.06), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.1 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 4.2 (3.2 - 7.6) years. Estimated as median ln(3)/K based on 15 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (rm=0.9; K=0.09-0.8; tmax=8; Fec=1,000).					
+								
+					
+						 Prior r = 0.46, 95% CL = 0.30 - 0.68, Based on 1 stock assessment.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (56 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Very high vulnerability (85 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",6.5,15.8
+Echeneis-naucrates,nonvenomous,"Marine; brackish;  reef-associated; depth range 1 - 85 m (Ref. 86942). Subtropical; 45°N -   45°S, 180°W -   180°E","Preferred temperature (Ref. 123201): 18.3 - 28.6, mean 27.2 °C (based on 566 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7539   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00263 (0.00111 - 0.00626), b=3.17 (2.96 - 3.38), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.7   ±0.3 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Assuming Fec < 10,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (66 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",18.3,28.6
+Takifugu-bimaculatus,nonvenomous,Marine;  demersal. Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Cottoperca-gobio,nonvenomous,"Marine;  demersal. Subtropical; 34°S -   57°S, 76°W -   53°W","Preferred temperature (Ref. 123201): 6.8 - 13.7, mean 9 °C (based on 281 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.7505   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01122 (0.00514 - 0.02450), b=3.04 (2.87 - 3.21), in cm total length, based on all LWR estimates for this BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.3   ±0.73 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate to high vulnerability (52 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 71.9 [40.2, 145.7] mg/100g ; Iron = 1.23 [0.75, 2.11] mg/100g ; Protein = 17.9 [15.5, 21.1] % ; Omega3 = 0.282 [0.173, 0.476] g/100g ; Selenium = 23.7 [11.3, 52.3] μg/100g ; VitaminA = 11.2 [3.6, 34.7] μg/100g ; Zinc = 0.603 [0.419, 0.897] mg/100g (wet weight); based on nutrient studies.",6.8,13.7
+Labrus-bergylta,nonvenomous,"Marine;  reef-associated; depth range 1 - 50 m (Ref. 5292), usually 2 - 30 m (Ref. 35388). Temperate; 64°N -   27°N, 32°W -   22°E","Preferred temperature (Ref. 123201): 8.7 - 13.3, mean 10.5 °C (based on 376 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00955 (0.00543 - 0.01679), b=3.07 (2.92 - 3.22), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (K=0.1; tmax=29; tm=2-9).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (67 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (75 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",8.7,13.3
+Denticeps-clupeoides,nonvenomous,"Freshwater;  pelagic. Tropical; 20°C - 25°C (Ref. 13614); 7°N -   4°N, 2°E -   9°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01122 (0.00514 - 0.02450), b=3.04 (2.87 - 3.21), in cm total length, based on all LWR estimates for this BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.3   ±0.4 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Fec < 1,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",20,25
+Gouania-willdenowi,nonvenomous,"Marine;  demersal; depth range 0 - 2 m (Ref. 123696). Subtropical; 45°N -   30°N, 1°W -   36°E","Preferred temperature (Ref. 123201): 17.7 - 21.8, mean 19.3 °C (based on 464 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 1.0000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00513 (0.00201 - 0.01311), b=3.11 (2.89 - 3.33), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.1   ±0.5 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 229 [39, 929] mg/100g ; Iron = 1.53 [0.53, 5.20] mg/100g ; Protein = 3.01 [0.00, 6.87] % ; Omega3 = 0.246 [0.093, 0.680] g/100g ; Selenium = 5.31 [1.05, 20.19] μg/100g ; VitaminA = 58.3 [13.0, 249.9] μg/100g ; Zinc = 1.68 [0.78, 3.62] mg/100g (wet weight);",17.7,21.8
+Parambassis-ranga,nonvenomous,Freshwater; brackish;  demersal; pH range: 7.0 - 8.0; dH range: 9 - 19; potamodromous (Ref. 51243). Tropical; 20°C - 30°C (Ref. 1672); 38°N -   1°N,"Nutrients  (Ref. 124155):  Calcium = 678 [434, 1,182] mg/100g ; Iron = 1.63 [1.04, 2.50] mg/100g ; Protein = 16.8 [15.2, 18.6] % ; Omega3 = 0.172 [0.079, 0.380] g/100g ; Selenium = 26.3 [10.5, 59.5] μg/100g ; VitaminA = 72.5 [35.1, 147.7] μg/100g ; Zinc = 2.32 [1.66, 3.18] mg/100g (wet weight); based on nutrient studies.",20,30
+Siganus-virgatus,venomous,"Marine; brackish;  reef-associated; depth range 1 - ? m (Ref. 48637), usually 1 - 20 m (Ref. 27115). Tropical; 23°C - 28°C (Ref. 27115); 35°N -   25°S, 77°E -   154°E","Preferred temperature (Ref. 123201): 25.4 - 29.1, mean 28.3 °C (based on 1192 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01905 (0.01036 - 0.03504), b=3.13 (2.97 - 3.29), in cm total length, based on LWR estimates for species & Genus-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.7   ±0.31 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (20 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						High.",23,28
+Scophthalmus-maximus,nonvenomous,"Marine; brackish;  demersal; oceanodromous (Ref. 51243); depth range 20 - 70 m (Ref. 6302). Temperate; 70°N -   30°N, 25°W -   42°E","Preferred temperature (Ref. 123201): 5.9 - 11.9, mean 9.4 °C (based on 239 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5645   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01122 (0.00922 - 0.01366), b=3.06 (3.00 - 3.12), in cm total length, based on LWR estimates for this species (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.0 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 4.8 (3.8 - 5.8) years. Estimated as median ln(3)/K based on 24 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (K=0.15-0.28; tm=3-5; tmax=26; Fec=5 million).					
+								
+					
+						 Prior r = 0.50, 95% CL = 0.33 - 0.74, Based on 9 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (60 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High vulnerability (65 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",5.9,11.9
+Cynoglossus-semilaevis,nonvenomous,Marine; freshwater; brackish;  demersal. Subtropical,"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",,
+Salvelinus-alpinus,nonvenomous,"Marine; freshwater; brackish;  benthopelagic; anadromous (Ref. 51243); depth range 0 - 70 m (Ref. 30578), usually 0 - 1 m (Ref. 101587). Temperate; 4°C - 16°C (Ref. 2059); 82°N -   41°N, 180°W -   180°E (Ref. 117475)","Preferred temperature (Ref. 123201): 0.1 - 9.7, mean 1.9 °C (based on 316 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00724 (0.00451 - 0.01164), b=3.03 (2.89 - 3.17), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.5 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 11.7 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm=7-10; tmax=24; Fec=400).					
+								
+					
+						 Prior r = 0.20, 95% CL = 0.13 - 0.31, Based on 3 stock assessments.					
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High to very high vulnerability (70 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  High to very high vulnerability (71 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",4,16
+Oryzias-latipes,nonvenomous,"Freshwater; brackish;  benthopelagic; pH range: 7.0 - 8.0; dH range: 9 - 19; amphidromous (Ref. 51243). Subtropical; 18°C - 24°C (Ref. 2060); 55°N -   10°N, 85°E -   105°E","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00479 (0.00190 - 0.01207), b=3.13 (2.91 - 3.35), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.4   ±0.45 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 0.3 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (tm<1; Fec=40).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (10 of 100).",18,24
+Monopterus-albus,nonvenomous,Freshwater; brackish;  demersal; potamodromous (Ref. 51243); depth range 3 - ? m (Ref. 2686). Tropical; 25°C - 28°C (Ref. 2060); 34°N -   6°S,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00059 (0.00036 - 0.00095), b=3.06 (2.92 - 3.20), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  2.9   ±0.28 se; based on food items.					
+
+				
+					
+					
+						 Generation time: 10.2 ( na - na) years. Estimated as median ln(3)/K based on 2 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (Fec = 1,000).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (65 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",25,28
+Paralichthys-olivaceus,nonvenomous,"Marine;  demersal; oceanodromous (Ref. 51243); depth range 10 - 200 m (Ref. 11230). Subtropical; 62°N -   1°N, 99°E -   163°E (Ref. 54698)","Preferred temperature (Ref. 123201): 8.6 - 25, mean 18.8 °C (based on 241 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00794 (0.00436 - 0.01448), b=3.07 (2.90 - 3.24), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.5   ±0.8 se; based on diet studies.					
+
+				
+					
+					
+						 Generation time: 7.3 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=3; Fec= 3 million).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  High vulnerability (60 of 100).					
+								
+				
+									
+					Climate Vulnerability  (Ref. 125649):  Moderate vulnerability (43 of 100).					
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Very high.",8.6,25
+Lepisosteus-oculatus,nonvenomous,"Freshwater; brackish;  demersal. Subtropical; 12°C - 20°C (Ref. 2060); 52°N -   24°N, 99°W -   74°W","Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5781   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00355 (0.00151 - 0.00836), b=3.23 (3.02 - 3.44), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.0   ±0.66 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Medium, minimum population doubling time 1.4 - 4.4 years (tm=4; Fec=1,772).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Very high vulnerability (90 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",12,20
+Austrofundulus-limnaeus,nonvenomous,Freshwater;  benthopelagic; non-migratory. Tropical; 22°C - 26°C (Ref. 2060),"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",22,26
+Sebastiscus-marmoratus,venomous,Marine;  demersal; oceanodromous (Ref. 51243). Tropical,"Nutrients  (Ref. 124155):  Calcium = 147 [48, 378] mg/100g ; Iron = 1.3 [0.6, 2.8] mg/100g ; Protein = 17.5 [15.7, 19.3] % ; Omega3 = 0.406 [0.173, 1.105] g/100g ; Selenium = 69.5 [32.9, 184.0] μg/100g ; VitaminA = 34.3 [12.9, 94.7] μg/100g ; Zinc = 1.04 [0.59, 1.59] mg/100g (wet weight);",,
+Scorpaenopsis-oxycephala,venomous,"Marine;  reef-associated; depth range ? - 400 m (Ref. 100719). Tropical; 30°N -   36°S, 24°E -   171°E","Preferred temperature (Ref. 123201): 20.3 - 28.3, mean 26.5 °C (based on 973 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5000   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01514 (0.00885 - 0.02590), b=3.11 (2.96 - 3.26), in cm total length, based on LWR estimates for species & Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.9   ±0.63 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low to moderate vulnerability (26 of 100).					
+								
+				
+								
+				
+									
+				
+					
+						Nutrients  (Ref. 124155):  Calcium = 40.3 [19.1, 89.5] mg/100g ; Iron = 0.523 [0.282, 1.489] mg/100g ; Protein = 18.2 [16.3, 20.2] % ; Omega3 = 0.247 [0.109, 0.685] g/100g ; Selenium = 48.3 [25.0, 121.0] μg/100g ; VitaminA = 110 [38, 316] μg/100g ; Zinc = 1.12 [0.77, 1.62] mg/100g (wet weight);",20.3,28.3
+Hypodytes-rubripinnis,venomous,Marine;  reef-associated. Tropical,"Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5625   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.00479 (0.00183 - 0.01252), b=3.13 (2.90 - 3.36), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  3.2   ±0.3 se; based on size and trophs of closest relatives					
+
+				
+					
+					
+						 Generation time: 2.0 ( na - na) years. Estimated as median ln(3)/K based on 1 growth studies.					
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  High, minimum population doubling time less than 15 months (K=0.55).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Low vulnerability (24 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",,
+Synanceia-verrucosa,venomous,"Marine;  reef-associated; non-migratory; depth range 0 - 30 m (Ref. 37816). Tropical; 30°N -   30°S, 30°E -   139°W","Preferred temperature (Ref. 123201): 24.9 - 29.3, mean 28.3 °C (based on 3300 cells).				
+				 				
+				
+					
+					Phylogenetic diversity index  (Ref. 82804):  PD50 = 0.5312   [Uniqueness, from 0.5 = low to 2.0 = high].					
+					
+                
+                    					
+													Bayesian length-weight: a=0.01622 (0.00606 - 0.04338), b=3.06 (2.84 - 3.28), in cm total length, based on LWR estimates for this Subfamily-BS (Ref. 93245).						
+					
+                    				
+					
+					Trophic level  (Ref. 69278):  4.4   ±0.77 se; based on food items.					
+
+				
+					
+					
+											
+				
+
+
+
+				
+										
+						Resilience  (Ref. 120179):  Low, minimum population doubling time 4.5 - 14 years (Preliminary K or Fecundity.).					
+								
+					
+											
+				
+									
+					Fishing Vulnerability  (Ref. 59153):  Moderate vulnerability (39 of 100).					
+								
+				
+								
+				
+										
+					
+											Price category  (Ref. 80766):  						Unknown.",24.9,29.3
+Tetraodon-nigroviridis,nonvenomous,Freshwater; brackish;  demersal; pH range: 8.0 - 8.0; dH range: 9 - 19. Tropical; 24°C - 28°C (Ref. 30491),"Comments & Corrections
+			
+			
+			
+			
+							
+			
+			
+				
+				Back to Search				
+
+				
+				Random Species				
+
+				
+				Back to Top				
+			
+			
+				Accessed through: Not available
+								FishBase mirror site : localhost
+							Page last modified by : mrius-barile - 20 July 2016",24,28
