@@ -11,6 +11,7 @@ install.packages("selectr")
 install.packages("tibble")
 install.packages("purrr")
 install.packages("httr")
+install.packages("ggplot2")
 
 library(tidyverse)
 library(webdriver)
@@ -22,6 +23,7 @@ library(selectr)
 library(tibble)
 library(purrr)
 library(httr)
+library(ggplot2)
 
 install_phantomjs
 
@@ -74,4 +76,34 @@ sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_
 
 write.csv(sum_dat, file = "data/sum_dat.csv", row.names = FALSE) # write file. 
 
-## Manual manipulations: REMOVE non-fish species, form column of temperature ranges. 
+## Manual manipulations: REMOVE non-fish species, form column of temperature ranges.
+
+manual_dat <- read.csv("data/sum_dat_manual.csv")
+view(manual_dat)
+
+manual_dat$temp_max <- as.numeric(manual_dat$temp_max)
+manual_dat$temp_min <- as.numeric(manual_dat$temp_min)
+
+
+max_dat <- manual_dat %>%
+  drop_na(temp_max) %>% 
+  select(species, venom_stat.threat_to_humans., temp_max, temp_min) %>% 
+  arrange(temp_max)
+  
+max_dat <- max_dat %>%
+  mutate(temp_mid = (temp_max + temp_min)/2)
+  
+  max_dat$species<- as.factor(max_dat$species)
+
+view(max_dat)
+
+temp_max_plot <- max_dat %>% 
+  ggplot(aes(x=species, y=temp_max, color = venom_stat.threat_to_humans.)) +
+  geom_point(size=3)
+
+save(temp_max_plot, file = temp_max_plot.png)
+
+temp_mid_plot <- max_dat %>% 
+  ggplot(aes(x=species, y=temp_mid, color = venom_stat.threat_to_humans.)) +
+  geom_point(size=3)
+
