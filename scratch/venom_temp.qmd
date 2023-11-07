@@ -160,31 +160,36 @@ write.csv(sum_dat_1, file = "data/sum_dat_925.csv", row.names = FALSE) # write f
 
 ## Manual manipulations: REMOVE non-fish species, form column of temperature ranges.
 
-manual_dat <- read.csv("data/sum_dat_manual.csv")
-view(manual_dat)
+manual_dat_925 <- read.csv("data/sum_dat_925_manual.csv")
+view(manual_dat_925)
 
-manual_dat$temp_max <- as.numeric(manual_dat$temp_max)
-manual_dat$temp_min <- as.numeric(manual_dat$temp_min)
+manual_dat_925$temp_max <- as.numeric(manual_dat_925$temp_max)
+manual_dat_925$temp_min <- as.numeric(manual_dat_925$temp_min)
 
 
-max_dat <- manual_dat %>%
+max_dat_925 <- manual_dat_925 %>%
   drop_na(temp_max) %>% 
-  select(species, venom_stat.threat_to_humans., temp_max, temp_min) %>% 
+  select(species, venomous, temp_max, temp_min) %>% 
   arrange(temp_max)
   
-max_dat <- max_dat %>%
+max_dat_925 <- max_dat_925 %>%
   mutate(temp_mid = (temp_max + temp_min)/2)
   
-  max_dat$species<- as.factor(max_dat$species)
+  max_dat_925$species<- as.factor(max_dat_925$species)
 
-view(max_dat)
+view(max_dat_925)
 
-temp_max_plot <- max_dat %>% 
-  ggplot(aes(x=species, y=temp_max, color = venom_stat.threat_to_humans.)) +
-  geom_point(size=3)
-
+temp_max_plot_925 <- max_dat_925 %>% 
+  ggplot(aes(x = fct_inorder(species), y=temp_max, color = venomous)) +
+  geom_point(size=3, shape= 18)+
+  scale_x_discrete(labels = NULL) +
+  mdthemes::md_theme_classic() +
+  labs(x="Species", y="Maximum temperature (˚C)", title = "Maximum temperatures of species from *Pterois miles* toxin BLAST" )
+  
 save(temp_max_plot, file = temp_max_plot.png)
 
-temp_mid_plot <- max_dat %>% 
+temp_mid_plot_925 <- max_dat_925 %>% 
   ggplot(aes(x=species, y=temp_mid, color = venom_stat.threat_to_humans.)) +
-  geom_point(size=3)
+  geom_point(size=3) +
+  scale_x_discrete(labels = NULL)
+
