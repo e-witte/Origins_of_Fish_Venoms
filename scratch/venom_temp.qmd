@@ -186,7 +186,7 @@ temp_max_plot_925 <- max_dat_925 %>%
   mdthemes::md_theme_classic() +
   labs(x="Species", y="Maximum temperature (˚C)", title = "Maximum temperatures of species from *Pterois miles* toxin BLAST" )
   
-ggsave(plot = temp_max_plot_925, width = 10, height = 4, dpi = 300, filename = "data/sum_dat_maxtemp_925.png")
+ggsave(plot = temp_max_plot_925, width = 10, height = 4, dpi = 300, filename = "figs/sum_dat_maxtemp_925.png")
 
 temp_mid_plot_925 <- max_dat_925 %>% 
   ggplot(aes(x=species, y=temp_mid, color = venom_stat.threat_to_humans.)) +
