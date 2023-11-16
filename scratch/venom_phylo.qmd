@@ -1,5 +1,7 @@
 #Trait reconstruction using a phylogeny of venom in fishes
+
 ##By Eric Witte & Sofia Padilla
+
 ##Using [phylogeny](https://github.com/projectdigest/betancur_r-fish-tree/tree/master) and [code](https://istmobiome.rbind.io/project/betancur-r-fish-tree/#examples-of-viualization-in-anvio) from [Betancur-R](https://link.springer.com/article/10.1186/s12862-017-0958-3#Sec4)
 
 ##Install packages
@@ -16,6 +18,8 @@ install.packages("tibble")
 install.packages("purrr")
 install.packages("httr")
 install.packages("ggplot2")
+install.packages("BiocManager")
+BiocManager::install("ggtree")
 
 ##Load packages
 library(tidyverse)
@@ -31,6 +35,7 @@ library(tibble)
 library(purrr)
 library(httr)
 library(ggplot2)
+library(ggtree)
 
 install_phantomjs
 
@@ -69,9 +74,35 @@ for (i in 1:length(all_links)) {
   cat("Downloading", i, "of", length(all_links), "URL:", all_links[i], "\n")
   article <- scrape_fish_base(all_links[i])
   all_fish_data <- rbind(all_fish_data, article)
-} ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary. 
-
-##initial prune and rename tip labels
+} ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary.
 
 
+all_fish_data_2 <- all_fish_data %>%  mutate(venom_stat = venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates venom stat
+view(all_fish_data_2)
+
+n_ven <- length(which(all_fish_data_2$venom_stat == "venomous"))
+n_nonven <- length(which(!all_fish_data_2$venom_stat == "venomous"))
+n_ven
+n_nonven
+n_ven + n_nonven
+
+tip_lab <- fish_tree$tip.label
+
+all_fish_data_3 <- all_fish_data_2 %>% mutate(tip_label = tip_lab, .before = url)
+view(all_fish_data_3)
+
+all_fish_data_4 <- all_fish_data_3 %>% mutate()
+
+write.csv(all_fish_data_2, file = "data/all_fish_data_2.csv", row.names = FALSE) # write file. 
+
+cols <- c("venomous" = 'aquamarine3', "nonvenomous" = 'darkorange2')
+
+phylo <- ggtree(fish_tree, layout = "circular") %<+% all_fish_data_3 + geom_tippoint(aes(color = venom_stat)) + scale_color_manual(values = cols)
+
+ggsave(plot = phylo, filename = "figs/fish_phylo.png", width = 10, height = 10, units = "in", dpi = 300)
+
+ven_tax <- all_fish_data_3 %>% filter(venom_stat == "venomous") %>% select(tip_label)
+ven_tax
+
+write.csv(ven_tax, file = "data/ven_tax.csv")
 
