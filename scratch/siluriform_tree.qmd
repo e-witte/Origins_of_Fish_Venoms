@@ -42,13 +42,13 @@ library(fishtree)
 install_phantomjs
 
 ##Load and visualize data
-Scorpaen_tree<- fishtree_phylogeny(rank = "Scorpaenidae", type = "chronogram_mrca")
+Silur_tree<- fishtree_phylogeny(rank = "Siluriformes")
 
-Scorpaen_list <- data.frame(Scorpaen_tree$tip.label) #returns 67 spec
-colnames(Scorpaen_list) <- "Species"
-Scorpaen_list$Species <- gsub("_", "-", Scorpaen_list$Species)
+Silur_list <- data.frame(Silur_tree$tip.label) #returns 67 spec
+colnames(Silur_list) <- "Species"
+Silur_list$Species <- gsub("_", "-", Silur_list$Species)
 
-plot(Scorpaen_tree) #too dense to read
+plot(Silur_tree) #too dense to read
 
 ##scrape fishbase for fish_list
 
@@ -56,7 +56,7 @@ base_url <- "https://www.fishbase.se/summary/" #locate fishbase
 
 sample_data <- data.frame()
 
-for (Species in Scorpaen_list) {
+for (Species in Silur_list) {
      tmp_link <- paste(base_url, Species, ".html", sep = "") #create URL
      tmp_entry <- cbind(Species, tmp_link)
      sample_data <- rbind(sample_data, tmp_entry)
@@ -71,26 +71,26 @@ all_names <- sample_data$name #create name vector
 pjs_instance <- run_phantomjs()
 pjs_session <- Session$new(port = pjs_instance$port)
 
-Scorpaen_fish_data <- data.frame()
+Silur_fish_data <- data.frame()
 for (i in 1:length(all_links)) {
   cat("Downloading", i, "of", length(all_links), "URL:", all_links[i], "\n")
   article <- scrape_fish_base(all_links[i])
-  Scorpaen_fish_data <- rbind(Scorpaen_fish_data, article)
+  Silur_fish_data <- rbind(Silur_fish_data, article)
 } ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary.
 
 
-Scorpaen_fish_data_2 <- Scorpaen_fish_data %>%  mutate(venom_stat = venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates venom stat
-view(Scorpaen_fish_data_2) #check that all entries returned entries on fishbase
+Silur_fish_data_2 <- Silur_fish_data %>%  mutate(venom_stat = venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates venom stat
+view(Silur_fish_data_2) #check that all entries returned entries on fishbase
 
-v_stat<-Scorpaen_fish_data_2$venom_stat
+v_stat<-Silur_fish_data_2$venom_stat
 for(i in 1:length(v_stat)){ifelse(v_stat[i] == "venomous", v_stat[i] <- 1, v_stat[i] <- 0)}
 v_stat<- as.numeric(v_stat)
-names(v_stat) <- Scorpaen_tree$tip.label
+names(v_stat) <- Silur_tree$tip.label
 
-Scorpaen_cont <- contMap(Scorpaen_tree, v_stat, plot = FALSE)
-Scorpaen_map <-setMap(Scorpaen_cont, invert = TRUE)
+Silur_cont <- contMap(Silur_tree, v_stat, plot = FALSE)
+Silur_map <-setMap(Silur_cont, invert = TRUE)
 
-plot(Scorpaen_map)
+plot(Silur_map)
 
-save(a, file = "figs/Scorpaen_fig.png")
+save(a, file = "figs/Silur_fig.png")
 
