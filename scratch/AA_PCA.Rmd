@@ -1,0 +1,627 @@
+---
+title: "PCA_AA"
+author: "Eric Witte"
+date: "2024-10-02"
+output: html_document
+---
+
+#### Principal Component Analysis applied directly to Sequence Matrix 
+####  Tomokazu Konishi
+
+##### R scripts for calculations
+
+#load packages
+
+library(readxl)
+
+setwd("/Users/ericwitte/Documents/GitHub/Origins_of_Fish_Venoms")
+
+### reading the aligned sequence data:
+#ven_dat<- read_xlsx(path = "data/011124_Stx_seqs.xlsx", col_names = TRUE)
+
+ven_dat<- read.csv(file = "data/8425_213_aa_rmstop.csv", sep = ",")
+
+head(ven_dat)
+
+ven_dat<- as.matrix(ven_dat)
+dim(ven_dat)
+
+##full seqs
+
+n_sample <- dim(ven_dat)[1]
+
+n_seq <- nchar(ven_dat[1,2])
+
+#translation of the sequence to boolean vectors
+
+bool <- array(0, dim=c(n_sample, 21*n_seq))
+
+
+colnames(bool) <- c(paste("A_", 1:n_seq, sep=""),paste("C_", 1:n_seq, sep=""),paste("D_", 1:n_seq, sep=""),paste("E_", 1:n_seq, sep=""),paste("F_", 1:n_seq, sep=""),paste("G_", 1:n_seq, sep=""),paste("H_", 1:n_seq, sep=""),paste("I_", 1:n_seq, sep=""),paste("K_", 1:n_seq, sep=""),paste("L_", 1:n_seq, sep=""),paste("M_", 1:n_seq, sep=""),paste("N_", 1:n_seq, sep=""),paste("P_", 1:n_seq, sep=""),paste("Q_", 1:n_seq, sep=""),paste("R_", 1:n_seq, sep=""),paste("S_", 1:n_seq, sep=""),paste("T_", 1:n_seq, sep=""),paste("V_", 1:n_seq, sep=""),paste("W_", 1:n_seq, sep=""),paste("Y_", 1:n_seq, sep=""),paste("-_", 1:n_seq, sep=""))
+
+rownames(bool) <- ven_dat[,1]
+
+
+  for (s in 1:n_sample){
+     se <- ven_dat[s, 2]
+     se <- tolower(se)
+
+	for (le in  1:n_seq){
+
+	 base <- substr(se, le,le)
+ 
+	if(base =="a") {
+	bool[s, le] <-1
+		} else {
+
+	if(base =="c") {
+	bool[s, le+n_seq] <-1
+		} else {
+
+	if(base =="d") {
+	bool[s, le+n_seq*2] <-1
+		} else {
+
+	if(base =="e") {
+	bool[s, le+n_seq*3] <-1
+		} else {
+
+	if(base =="f") {
+	bool[s, le+n_seq*4] <-1
+		} else {
+
+	if(base =="g") {
+	bool[s, le+n_seq*5] <-1
+		} else {
+
+	if(base =="h") {
+	bool[s, le+n_seq*6] <-1
+		} else {
+
+	if(base =="i") {
+	bool[s, le+n_seq*7] <-1
+		} else {
+
+	if(base =="k") {
+	bool[s, le+n_seq*8] <-1
+		} else {
+
+	if(base =="l") {
+	bool[s, le+n_seq*9] <-1
+		} else {
+
+	if(base =="m") {
+	bool[s, le+n_seq*10] <-1
+		} else {
+
+	if(base =="n") {
+	bool[s, le+n_seq*11] <-1
+		} else {
+
+	if(base =="p") {
+	bool[s, le+n_seq*12] <-1
+		} else {
+
+	if(base =="q") {
+	bool[s, le+n_seq*13] <-1
+		} else {
+
+	if(base =="r") {
+	bool[s, le+n_seq*14] <-1
+		} else {
+
+	if(base =="s") {
+	bool[s, le+n_seq*15] <-1
+		} else {
+
+	if(base =="t") {
+	bool[s, le+n_seq*16] <-1
+		} else {
+
+	if(base =="v") {
+	bool[s, le+n_seq*17] <-1
+		} else {
+
+	if(base =="w") {
+	bool[s, le+n_seq*18] <-1
+		} else {
+
+	if(base =="y") {
+	bool[s, le+n_seq*19] <-1
+		} else {
+
+	if(base =="-") {
+	bool[s, le+n_seq*20] <-1
+
+	}}}}}}}}}}}}}}}}}}}}}
+	}}
+	
+	#PCA
+	## centering : the center can be replaced to certain group
+	center<- apply(bool, 2, mean)
+	diffs<-sweep(bool, 2, center)
+        diffs<-diffs/2^0.5  # dounble counting
+	# checking distribution of the distances
+    		dist<- (apply(diffs^2, 1, sum)/n_seq)^0.5
+        	qqnorm(dist)
+		hist(dist)
+		
+			# you can specify the range of sequence used in the calculation by replacing the removed range with zero;
+	# for example, this will reproduce the result shown in the test.
+   #		 diffs[,c(1:47, 1:47+n_seq, 1:47+2*n_seq,1:47+3*n_seq,1:47+4*n_seq)  ] <- 0   # removes the first 47 sites.
+   #		 diffs[, c(248:n_seq, 248:n_seq+n_seq, 248:n_seq+2*n_seq,248:n_seq+3*n_seq, 248:n_seq+4*n_seq) ] <- 0   # removes the last 53 sites.
+  
+### PCA core
+	
+	res_svd <- svd(diffs)  #
+	str(res_svd)
+			Left <- res_svd$u		# the left singular vectors
+			Right <- res_svd$v		# the right singular vectors
+			sqL <- diag(res_svd$d)		# diagonal matrix of the singular values
+
+ 	### calculating of pc's 
+	sPC_res  	<-	 Right %*% sqL / (n_sample^0.5)
+	sPC_sample	 <-	 Left %*% sqL/ (n_seq^0.5)
+
+	rownames(sPC_res)<- colnames(bool) 
+ 	rownames(sPC_sample)<- rownames(bool) 
+
+write.table(sPC_sample, file="sPC_sample_full.txt", sep="\t")
+	write.table(sPC_res, file="sPC_res_full.txt", sep="\t")
+
+(sum(diffs^2)/n_seq)^0.5
+
+#### output to png images
+# sample
+	png(width=2100, height=2300, pointsize = 80, file="figs/8425_sPC_full_aa.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+  	  plot( sPC_sample [,1], sPC_sample[,2], col="gray50" ,  pch=1, main="sample", xlab="", ylab="" , axes=T)
+	dev.off()
+
+# sites
+	png(width=2100, height=2300, pointsize = 80, file="figs/8425_sPC_res_full_aa.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+  	  plot( sPC_res [,1], sPC_res[,2], col="gray50" ,  pch=1, main="residure", xlab="", ylab="" , axes=T)
+	dev.off()
+
+ # contribution
+	png(width=2100, height=2300, pointsize = 80, file="figs/8425_full_contributions.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+	  plot(1:20, (res_svd$d/sum(res_svd$d)*100)[1:20], pch=1, type="b",  lty=3, ylab="(%)", xlab="PC", main="Contribution", col="gray50")
+	dev.off()
+	
+	contrib <- (res_svd$d/sum(res_svd$d)*100)[1:20]
+	contrib
+
+
+# 3D presentation
+  #install.packages("rgl")
+  library(rgl)
+  library(ggplot2)
+
+ plot3d( sPC_sample [,1], sPC_sample[,2], sPC_sample[,3], col="black", pch=NA, main="Stx", xlab="sPC1", ylab="sPC2", zlab="sPC3", type="p")
+ #  text3d( sPC_sample [,1], sPC_sample[,2], sPC_sample[,3], texts=sites[,1], cex=.5, col="gray50", font=1)
+ writeWebGL(width=700)
+
+
+plot(sPC_sample[,1],sPC_sample[,2], col = "black", xlab="sPC1", ylab= "sPC2")
+
+
+
+library(ggplot2)
+
+df_sPC_sample <- as.data.frame(sPC_sample)
+
+df_sPC_sample$subunit <- ven_dat[,3]
+
+#df_sPC_sample$clade <- ven_dat[,7]
+
+View(df_sPC_sample)
+
+#sub <- ggplot(df_sPC_sample, aes(x=V1, y=V2)) + geom_point(aes(col = subunit)) + xlab("PC 1 (3.24%)") + ylab("PC 2 (2.85%)") + scale_color_manual(values = c("Unknown" = "black", "A" = "dark green", "B" = "dark orchid"))
+
+#g <- ggplot(df_sPC_sample, aes(x=V1, y=V2)) + geom_point(aes(col = clade, shape = subunit, size = subunit)) + xlab("PC 1 (3.22%)") + ylab("PC 2 (2.65%)") + scale_color_manual(values = c("0" = "black", "1" = "red", "2" = "blue")) + scale_shape_manual(values=c("Unknown" = 16, "A" =15, "B" = 17)) + scale_size_manual( values = c("None" = 2, "A" = 3, "B" = 3))
+
+g <- ggplot(df_sPC_sample, aes(x=V1, y=V2)) + geom_point(aes(col = subunit, shape = subunit, size = subunit)) + xlab("PC 1 (3.22%)") + ylab("PC 2 (2.65%)") + scale_color_manual(values = c("None" = "black", "A" = "steelblue2", "B" = "orchid"))  + theme(aspect.ratio = 1) + scale_shape_manual(values = c("None" = 1, "A" =16, "B" = 16)) + scale_size_manual( values = c("None" = 2, "A" = 3, "B" = 3))
+
+ggsave(plot = g, filename = "figs/8425_pc1pc2.png", )
+
+#+ scale_size_manual(values c("Unknown" = 1, "A" =3, "B" = 3))
+
+#ggarrange(sub, cla, labels = c("Subunit", "Clade"), ncol = 1, nrow = 2)
+
+
+##gblocks_seqs
+n_sample_gb <- dim(ven_dat)[1]
+n_seq_gb <- nchar(ven_dat[1,4])
+
+#translation of the sequence to boolean vectors
+
+bool_gb <- array(0, dim=c(n_sample_gb, 21*n_seq_gb))
+
+
+colnames(bool_gb) <- c(paste("A_", 1:n_seq_gb, sep=""),paste("C_", 1:n_seq_gb, sep=""),paste("D_", 1:n_seq_gb, sep=""),paste("E_", 1:n_seq_gb, sep=""),paste("F_", 1:n_seq_gb, sep=""),paste("G_", 1:n_seq_gb, sep=""),paste("H_", 1:n_seq_gb, sep=""),paste("I_", 1:n_seq_gb, sep=""),paste("K_", 1:n_seq_gb, sep=""),paste("L_", 1:n_seq_gb, sep=""),paste("M_", 1:n_seq_gb, sep=""),paste("N_", 1:n_seq_gb, sep=""),paste("P_", 1:n_seq_gb, sep=""),paste("Q_", 1:n_seq_gb, sep=""),paste("R_", 1:n_seq_gb, sep=""),paste("S_", 1:n_seq_gb, sep=""),paste("T_", 1:n_seq_gb, sep=""),paste("V_", 1:n_seq_gb, sep=""),paste("W_", 1:n_seq_gb, sep=""),paste("Y_", 1:n_seq_gb, sep=""),paste("-_", 1:n_seq_gb, sep=""))
+
+rownames(bool_gb) <- ven_dat[,1]
+
+
+  for (s in 1:n_sample_gb){
+     se_gb <- ven_dat[s, 4]
+     se_gb <- tolower(se_gb)
+
+	for (le in  1:n_seq_gb){
+
+	 base <- substr(se_gb, le,le)
+ 
+	if(base =="a") {
+	bool_gb[s, le] <-1
+		} else {
+
+	if(base =="c") {
+	bool_gb[s, le+n_seq_gb] <-1
+		} else {
+
+	if(base =="d") {
+	bool_gb[s, le+n_seq_gb*2] <-1
+		} else {
+
+	if(base =="e") {
+	bool_gb[s, le+n_seq_gb*3] <-1
+		} else {
+
+	if(base =="f") {
+	bool_gb[s, le+n_seq_gb*4] <-1
+		} else {
+
+	if(base =="g") {
+	bool_gb[s, le+n_seq_gb*5] <-1
+		} else {
+
+	if(base =="h") {
+	bool_gb[s, le+n_seq_gb*6] <-1
+		} else {
+
+	if(base =="i") {
+	bool_gb[s, le+n_seq_gb*7] <-1
+		} else {
+
+	if(base =="k") {
+	bool_gb[s, le+n_seq_gb*8] <-1
+		} else {
+
+	if(base =="l") {
+	bool_gb[s, le+n_seq_gb*9] <-1
+		} else {
+
+	if(base =="m") {
+	bool_gb[s, le+n_seq_gb*10] <-1
+		} else {
+
+	if(base =="n") {
+	bool_gb[s, le+n_seq_gb*11] <-1
+		} else {
+
+	if(base =="p") {
+	bool_gb[s, le+n_seq_gb*12] <-1
+		} else {
+
+	if(base =="q") {
+	bool_gb[s, le+n_seq_gb*13] <-1
+		} else {
+
+	if(base =="r") {
+	bool_gb[s, le+n_seq_gb*14] <-1
+		} else {
+
+	if(base =="s") {
+	bool_gb[s, le+n_seq_gb*15] <-1
+		} else {
+
+	if(base =="t") {
+	bool_gb[s, le+n_seq_gb*16] <-1
+		} else {
+
+	if(base =="v") {
+	bool_gb[s, le+n_seq_gb*17] <-1
+		} else {
+
+	if(base =="w") {
+	bool_gb[s, le+n_seq_gb*18] <-1
+		} else {
+
+	if(base =="y") {
+	bool_gb[s, le+n_seq_gb*19] <-1
+		} else {
+
+	if(base =="-") {
+	bool_gb[s, le+n_seq_gb*20] <-1
+
+	}}}}}}}}}}}}}}}}}}}}}
+	}}
+	
+	#PCA
+	## centering : the center can be replaced to certain group
+	center_gb<- apply(bool_gb, 2, mean)
+	diffs_gb<-sweep(bool_gb, 2, center)
+        diffs_gb<-diffs_gb/2^0.5  # dounble counting
+	# checking distribution of the distances
+    		dist_gb<- (apply(diffs_gb^2, 1, sum)/n_seq_gb)^0.5
+        	qqnorm(dist_gb)
+		hist(dist_gb)
+		
+			# you can specify the range of sequence used in the calculation by replacing the removed range with zero;
+	# for example, this will reproduce the result shown in the test.
+   #		 diffs[,c(1:47, 1:47+n_seq, 1:47+2*n_seq,1:47+3*n_seq,1:47+4*n_seq)  ] <- 0   # removes the first 47 sites.
+   #		 diffs[, c(248:n_seq, 248:n_seq+n_seq, 248:n_seq+2*n_seq,248:n_seq+3*n_seq, 248:n_seq+4*n_seq) ] <- 0   # removes the last 53 sites.
+  
+### PCA core
+	
+	res_svd_gb <- svd(diffs_gb)  #
+	str(res_svd_gb)
+			Left_gb <- res_svd_gb$u		# the left singular vectors
+			Right_gb <- res_svd_gb$v		# the right singular vectors
+			sqL_gb <- diag(res_svd_gb$d)		# diagonal matrix of the singular values
+
+ 	### calculating of pc's 
+	sPC_res_gb  	<-	 Right_gb %*% sqL_gb / (n_sample_gb^0.5)
+	sPC_sample_gb	 <-	 Left_gb %*% sqL_gb/ (n_seq_gb^0.5)
+
+	rownames(sPC_res_gb)<- colnames(bool_gb) 
+ 	rownames(sPC_sample_gb)<- rownames(bool_gb) 
+
+write.table(sPC_sample_gb, file="sPC_sample_gb.txt", sep="\t")
+	write.table(sPC_res_gb, file="sPC_res_gb.txt", sep="\t")
+
+(sum(diffs_gb^2)/n_seq_gb)^0.5
+
+#### output to png images
+# sample
+	png(width=2100, height=2300, pointsize = 80, file="figs/1910_sPC_gb_aa.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+  	  plot( sPC_sample_gb [,1], sPC_sample_gb[,2], col="gray50" ,  pch=1, main="sample", xlab="", ylab="" , axes=T)
+	dev.off()
+
+# sites
+	png(width=2100, height=2300, pointsize = 80, file="figs/1910_sPC_res_gb_aa.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+  	  plot( sPC_res_gb [,1], sPC_res_gb[,2], col="gray50" ,  pch=1, main="residure", xlab="", ylab="" , axes=T)
+	dev.off()
+
+ # contribution
+	png(width=2100, height=2300, pointsize = 80, file="figs/1910_aa_gb_contributions.png")
+	  par(lwd=4, mex=0.6, mai=c(4,4,3,0.2))
+	  plot(1:20, (res_svd_gb$d/sum(res_svd_gb$d)*100)[1:20], pch=1, type="b",  lty=3, ylab="(%)", xlab="PC", main="Contribution", col="gray50")
+	dev.off()
+
+
+# 3D presentation
+ # install.packages("rgl")
+  library(rgl)
+  library(ggplot2)
+
+ plot3d( sPC_sample [,1], sPC_sample[,2], sPC_sample[,3], col="black", pch=NA, main="Stx", xlab="sPC1", ylab="sPC2", zlab="sPC3", type="p")
+ #  text3d( sPC_sample [,1], sPC_sample[,2], sPC_sample[,3], texts=sites[,1], cex=.5, col="gray50", font=1)
+ writeWebGL(width=700)
+
+
+plot(sPC_sample[,1],sPC_sample[,3], col = "black", xlab="sPC1", ylab= "sPC3")
+
+
+
+library(ggplot2)
+
+df_sPC_sample_gb <- as.data.frame(sPC_sample_gb)
+
+df_sPC_sample_gb$subunit <- ven_dat[,5]
+
+View(df_sPC_sample_gb)
+
+ggplot(df_sPC_sample_gb, aes(x=V1, y=V2, col = subunit)) + geom_point()
+
+#outlier sites
+library(tidyverse)
+library(dplyr)
+
+ven_dat_df<- as.data.frame(ven_dat)
+
+comp_bool_gb <- data.frame(bool_gb) %>% 
+  add_column(ven_dat_df$subunit) %>% 
+  add_column(ven_dat_df$ven_clade)
+  
+last_col <- ncol(comp_bool_gb)
+
+colnames(comp_bool_gb)[(last_col-1)] <- "subunit"
+
+colnames(comp_bool_gb)[last_col] <- "clade"
+
+View(comp_bool_gb)
+
+#Subunit
+
+temp_sub <- data.frame(matrix(0, nrow = nrow(comp_bool_gb), ncol = 2))
+
+temp_sub[,2] <- comp_bool_gb$subunit
+
+colnames(temp_sub) <- c("b", "subunit")
+
+rownames(temp_sub) <- rownames(comp_bool_gb)
+
+View(temp_sub)
+
+tally_sub <- data.frame(matrix(0, ncol = 6, nrow = (ncol(comp_bool_gb)-2)))
+
+rownames(tally_sub) <- colnames(comp_bool_gb[1:(last_col-2)])
+
+colnames(tally_sub) <- c("A", "B", "U", "A-B", "A-U", "B-U")
+
+
+for(a in 1:(last_col-2)){
+  temp_sub$b <- comp_bool_gb[,a]
+  
+ q<- temp_sub %>% 
+    group_by(subunit) %>% 
+    summarize(Mean = mean(b, na.rm = TRUE)) %>% 
+    ungroup()
+    
+    tally_sub[a,1] <- q[1,2]
+    tally_sub[a,2] <- q[2,2]
+    tally_sub[a,3] <- q[3,2]
+    tally_sub[a,4] <- tally_sub[a,1]-tally_sub[a,2] # could change to abs val
+    tally_sub[a,5] <- tally_sub[a,1]-tally_sub[a,3]
+    tally_sub[a,6] <- tally_sub[a,2]-tally_sub[a,3]
+    
+    rm(q)
+    print(a)
+    }
+  
+  View(tally_sub)
+  
+#clade
+
+temp_clade <- data.frame(matrix(0, nrow = nrow(comp_bool_gb), ncol = 2))
+
+temp_clade[,2] <- as.character(comp_bool_gb$clade)
+
+colnames(temp_clade) <- c("b", "clade")
+
+rownames(temp_clade) <- rownames(comp_bool_gb)
+
+View(temp_clade)
+
+tally_clade <- data.frame(matrix(0, ncol = 10, nrow = (ncol(comp_bool_gb)-2)))
+
+rownames(tally_clade) <- colnames(comp_bool_gb[1:(last_col-2)])
+
+colnames(tally_clade) <- c("0", "1", "2", "3", "0-1", "0-2", "0-3", "1-2", "1-3", "2-3")
+
+
+for(a in 1:(last_col-2)){
+  temp_clade$b <- comp_bool_gb[,a]
+  
+ q<- temp_clade %>% 
+    group_by(clade) %>% 
+    summarize(Mean = mean(b, na.rm = TRUE)) %>% 
+    ungroup()
+    
+    tally_clade[a,1] <- q[1,2]
+    tally_clade[a,2] <- q[2,2]
+    tally_clade[a,3] <- q[3,2]
+    tally_clade[a,4] <- q[4,2]
+    tally_clade[a,5] <- tally_clade[a,1]-tally_clade[a,2] # could change to abs val
+    tally_clade[a,6] <- tally_clade[a,1]-tally_clade[a,3]
+    tally_clade[a,7] <- tally_clade[a,1]-tally_clade[a,4]
+    tally_clade[a,8] <- tally_clade[a,2]-tally_clade[a,3]
+    tally_clade[a,9] <- tally_clade[a,2]-tally_clade[a,4]
+    tally_clade[a,10] <- tally_clade[a,3]-tally_clade[a,4]
+    
+    rm(q)
+    print(a)
+    }
+  
+  View(tally_clade)
+  
+
+
+#outlier sites
+library(tidyverse)
+library(dplyr)
+
+ven_dat_df<- as.data.frame(ven_dat)
+
+comp_bool <- data.frame(bool) %>% 
+  add_column(ven_dat_df$subunit) %>% 
+  add_column(ven_dat_df$ven_clade)
+  
+last_col <- ncol(comp_bool)
+
+colnames(comp_bool)[(last_col-1)] <- "subunit"
+
+colnames(comp_bool)[last_col] <- "clade"
+
+View(comp_bool)
+
+#Subunit
+
+temp_sub <- data.frame(matrix(0, nrow = nrow(comp_bool), ncol = 2))
+
+temp_sub[,2] <- comp_bool$subunit
+
+colnames(temp_sub) <- c("b", "subunit")
+
+rownames(temp_sub) <- rownames(comp_bool)
+
+View(temp_sub)
+
+tally_sub <- data.frame(matrix(0, ncol = 6, nrow = (ncol(comp_bool)-2)))
+
+rownames(tally_sub) <- colnames(comp_bool[1:(last_col-2)])
+
+colnames(tally_sub) <- c("A", "B", "U", "A-B", "A-U", "B-U")
+
+
+for(a in 1:(last_col-2)){
+  temp_sub$b <- comp_bool[,a]
+  
+ q<- temp_sub %>% 
+    group_by(subunit) %>% 
+    summarize(Mean = mean(b, na.rm = TRUE)) %>% 
+    ungroup()
+    
+    tally_sub[a,1] <- q[1,2]
+    tally_sub[a,2] <- q[2,2]
+    tally_sub[a,3] <- q[3,2]
+    tally_sub[a,4] <- tally_sub[a,1]-tally_sub[a,2] # could change to abs val
+    tally_sub[a,5] <- tally_sub[a,1]-tally_sub[a,3]
+    tally_sub[a,6] <- tally_sub[a,2]-tally_sub[a,3]
+    
+    rm(q)
+    print(a)
+    }
+  
+  View(tally_sub)
+  
+#clade
+
+temp_clade <- data.frame(matrix(0, nrow = nrow(comp_bool), ncol = 2))
+
+temp_clade[,2] <- as.character(comp_bool$clade)
+
+colnames(temp_clade) <- c("b", "clade")
+
+rownames(temp_clade) <- rownames(comp_bool)
+
+View(temp_clade)
+
+tally_clade <- data.frame(matrix(0, ncol = 7, nrow = (ncol(comp_bool)-2)))
+
+rownames(tally_clade) <- colnames(comp_bool[1:(last_col-2)])
+
+colnames(tally_clade) <- c("0", "1", "2", "0-1", "0-2", "1-2", "0v1+2")
+
+
+for(a in 1:(last_col-2)){
+  temp_clade$b <- comp_bool[,a]
+  
+ q<- temp_clade %>% 
+    group_by(clade) %>% 
+    summarize(Mean = mean(b, na.rm = TRUE)) %>% 
+    ungroup()
+    
+    tally_clade[a,1] <- q[1,2]
+    tally_clade[a,2] <- q[2,2]
+    tally_clade[a,3] <- q[3,2]
+    tally_clade[a,4] <- tally_clade[a,1]-tally_clade[a,2] # could change to abs val
+    tally_clade[a,5] <- tally_clade[a,1]-tally_clade[a,3]
+    tally_clade[a,6] <- tally_clade[a,2]-tally_clade[a,3]
+    tally_clade[a,7] <- (tally_clade[a,1] - ((tally_clade[a,2]+tally_clade[a,3])/2))
+    
+    rm(q)
+    print(a)
+    }
+  
+  View(tally_clade)
+
+  
+  
+
+

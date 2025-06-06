@@ -1,0 +1,124 @@
+library(readxl)
+library(rlist)
+library(ggplot2)
+library(dplyr)
+
+matrix <- read_xlsx(path= "data/011124_dnds_analysis.xlsx", col_names = FALSE, sheet = 1)
+
+n_samples <- 191
+
+dim<- n_samples+2
+
+#name comparisons
+out_out <- list()
+out_one <- list()
+out_two <- list()
+one_one <- list()
+one_two <- list()
+two_two <- list()
+
+for(i in 3:dim){
+  for(j in 3:dim){
+  if(matrix[i,1] == 0 && matrix[1,j] ==0 && is.na(matrix[i,j])== FALSE) {out_out[length(out_out)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 1 && matrix[1,j] ==0 && is.na(matrix[i,j])== FALSE) {out_one[length(out_one)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 0 && matrix[1,j] ==1 && is.na(matrix[i,j])== FALSE) {out_one[length(out_one)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 0 && matrix[1,j] ==2 && is.na(matrix[i,j])== FALSE) {out_two[length(out_two)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 2 && matrix[1,j] ==0 && is.na(matrix[i,j])== FALSE) {out_two[length(out_two)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 1 && matrix[1,j] ==1 && is.na(matrix[i,j])== FALSE) {one_one[length(one_one)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 1 && matrix[1,j] ==2 && is.na(matrix[i,j])== FALSE) {one_two[length(one_two)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 2 && matrix[1,j] ==1 && is.na(matrix[i,j])== FALSE) {one_two[length(one_two)+1] <- matrix[i,j]}
+  if(matrix[i,1] == 2 && matrix[1,j] ==2 && is.na(matrix[i,j])== FALSE) {two_two[length(two_two)+1] <- matrix[i,j]}
+}
+}
+
+out_out <- as.numeric(out_out)
+out_one <- as.numeric(out_one)
+out_two <- as.numeric(out_two)
+one_one <- as.numeric(one_one)
+one_two <- as.numeric(one_two)
+two_two <- as.numeric(two_two)
+
+length(na.omit(out_out))
+length(na.omit(out_one))
+length(na.omit(out_two))
+length(na.omit(one_one))
+length(na.omit(one_two))
+length(na.omit(two_two))
+
+
+mean(out_out, na.rm = TRUE)
+mean(out_one, na.rm = TRUE)
+mean(out_two, na.rm = TRUE)
+mean(one_one, na.rm = TRUE)
+mean(one_two, na.rm = TRUE)
+mean(two_two, na.rm = TRUE)
+
+sd(out_out, na.rm = TRUE)
+sd(out_one, na.rm = TRUE)
+sd(out_two, na.rm = TRUE)
+sd(one_one, na.rm = TRUE)
+sd(one_two, na.rm = TRUE)
+sd(two_two, na.rm = TRUE)
+
+min(out_out, na.rm = TRUE)
+min(out_one, na.rm = TRUE)
+min(out_two, na.rm = TRUE)
+min(one_one, na.rm = TRUE)
+min(one_two, na.rm = TRUE)
+min(two_two, na.rm = TRUE)
+
+max(out_out, na.rm = TRUE)
+max(out_one, na.rm = TRUE)
+max(out_two, na.rm = TRUE)
+max(one_one, na.rm = TRUE)
+max(one_two, na.rm = TRUE)
+max(two_two, na.rm = TRUE)
+
+median(out_out, na.rm = TRUE)
+median(out_one, na.rm = TRUE)
+median(out_two, na.rm = TRUE)
+median(one_one, na.rm = TRUE)
+median(one_two, na.rm = TRUE)
+median(two_two, na.rm = TRUE)
+
+
+length(out_out) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+length(out_one) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+length(out_two) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+length(one_one) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+length(one_two) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+length(two_two) <- max(length(out_out), length(out_one), length(out_two), length(one_one), length(one_two), length(two_two))
+
+merge <- data.frame(
+  out_out = out_out,
+  one_one = one_one,
+  two_two = two_two,
+  out_one = out_one,
+  out_two = out_two,
+  one_two = one_two
+)
+
+boxplot(merge)
+
+out_out_df <- data.frame(comp = "Outgroup v Outgroup", omega = out_out)
+one_one_df <- data.frame(comp = "Clade 1 v Clade 1", omega = one_one)
+two_two_df <- data.frame(comp = "Clade 2 v Clade 2", omega = two_two)
+out_one_df <- data.frame(comp = "Clade 1 v Outgroup", omega = out_one)
+out_two_df <- data.frame(comp = "Clade 2 v Outgroup", omega = out_two)
+one_two_df <- data.frame(comp = "Clade 1 v Clade 2", omega = one_two)
+
+merge_df <- bind_rows(out_out_df, one_one_df, two_two_df, out_one_df, out_two_df, one_two_df)
+
+merge_lm <- lm(omega~comp, data = merge_df)
+
+merge_anova<-anova(merge_lm)
+
+merge_aov <- aov(merge_lm)
+
+TukeyHSD(merge_aov)
+
+z<- c(one_one, one_two, out_one, two_two, out_two, out_out)
+
+ggplot(merge_df, aes(x = comp, y = omega)) + geom_violin(fill = "gray") + stat_summary( fun = "mean", , geom = "crossbar", width = .3) + theme_bw() + theme(axis.text.x = element_text(angle =45, hjust = 1))
+
+

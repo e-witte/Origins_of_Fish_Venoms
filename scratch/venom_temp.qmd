@@ -1,0 +1,195 @@
+#This code uses species with Genbank protein sequences labeled 'stonustoxin' to evaluate the relationship between temperature and venom status. Based on [J Scott](https://istmobiome.rbind.io/project/betancur-r-fish-tree/)
+
+##Load Packages
+install.packages("tidyverse")
+install.packages("webdriver")
+install.packages("magrittr")
+install.packages("dplyr")
+install.packages("rvest")
+install.packages("xml2")
+install.packages("selectr")
+install.packages("tibble")
+install.packages("purrr")
+install.packages("httr")
+install.packages("ggplot2")
+
+library(tidyverse)
+library(webdriver)
+library(magrittr)
+library(dplyr)
+library(rvest)
+library(xml2)
+library(selectr)
+library(tibble)
+library(purrr)
+library(httr)
+library(ggplot2)
+
+install_phantomjs
+
+##Import data
+raw_dat <- read.csv("data/Stonustoxin_AA_species.csv", header = FALSE)
+
+##Prepare data
+dat <- data.frame(unique(raw_dat)) # keep unique species names
+nrow(dat) #see how many species remaining
+
+colnames(dat) <- c("Species") #add labels
+rownames(dat) <- (1:nrow(dat))
+view(dat)
+
+##Scrape fishbase
+base_url <- "https://www.fishbase.se/summary/" #locate fishbase
+
+sample_data <- data.frame()
+
+for (Species in dat) {
+     tmp_link <- paste(base_url, Species, ".html", sep = "") #create URL
+     tmp_entry <- cbind(Species, tmp_link)
+     sample_data <- rbind(sample_data, tmp_entry)
+     rm(list = ls(pattern = "tmp_"))
+}
+
+sample_data <- sample_data %>% dplyr::rename("link" = "tmp_link") # collect names & links
+
+all_links <- sample_data$link #create link vector
+all_names <- sample_data$name #create name vector
+
+pjs_instance <- run_phantomjs()
+pjs_session <- Session$new(port = pjs_instance$port)
+
+all_fish_data <- data.frame()
+for (i in 1:length(all_links)) {
+  cat("Downloading", i, "of", length(all_links), "URL:", all_links[i], "\n")
+  article <- scrape_fish_base(all_links[i])
+  all_fish_data <- rbind(all_fish_data, article)
+} ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary. 
+
+##Create and curate data frame
+sum_dat <- all_fish_data %>% #create a smaller data frame containing the variables of interest
+  select(habitat, threat_to_humans, model_predictions)
+colnames(sum_dat) <- c("habitat", "threat_to_humans", "model_predictions") #keep both habitat and model predictions because temperature may be taken from both.
+sum_dat<- sum_dat %>% mutate(species = dat$Species, .before = habitat)
+view(sum_dat) 
+
+sum_dat <- sum_dat %>% mutate(venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates 
+
+write.csv(sum_dat, file = "data/sum_dat.csv", row.names = FALSE) # write file. 
+
+## Manual manipulations: REMOVE non-fish species, form column of temperature ranges.
+
+manual_dat <- read.csv("data/sum_dat_manual.csv")
+view(manual_dat)
+
+manual_dat$temp_max <- as.numeric(manual_dat$temp_max)
+manual_dat$temp_min <- as.numeric(manual_dat$temp_min)
+
+
+max_dat <- manual_dat %>%
+  drop_na(temp_max) %>% 
+  select(species, venom_stat.threat_to_humans., temp_max, temp_min) %>% 
+  arrange(temp_max)
+  
+max_dat <- max_dat %>%
+  mutate(temp_mid = (temp_max + temp_min)/2)
+  
+  max_dat$species<- as.factor(max_dat$species)
+
+view(max_dat)
+
+temp_max_plot <- max_dat %>% 
+  ggplot(aes(x=species, y=temp_max, color = venom_stat.threat_to_humans.)) +
+  geom_point(size=3)
+
+save(temp_max_plot, file = temp_max_plot.png)
+
+temp_mid_plot <- max_dat %>% 
+  ggplot(aes(x=species, y=temp_mid, color = venom_stat.threat_to_humans.)) +
+  geom_point(size=3)
+
+
+
+##Import data
+raw_dat_1 <- read.csv("data/PmTx_A_Ex2_blast_925.csv", header = FALSE)
+
+##Prepare data
+dat_1 <- data.frame(unique(raw_dat_1)) # keep unique species names
+nrow(dat_1) #see how many species remaining
+
+colnames(dat_1) <- c("Species") #add labels
+rownames(dat_1) <- (1:nrow(dat_1))
+view(dat_1)
+
+##Scrape fishbase
+base_url <- "https://www.fishbase.se/summary/" #locate fishbase
+
+sample_data_1 <- data.frame()
+
+for (Species in dat_1) {
+     tmp_link <- paste(base_url, Species, ".html", sep = "") #create URL
+     tmp_entry <- cbind(Species, tmp_link)
+     sample_data_1 <- rbind(sample_data_1, tmp_entry)
+     rm(list = ls(pattern = "tmp_"))
+}
+
+sample_data_1 <- sample_data_1 %>% dplyr::rename("link" = "tmp_link") # collect names & links
+
+all_links_1 <- sample_data_1$link #create link vector
+all_names_1 <- sample_data_1$name #create name vector
+
+pjs_instance <- run_phantomjs()
+pjs_session <- Session$new(port = pjs_instance$port)
+
+all_fish_data_1 <- data.frame()
+for (i in 1:length(all_links_1)) {
+  cat("Downloading", i, "of", length(all_links_1), "URL:", all_links_1[i], "\n")
+  article <- scrape_fish_base(all_links_1[i])
+  all_fish_data_1 <- rbind(all_fish_data_1, article)
+} ###NOTE: this pulls extra data. In particular, model will have large chunks of text. Modify scrape_fishbase function as necessary. 
+
+##Create and curate data frame
+sum_dat_1 <- all_fish_data_1 %>% #create a smaller data frame containing the variables of interest
+  select(habitat, threat_to_humans, model_predictions)
+colnames(sum_dat_1) <- c("habitat", "threat_to_humans", "model_predictions") #keep both habitat and model predictions because temperature may be taken from both.
+sum_dat_1<- sum_dat_1 %>% mutate(species = dat_1$Species, .before = habitat)
+view(sum_dat_1) 
+
+sum_dat_1 <- sum_dat_1 %>% mutate(venomous = venom_stat(threat_to_humans), .before = threat_to_humans) # Add column that evaluates 
+
+write.csv(sum_dat_1, file = "data/sum_dat_925.csv", row.names = FALSE) # write file. 
+
+## Manual manipulations: REMOVE non-fish species, form column of temperature ranges.
+
+manual_dat_925 <- read.csv("data/sum_dat_925_manual.csv")
+view(manual_dat_925)
+
+manual_dat_925$temp_max <- as.numeric(manual_dat_925$temp_max)
+manual_dat_925$temp_min <- as.numeric(manual_dat_925$temp_min)
+
+
+max_dat_925 <- manual_dat_925 %>%
+  drop_na(temp_max) %>% 
+  select(species, venomous, temp_max, temp_min) %>% 
+  arrange(temp_max)
+  
+max_dat_925 <- max_dat_925 %>%
+  mutate(temp_mid = (temp_max + temp_min)/2)
+  
+  max_dat_925$species<- as.factor(max_dat_925$species)
+
+view(max_dat_925)
+
+temp_max_plot_925 <- max_dat_925 %>% 
+  ggplot(aes(x = fct_inorder(species), y=temp_max, color = venomous)) +
+  geom_point(size=3, shape= 18)+
+  scale_x_discrete(labels = NULL) +
+  mdthemes::md_theme_classic() +
+  labs(x="Species", y="Maximum temperature (˚C)", title = "Maximum temperatures of species from *Pterois miles* toxin BLAST" )
+  
+ggsave(plot = temp_max_plot_925, width = 10, height = 4, dpi = 300, filename = "figs/sum_dat_maxtemp_925.png")
+
+temp_mid_plot_925 <- max_dat_925 %>% 
+  ggplot(aes(x=species, y=temp_mid, color = venom_stat.threat_to_humans.)) +
+  geom_point(size=3) +
+  scale_x_discrete(labels = NULL)
+

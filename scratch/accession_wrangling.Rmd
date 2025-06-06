@@ -1,0 +1,39 @@
+#Install packages
+
+#Load packages
+library(rentrez)
+BiocManager::install("biocLite")
+
+BiocManager::install("msa")
+
+library(msa)
+library(IRanges)
+
+#Load data
+Blast_hit <- read.csv(file = "data/3_4_24BLASTgenomes.csv", header = TRUE, sep = ",")
+head(Blast_hit)
+accessions <- unique(Blast_hit$accession)
+  
+  #493 & 547
+
+if (min(Blast_hit[493,10:11]) <= max(Blast_hit[547,10:11]) && min(Blast_hit[493,10:11]) >= min(Blast_hit[547,10:11]))|(max(Blast_hit[493,10:11]) <= max(Blast_hit[547,10:11]) && max(Blast_hit[493,10:11]) >= min(Blast_hit[547,10:11])) {
+
+}
+
+  
+accessions[493,10]
+  
+#library(IRanges)
+
+#rangesA <- split(IRanges(rangesA$start, rangesA$stop), rangesA$chrom)
+#rangesB <- split(IRanges(rangesB$start, rangesB$stop), rangesB$chrom)
+#which rangesB wholly contain at least one rangesA?
+#ov <- countOverlaps(rangesB, rangesA, type="within")>0
+
+#18.9
+prot_acc <- read.csv("data/Accession_STX_400_650.csv", header=FALSE)
+head(prot_acc)
+
+prot_dat <- data.frame(1:n.row(prot_acc))
+
+

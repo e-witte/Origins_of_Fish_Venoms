@@ -1,0 +1,27 @@
+# Install Bioconductor
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
+
+# Install package dependencies
+BiocManager::install(c(
+        "Biostrings",
+        "GenomicRanges",
+        "GenomicFeatures",
+        "Rsamtools",
+        "rtracklayer"
+))
+
+# install CRAN dependencies
+install.packages(c("doParallel", "foreach", "ape", "Rdpack", "benchmarkme", "devtools"))
+
+# install BLAST dependency metablastr from GitHub
+devtools::install_github("drostlab/metablastr")
+
+# install DIAMOND dependency rdiamond from GitHub
+devtools::install_github("drostlab/rdiamond")
+
+# install orthologr from GitHub
+devtools::install_github("drostlab/orthologr")
+
+

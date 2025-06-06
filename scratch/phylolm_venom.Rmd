@@ -1,0 +1,30 @@
+---
+title: "Phylolm"
+author: "Eric Witte"
+date: "2025-06-06"
+output: html_document
+---
+
+#load necessary packages
+library(devtools)
+devtools::install_github("lamho86/phylolm")
+library(phylolm)
+
+phy1 <- ape::read.nexus(file="data/8_4_rmstop.nwk")
+plot(phy1)
+
+tip1<- phy1$tip.label
+
+write.csv(tip1, file = "data/tip1_blank.csv")
+
+dat1 <- read.csv(file = "data/tip1_full.csv")
+rownames(dat1) <- dat1$Tip
+intersect(phy1$tip.label, rownames(dat1))
+
+model <- phyloglm(Diversifying ~ Clade,
+                  data = dat1,
+                  phy = phy1,
+                  method = "logistic_MPLE")
+                  
+summary(model)
+

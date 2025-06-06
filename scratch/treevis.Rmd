@@ -1,0 +1,38 @@
+#Install packages
+
+install.packages("ggplot2")
+install.packages("ggtree")
+install.packages("treeio")
+install.packages("ape")
+
+#Load packages
+library(ggplot2)
+library(ggtree)
+library(treeio)
+library(ape)
+library(readxl)
+
+#Load tree
+nwk <- system.file("extdata", "data/011124_nuc_full.nwk", package = "treeio")
+
+#ven_tree <- read.tree(file = "data/011124_nuc_full.nwk")
+
+ven_tree <- read.beast(file = "data/011124_STX_all-011124_STX_nuc_full.tree")
+
+ggtree(ven_tree)
+
+id <- read_xlsx(path = "data/011124_Stx_seqs.xlsx", sheet = 4)
+
+ven_tree_id <- ven_tree
+
+for(i in 1:length(ven_tree_id$tip.label)){
+  for(j in 1:length(ven_tree_id$tip.label)){
+  if(grepl(substr(id$seq_name[j], 1, 8), ven_tree_id$tip.label[i])){ven_tree_id$tip.label[i] <- id$ID[j]}
+}
+}
+
+ven_tree_id$tip.label
+
+ven_lab_tree <- ggtree(ven_tree_id) + geom_tiplab() + geom_nodelab(mapping = aes( x= branch, label = posterior))
+ven_lab_tree
+
